@@ -8,7 +8,7 @@ type Step = "welcome" | "level" | "class" | "school";
 const RATINGS: { value: SelfRating; label: string; desc: string; emoji: string }[] = [
   { value: "bon", label: "Bon", desc: "Je m'en sors bien, souvent au-dessus de la moyenne", emoji: "💪" },
   { value: "moyen", label: "Moyen", desc: "Dans la moyenne, ni vraiment fort ni vraiment faible", emoji: "😐" },
-  { value: "bof", label: "Bof", desc: "J'ai du mal, souvent en dessous de la moyenne", emoji: "😬" },
+  { value: "faible", label: "Faible", desc: "J'ai du mal, souvent en dessous de la moyenne", emoji: "😬" },
 ];
 
 export default function Home() {

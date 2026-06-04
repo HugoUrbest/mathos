@@ -16,12 +16,12 @@ export interface Answer {
   selectedIndex: number | null; // null = pas répondu
 }
 
-export type SelfRating = "bon" | "moyen" | "bof";
+export type SelfRating = "bon" | "moyen" | "faible";
 
 export const SELF_RATING_LABELS: Record<SelfRating, string> = {
   bon: "Bon",
   moyen: "Moyen",
-  bof: "Bof",
+  faible: "Faible",
 };
 
 export interface UserProfile {
