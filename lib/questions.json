@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Quel est le résultat de 15 × 14 ?",
+    "choices": ["190", "210", "215", "205"],
+    "answer": 1,
+    "explanation": "15 × 14 = 15 × 10 + 15 × 4 = 150 + 60 = 210. Astuce : décomposer la multiplication en deux parties plus simples."
+  },
+  {
+    "id": 2,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Quelle est la valeur de 2³ + 3² ?",
+    "choices": ["13", "17", "15", "25"],
+    "answer": 1,
+    "explanation": "2³ = 2 × 2 × 2 = 8 et 3² = 3 × 3 = 9. Donc 8 + 9 = 17."
+  },
+  {
+    "id": 3,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Simplifier la fraction 36/48.",
+    "choices": ["2/3", "3/4", "4/5", "6/8"],
+    "answer": 1,
+    "explanation": "PGCD(36, 48) = 12. On divise les deux termes par 12 : 36/12 = 3 et 48/12 = 4. Donc 36/48 = 3/4."
+  },
+  {
+    "id": 4,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Si 3x + 7 = 22, quelle est la valeur de x ?",
+    "choices": ["3", "4", "5", "6"],
+    "answer": 2,
+    "explanation": "3x + 7 = 22 → 3x = 22 - 7 = 15 → x = 15/3 = 5. On isole x en soustrayant 7 puis en divisant par 3."
+  },
+  {
+    "id": 5,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Développer : (x + 3)(x - 2)",
+    "choices": ["x² + x - 6", "x² - x - 6", "x² + 5x - 6", "x² - 5x + 6"],
+    "answer": 0,
+    "explanation": "(x + 3)(x - 2) = x² - 2x + 3x - 6 = x² + x - 6. On applique la distributivité : chaque terme du premier facteur multiplie chaque terme du second."
+  },
+  {
+    "id": 6,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "Un rectangle a une longueur de 8 cm et une largeur de 5 cm. Quelle est son aire ?",
+    "choices": ["26 cm²", "40 cm²", "13 cm²", "80 cm²"],
+    "answer": 1,
+    "explanation": "L'aire d'un rectangle = longueur × largeur = 8 × 5 = 40 cm². Ne pas confondre avec le périmètre = 2×(8+5) = 26 cm."
+  },
+  {
+    "id": 7,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "Dans un triangle rectangle, les deux côtés de l'angle droit mesurent 3 cm et 4 cm. Quelle est la longueur de l'hypoténuse ?",
+    "choices": ["5 cm", "7 cm", "6 cm", "√7 cm"],
+    "answer": 0,
+    "explanation": "Théorème de Pythagore : c² = a² + b² = 3² + 4² = 9 + 16 = 25, donc c = √25 = 5 cm. C'est le célèbre triangle 3-4-5."
+  },
+  {
+    "id": 8,
+    "theme": "geometrie",
+    "level": "lycee",
+    "question": "Quelle est l'aire d'un cercle de rayon 6 cm ? (arrondir à l'unité, π ≈ 3,14)",
+    "choices": ["113 cm²", "37 cm²", "28 cm²", "226 cm²"],
+    "answer": 0,
+    "explanation": "Aire = π × r² = 3,14 × 6² = 3,14 × 36 ≈ 113 cm². Ne pas confondre avec le périmètre (circonférence) = 2πr ≈ 37,7 cm."
+  },
+  {
+    "id": 9,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Résoudre : x² - 5x + 6 = 0",
+    "choices": ["x = 1 ou x = 6", "x = 2 ou x = 3", "x = -2 ou x = -3", "x = 2 ou x = -3"],
+    "answer": 1,
+    "explanation": "On cherche deux nombres dont la somme est 5 et le produit est 6. Ce sont 2 et 3. Vérification : (x-2)(x-3) = x²-5x+6. Solutions : x = 2 ou x = 3."
+  },
+  {
+    "id": 10,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Quelle est la forme factorisée de x² - 9 ?",
+    "choices": ["(x-3)²", "(x+3)(x-3)", "(x-9)(x+1)", "(x+3)²"],
+    "answer": 1,
+    "explanation": "x² - 9 = x² - 3² est une différence de carrés. La formule a² - b² = (a+b)(a-b) donne : (x+3)(x-3)."
+  },
+  {
+    "id": 11,
+    "theme": "logique",
+    "level": "college",
+    "question": "Si tous les chats sont des animaux, et que Félix est un chat, alors...",
+    "choices": ["Félix est peut-être un animal", "Félix est forcément un animal", "Tous les animaux sont des chats", "On ne peut pas conclure"],
+    "answer": 1,
+    "explanation": "C'est un syllogisme classique : si A implique B, et que C est un A, alors C est forcément un B. La conclusion est certaine, pas seulement possible."
+  },
+  {
+    "id": 12,
+    "theme": "logique",
+    "level": "lycee",
+    "question": "Quelle est la négation de : 'Tous les élèves ont réussi l'examen' ?",
+    "choices": ["Aucun élève n'a réussi", "Au moins un élève n'a pas réussi", "La plupart des élèves ont échoué", "Tous les élèves ont échoué"],
+    "answer": 1,
+    "explanation": "La négation de 'pour tout x, P(x)' est 'il existe au moins un x tel que non-P(x)'. Donc la négation de 'tous ont réussi' est 'au moins un n'a pas réussi'."
+  },
+  {
+    "id": 13,
+    "theme": "logique",
+    "level": "bac",
+    "question": "Par contraposée, la proposition 'Si P alors Q' est équivalente à :",
+    "choices": ["Si Q alors P", "Si non-P alors non-Q", "Si non-Q alors non-P", "Si non-Q alors P"],
+    "answer": 2,
+    "explanation": "La contraposée de 'P ⇒ Q' est 'non-Q ⇒ non-P'. Elle est logiquement équivalente à la proposition originale. À ne pas confondre avec la réciproque (Q ⇒ P) qui n'est pas équivalente."
+  },
+  {
+    "id": 14,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "On lance un dé à 6 faces. Quelle est la probabilité d'obtenir un nombre pair ?",
+    "choices": ["1/3", "1/2", "2/3", "1/6"],
+    "answer": 1,
+    "explanation": "Les nombres pairs sur un dé sont 2, 4, 6 — soit 3 issues favorables sur 6 possibles. P(pair) = 3/6 = 1/2."
+  },
+  {
+    "id": 15,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Une urne contient 3 boules rouges et 5 boules bleues. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ?",
+    "choices": ["3/5", "5/8", "3/8", "1/3"],
+    "answer": 2,
+    "explanation": "Il y a 3 boules rouges sur un total de 3+5 = 8 boules. P(rouge) = 3/8. Toujours commencer par compter le total des issues possibles."
+  },
+  {
+    "id": 16,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "Deux événements A et B sont indépendants avec P(A) = 0,4 et P(B) = 0,5. Quelle est P(A ∩ B) ?",
+    "choices": ["0,9", "0,2", "0,45", "0,1"],
+    "answer": 1,
+    "explanation": "Si A et B sont indépendants, P(A ∩ B) = P(A) × P(B) = 0,4 × 0,5 = 0,2. L'indépendance signifie que la réalisation de l'un n'influence pas la probabilité de l'autre."
+  },
+  {
+    "id": 17,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "Quelle est la dérivée de f(x) = 3x² + 2x - 5 ?",
+    "choices": ["6x + 2", "3x + 2", "6x² + 2", "6x - 5"],
+    "answer": 0,
+    "explanation": "On dérive terme par terme : (3x²)' = 6x, (2x)' = 2, (-5)' = 0. Donc f'(x) = 6x + 2. Règle : (axⁿ)' = n·axⁿ⁻¹."
+  },
+  {
+    "id": 18,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "Quelle est la limite de (x² - 4)/(x - 2) quand x tend vers 2 ?",
+    "choices": ["0", "∞", "4", "2"],
+    "answer": 2,
+    "explanation": "La forme 0/0 est indéterminée. On factorise : x² - 4 = (x-2)(x+2). Donc (x-2)(x+2)/(x-2) = x+2 pour x ≠ 2. La limite quand x→2 est 2+2 = 4."
+  },
+  {
+    "id": 19,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Quelle est la primitive de f(x) = 1/x (pour x > 0) ?",
+    "choices": ["-1/x²", "ln(x)", "1/x²", "eˣ"],
+    "answer": 1,
+    "explanation": "La primitive de 1/x est ln(x) + C (logarithme naturel). C'est une formule fondamentale à mémoriser : ∫(1/x)dx = ln|x| + C."
+  },
+  {
+    "id": 20,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "Combien vaut la somme des 10 premiers entiers naturels (de 1 à 10) ?",
+    "choices": ["45", "50", "55", "60"],
+    "answer": 2,
+    "explanation": "Formule de Gauss : la somme des n premiers entiers = n(n+1)/2. Pour n=10 : 10×11/2 = 55. On peut aussi visualiser : 1+10=11, 2+9=11... soit 5 paires de 11."
+  },
+  {
+    "id": 21,
+    "theme": "geometrie",
+    "level": "bac",
+    "question": "Dans un repère, quelle est la distance entre les points A(1, 2) et B(4, 6) ?",
+    "choices": ["5", "√7", "7", "√5"],
+    "answer": 0,
+    "explanation": "Distance AB = √[(x_B - x_A)² + (y_B - y_A)²] = √[(4-1)² + (6-2)²] = √[9 + 16] = √25 = 5."
+  },
+  {
+    "id": 22,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Quelle est la solution du système : 2x + y = 7 et x - y = 2 ?",
+    "choices": ["x=2, y=3", "x=3, y=1", "x=4, y=-1", "x=1, y=5"],
+    "answer": 1,
+    "explanation": "En additionnant les deux équations : 3x = 9 → x = 3. En substituant dans la 2ème : 3 - y = 2 → y = 1. Vérification dans la 1ère : 6 + 1 = 7 ✓."
+  },
+  {
+    "id": 23,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Démontrons par l'absurde que √2 est irrationnel. Quelle est la première hypothèse à poser ?",
+    "choices": ["√2 = p/q avec p,q entiers, q≠0, irréductible", "√2 est un entier", "2 est premier", "p² = 2q²"],
+    "answer": 0,
+    "explanation": "On suppose par l'absurde que √2 est rationnel : √2 = p/q fraction irréductible (pgcd=1). On montre ensuite que p et q sont tous les deux pairs — contradiction avec l'irréductibilité."
+  },
+  {
+    "id": 24,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "Une variable aléatoire X suit une loi normale N(100, 15²). Environ quelle proportion des valeurs est dans [85, 115] ?",
+    "choices": ["50%", "68%", "95%", "99,7%"],
+    "answer": 1,
+    "explanation": "Règle empirique : pour une loi normale N(μ, σ²), environ 68% des valeurs sont dans [μ-σ, μ+σ]. Ici μ=100, σ=15, donc [85, 115] correspond à μ ± σ → 68%."
+  },
+  {
+    "id": 25,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Que vaut e⁰ ?",
+    "choices": ["0", "e", "1", "∞"],
+    "answer": 2,
+    "explanation": "Par définition, tout réel non nul élevé à la puissance 0 vaut 1. Donc e⁰ = 1. La fonction exponentielle vérifie exp(0) = 1, exp(1) = e ≈ 2,718."
+  },
+  {
+    "id": 26,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Quel est le PGCD de 48 et 36 ?",
+    "choices": ["6", "9", "12", "18"],
+    "answer": 2,
+    "explanation": "Algorithme d'Euclide : 48 = 1×36 + 12, puis 36 = 3×12 + 0. Le dernier reste non nul est 12. Vérification : 48 = 4×12 et 36 = 3×12 ✓."
+  },
+  {
+    "id": 27,
+    "theme": "geometrie",
+    "level": "bac",
+    "question": "Quelle est la valeur de cos(60°) ?",
+    "choices": ["√3/2", "1/2", "√2/2", "1"],
+    "answer": 1,
+    "explanation": "Valeurs du triangle 30-60-90 à connaître : cos(60°) = 1/2, sin(60°) = √3/2, cos(30°) = √3/2, sin(30°) = 1/2. Ces valeurs se retrouvent avec un triangle équilatéral coupé en deux."
+  },
+  {
+    "id": 28,
+    "theme": "algebre",
+    "level": "bac",
+    "question": "Quelle est la forme développée de (a + b)² ?",
+    "choices": ["a² + b²", "a² + ab + b²", "a² + 2ab + b²", "2a² + 2b²"],
+    "answer": 2,
+    "explanation": "(a + b)² = (a + b)(a + b) = a² + ab + ab + b² = a² + 2ab + b². L'erreur classique est d'oublier le terme 2ab. Les trois identités remarquables sont fondamentales."
+  },
+  {
+    "id": 29,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Les notes d'une classe sont : 8, 10, 12, 14, 16. Quelle est la moyenne ?",
+    "choices": ["11", "12", "13", "10"],
+    "answer": 1,
+    "explanation": "Moyenne = somme / nombre de valeurs = (8+10+12+14+16)/5 = 60/5 = 12. Ici la distribution est symétrique donc la moyenne = la médiane = 12."
+  },
+  {
+    "id": 30,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Quelle est la médiane de la série : 3, 7, 2, 9, 4, 1, 8 ?",
+    "choices": ["4", "5", "4,5", "7"],
+    "answer": 0,
+    "explanation": "On trie d'abord : 1, 2, 3, 4, 7, 8, 9. La médiane est la valeur centrale. Il y a 7 valeurs, donc la médiane est la 4ème valeur : 4. Avec un nombre pair de valeurs, on fait la moyenne des deux valeurs centrales."
+  },
+  {
+    "id": 31,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Quel est le résultat de (-3) × (-4) ?",
+    "choices": ["-12", "12", "-7", "7"],
+    "answer": 1,
+    "explanation": "Le produit de deux nombres négatifs est positif : (-3) × (-4) = +12. Règle des signes : - × - = +, + × + = +, - × + = -, + × - = -."
+  },
+  {
+    "id": 32,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Résoudre l'inéquation : 2x - 3 > 5",
+    "choices": ["x > 1", "x > 4", "x < 4", "x > -1"],
+    "answer": 1,
+    "explanation": "2x - 3 > 5 → 2x > 5 + 3 → 2x > 8 → x > 4. Attention : quand on divise ou multiplie par un nombre négatif, le sens de l'inégalité s'inverse."
+  },
+  {
+    "id": 33,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La fonction f(x) = x² admet un minimum en :",
+    "choices": ["x = 1", "x = -1", "x = 0", "Elle n'a pas de minimum"],
+    "answer": 2,
+    "explanation": "f(x) = x² est une parabole qui pointe vers le haut avec son sommet en x = 0. f'(x) = 2x = 0 → x = 0. f''(0) = 2 > 0 confirme un minimum. f(0) = 0 est le minimum global."
+  },
+  {
+    "id": 34,
+    "theme": "geometrie",
+    "level": "lycee",
+    "question": "Deux droites sont parallèles si et seulement si leurs coefficients directeurs sont :",
+    "choices": ["Opposés", "Inverses", "Égaux", "De produit -1"],
+    "answer": 2,
+    "explanation": "Deux droites y = ax + b et y = a'x + b' sont parallèles si a = a' (et b ≠ b'). Elles sont perpendiculaires si a × a' = -1. Si a = a' et b = b', elles sont confondues."
+  },
+  {
+    "id": 35,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "L'écart-type mesure :",
+    "choices": ["La valeur centrale d'une série", "La dispersion des valeurs autour de la moyenne", "La valeur la plus fréquente", "La différence entre le max et le min"],
+    "answer": 1,
+    "explanation": "L'écart-type σ mesure la dispersion : plus il est grand, plus les valeurs sont éloignées de la moyenne. La variance = σ². L'étendue (max - min) est une autre mesure de dispersion, mais moins robuste."
+  },
+  {
+    "id": 36,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "Combien y a-t-il de façons d'arranger 4 objets distincts en ligne ?",
+    "choices": ["16", "12", "24", "8"],
+    "answer": 2,
+    "explanation": "Le nombre de permutations de 4 objets = 4! = 4 × 3 × 2 × 1 = 24. On a 4 choix pour le 1er, 3 pour le 2ème, 2 pour le 3ème, 1 pour le dernier."
+  },
+  {
+    "id": 37,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Que vaut log₁₀(1000) ?",
+    "choices": ["2", "3", "10", "100"],
+    "answer": 1,
+    "explanation": "log₁₀(1000) = log₁₀(10³) = 3, car log₁₀(10ⁿ) = n. La définition : log_a(b) = c signifie aᶜ = b. Ici 10³ = 1000."
+  },
+  {
+    "id": 38,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Quelle est la norme du vecteur v = (3, 4) ?",
+    "choices": ["7", "√7", "5", "25"],
+    "answer": 2,
+    "explanation": "||v|| = √(3² + 4²) = √(9 + 16) = √25 = 5. La norme d'un vecteur (x, y) est sa longueur, calculée par le théorème de Pythagore."
+  },
+  {
+    "id": 39,
+    "theme": "logique",
+    "level": "college",
+    "question": "Un nombre est divisible par 9 si :",
+    "choices": ["Il finit par 9", "Sa somme de chiffres est divisible par 9", "Il est divisible par 3", "Il est pair"],
+    "answer": 1,
+    "explanation": "Critère de divisibilité par 9 : la somme des chiffres est divisible par 9. Ex : 279 → 2+7+9=18, divisible par 9 ✓. Attention : divisible par 9 implique divisible par 3, mais pas l'inverse."
+  },
+  {
+    "id": 40,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Quelle est la dérivée de f(x) = eˣ ?",
+    "choices": ["x·eˣ⁻¹", "eˣ⁺¹/(x+1)", "eˣ", "1/eˣ"],
+    "answer": 2,
+    "explanation": "La fonction exponentielle est sa propre dérivée : (eˣ)' = eˣ. C'est la propriété fondamentale qui définit la fonction exponentielle. Pour f(x) = e^(u(x)), f'(x) = u'(x)·e^(u(x))."
+  },
+  {
+    "id": 41,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "On tire 2 cartes sans remise d'un jeu de 52. Quelle est la probabilité que les deux soient des as ?",
+    "choices": ["1/169", "4/52", "1/221", "2/52"],
+    "answer": 2,
+    "explanation": "P(1er as) = 4/52. Sachant le 1er as tiré, P(2ème as) = 3/51. P(deux as) = (4/52) × (3/51) = 12/2652 = 1/221. Sans remise : le dénominateur diminue."
+  },
+  {
+    "id": 42,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Quelle est la valeur de √(144) ?",
+    "choices": ["11", "12", "13", "14"],
+    "answer": 1,
+    "explanation": "√144 = 12 car 12² = 144. Les carrés parfaits à connaître : 1,4,9,16,25,36,49,64,81,100,121,144,169,196,225."
+  },
+  {
+    "id": 43,
+    "theme": "geometrie",
+    "level": "lycee",
+    "question": "Dans un cercle de rayon r, la formule de la circonférence est :",
+    "choices": ["πr²", "2πr", "πr", "4πr"],
+    "answer": 1,
+    "explanation": "Circonférence (périmètre du cercle) = 2πr = πd (d = diamètre). Aire du disque = πr². Mnémotechnique : l'aire est en r² (surface) et la circonf. en r (linéaire)."
+  },
+  {
+    "id": 44,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Quelle est la valeur de 5! (5 factorielle) ?",
+    "choices": ["25", "60", "120", "100"],
+    "answer": 2,
+    "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120. La factorielle compte le nombre de façons d'arranger n objets en ligne."
+  },
+  {
+    "id": 45,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Dans une série de notes, le mode est :",
+    "choices": ["La note la plus haute", "La note la plus fréquente", "La note centrale", "La moyenne"],
+    "answer": 1,
+    "explanation": "Le mode est la valeur qui apparaît le plus souvent dans la série. Une série peut avoir plusieurs modes (bimodale, etc.) ou aucun si toutes les valeurs sont distinctes."
+  },
+  {
+    "id": 46,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "La fonction f(x) = 2x + 3 est une fonction :",
+    "choices": ["Quadratique", "Exponentielle", "Affine", "Logarithmique"],
+    "answer": 2,
+    "explanation": "Une fonction de la forme f(x) = ax + b est affine. Si b = 0, c'est une fonction linéaire. Ici a = 2 (pente) et b = 3 (ordonnée à l'origine)."
+  },
+  {
+    "id": 47,
+    "theme": "calcul",
+    "level": "bac",
+    "question": "Quel est le développement limité de eˣ à l'ordre 2 en 0 ?",
+    "choices": ["1 + x", "1 + x + x²/2", "1 + x + x²", "x + x²/2"],
+    "answer": 1,
+    "explanation": "DL de eˣ en 0 à l'ordre n : eˣ = 1 + x + x²/2! + x³/3! + ... À l'ordre 2 : eˣ ≈ 1 + x + x²/2. Ces développements sont fondamentaux en analyse."
+  },
+  {
+    "id": 48,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Le principe de récurrence permet de démontrer qu'une propriété est vraie :",
+    "choices": ["Pour un seul entier", "Pour tous les entiers naturels", "Pour tous les réels", "Pour les entiers négatifs"],
+    "answer": 1,
+    "explanation": "La récurrence prouve P(n) pour tout n ∈ ℕ en deux étapes : (1) initialisation : P(0) ou P(1) vraie ; (2) hérédité : P(n) vraie ⇒ P(n+1) vraie. Comme des dominos qui tombent."
+  },
+  {
+    "id": 49,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Le produit scalaire de u⃗(1,2) et v⃗(3,-1) vaut :",
+    "choices": ["5", "1", "3", "-2"],
+    "answer": 1,
+    "explanation": "Produit scalaire : u⃗·v⃗ = x_u × x_v + y_u × y_v = 1×3 + 2×(-1) = 3 - 2 = 1. Si le produit scalaire = 0, les vecteurs sont perpendiculaires."
+  },
+  {
+    "id": 50,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "La loi binomiale B(n,p) a pour espérance :",
+    "choices": ["n/p", "p/n", "np", "√(np)"],
+    "answer": 2,
+    "explanation": "L'espérance de la loi binomiale B(n,p) est E(X) = np. La variance est V(X) = np(1-p) et l'écart-type σ = √(np(1-p)). Ex : 10 lancers de pièce → espérance = 10×0,5 = 5 faces."
+  }
+]
