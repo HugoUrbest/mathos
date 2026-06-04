@@ -16,6 +16,20 @@ export interface Answer {
   selectedIndex: number | null; // null = pas répondu
 }
 
+export type SelfRating = "bon" | "moyen" | "bof";
+
+export const SELF_RATING_LABELS: Record<SelfRating, string> = {
+  bon: "Bon",
+  moyen: "Moyen",
+  bof: "Bof",
+};
+
+export interface UserProfile {
+  studyLevel: StudyLevel;
+  classRating: SelfRating;
+  schoolRating: SelfRating;
+}
+
 export interface QuizResult {
   answers: Answer[];
   questions: Question[];
@@ -24,6 +38,8 @@ export interface QuizResult {
   themeScores: Record<Theme, { correct: number; total: number; score: number }>;
   completedAt: Date;
   studyLevel: StudyLevel;
+  classRating: SelfRating;
+  schoolRating: SelfRating;
   userName: string;
 }
 

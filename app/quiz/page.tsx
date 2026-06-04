@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import { Question, Answer, StudyLevel } from "@/lib/types";
+import { Question, Answer, StudyLevel, SelfRating } from "@/lib/types";
 import { getRandomQuestions, computeResult, saveResult } from "@/lib/quiz";
 
 const TOTAL_SECONDS = 30 * 60;
@@ -15,10 +15,12 @@ export default function QuizPage() {
   const [revealed, setRevealed] = useState(false);
   const [timeLeft, setTimeLeft] = useState(TOTAL_SECONDS);
   const [studyLevel, setStudyLevel] = useState<StudyLevel>("terminale");
+  const [classRating, setClassRating] = useState<SelfRating>("moyen");
+  const [schoolRating, setSchoolRating] = useState<SelfRating>("moyen");
   const [started, setStarted] = useState(false);
 
-  const finish = useCallback((qs: Question[], ans: Answer[], level: StudyLevel) => {
-    const result = computeResult(ans, qs, level, "");
+  const finish = useCallback((qs: Question[], ans: Answer[], level: StudyLevel, cr: SelfRating, sr: SelfRating) => {
+    const result = computeResult(ans, qs, level, cr, sr, "");
     saveResult(result);
     localStorage.setItem("mathos_last_result", JSON.stringify(result));
     router.push("/resultats");
@@ -27,8 +29,12 @@ export default function QuizPage() {
   useEffect(() => {
     const qs = getRandomQuestions();
     const level = (localStorage.getItem("mathos_pending_level") as StudyLevel) || "terminale";
+    const cr = (localStorage.getItem("mathos_pending_class_rating") as SelfRating) || "moyen";
+    const sr = (localStorage.getItem("mathos_pending_school_rating") as SelfRating) || "moyen";
     setQuestions(qs);
     setStudyLevel(level);
+    setClassRating(cr);
+    setSchoolRating(sr);
     setAnswers(qs.map((q) => ({ questionId: q.id, selectedIndex: null })));
     setStarted(true);
   }, []);
@@ -47,9 +53,9 @@ export default function QuizPage() {
 
   useEffect(() => {
     if (timeLeft === 0 && questions.length > 0) {
-      finish(questions, answers, studyLevel);
+      finish(questions, answers, studyLevel, classRating, schoolRating);
     }
-  }, [timeLeft, questions, answers, studyLevel, finish]);
+  }, [timeLeft, questions, answers, studyLevel, classRating, schoolRating, finish]);
 
   function selectAnswer(idx: number) {
     if (revealed) return;
@@ -65,7 +71,7 @@ export default function QuizPage() {
       setAnswers(updated);
     } else {
       if (current + 1 >= questions.length) {
-        finish(questions, answers, studyLevel);
+        finish(questions, answers, studyLevel, classRating, schoolRating);
       } else {
         setCurrent((c) => c + 1);
         setSelected(null);
@@ -79,7 +85,7 @@ export default function QuizPage() {
     updated[current] = { questionId: questions[current].id, selectedIndex: null };
     setAnswers(updated);
     if (current + 1 >= questions.length) {
-      finish(questions, updated, studyLevel);
+      finish(questions, updated, studyLevel, classRating, schoolRating);
     } else {
       setCurrent((c) => c + 1);
       setSelected(null);

@@ -1,5 +1,5 @@
 import questionsData from "./questions.json";
-import { Question, Answer, QuizResult, Theme, StudyLevel, THEME_LABELS } from "./types";
+import { Question, Answer, QuizResult, Theme, StudyLevel, SelfRating, THEME_LABELS } from "./types";
 
 const QUIZ_SIZE = 20;
 const POINTS_CORRECT = 3;
@@ -23,6 +23,8 @@ export function computeResult(
   answers: Answer[],
   questions: Question[],
   studyLevel: StudyLevel,
+  classRating: SelfRating,
+  schoolRating: SelfRating,
   userName: string
 ): QuizResult {
   const score = computeScore(answers, questions);
@@ -46,7 +48,7 @@ export function computeResult(
     }
   });
 
-  return { answers, questions, score, maxScore, themeScores, completedAt: new Date(), studyLevel, userName };
+  return { answers, questions, score, maxScore, themeScores, completedAt: new Date(), studyLevel, classRating, schoolRating, userName };
 }
 
 export function getScorePercent(score: number, maxScore: number): number {

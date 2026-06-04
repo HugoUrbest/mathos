@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
-import { QuizResult, THEME_LABELS, Theme, STUDY_LEVEL_LABELS } from "@/lib/types";
-import { getScorePercent, getScoreLabel, getThemeRadarData, getStoredResults } from "@/lib/quiz";
+import { QuizResult, THEME_LABELS, Theme, STUDY_LEVEL_LABELS, SELF_RATING_LABELS } from "@/lib/types";
+import { getScorePercent, getScoreLabel, getThemeRadarData } from "@/lib/quiz";
 
 const MathRadar = dynamic(() => import("@/components/RadarChart"), { ssr: false });
 
@@ -39,9 +39,17 @@ export default function ResultatsPage() {
           <div className="text-3xl font-black bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
             Mathos
           </div>
-          <p className="text-gray-400 text-sm mt-1">
-            {STUDY_LEVEL_LABELS[result.studyLevel]}
-          </p>
+          <div className="flex items-center justify-center gap-2 mt-2 flex-wrap">
+            <span className="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full font-medium">
+              {STUDY_LEVEL_LABELS[result.studyLevel]}
+            </span>
+            <span className="text-xs bg-blue-50 text-blue-700 px-3 py-1 rounded-full font-medium">
+              Classe : {SELF_RATING_LABELS[result.classRating]}
+            </span>
+            <span className="text-xs bg-violet-50 text-violet-700 px-3 py-1 rounded-full font-medium">
+              Établissement : {SELF_RATING_LABELS[result.schoolRating]}
+            </span>
+          </div>
         </div>
 
         {/* Score principal */}
@@ -95,6 +103,30 @@ export default function ResultatsPage() {
               );
             })}
           </div>
+        </div>
+
+        {/* Benchmarking — bientôt disponible */}
+        <div className="bg-gradient-to-r from-indigo-50 to-violet-50 border border-indigo-100 rounded-3xl p-5 space-y-3">
+          <div className="font-semibold text-gray-800 flex items-center gap-2">
+            <span>🔜</span> Bientôt : ton positionnement par rapport aux pairs
+          </div>
+          <div className="grid grid-cols-3 gap-2 text-xs text-center text-gray-500">
+            <div className="bg-white rounded-xl p-3 border border-gray-100">
+              <div className="font-bold text-gray-800 text-base">—</div>
+              <div>vs tous les utilisateurs</div>
+            </div>
+            <div className="bg-white rounded-xl p-3 border border-gray-100">
+              <div className="font-bold text-gray-800 text-base">—</div>
+              <div>vs {STUDY_LEVEL_LABELS[result.studyLevel]}</div>
+            </div>
+            <div className="bg-white rounded-xl p-3 border border-gray-100">
+              <div className="font-bold text-gray-800 text-base">—</div>
+              <div>vs niveau {SELF_RATING_LABELS[result.classRating].toLowerCase()} en classe</div>
+            </div>
+          </div>
+          <p className="text-xs text-gray-400">
+            Ces données sont enregistrées. Elles alimenteront le benchmark dès que suffisamment d&apos;utilisateurs auront passé le test.
+          </p>
         </div>
 
         {/* Onglets recap / erreurs */}
