@@ -3,7 +3,8 @@ export const dynamic = "force-dynamic";
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { THEME_LABELS, Theme } from "@/lib/types";
+import ScoreBadge from "@/components/ScoreBadge";
+import { ThemeBreakdown } from "@/components/ThemeBreakdown";
 
 type Tab = "tokens" | "resultats";
 
@@ -95,11 +96,6 @@ export default function RecruteurPage() {
 
   const usedTokens = tokens.filter(t => t.used_at);
   const availableTokens = tokens.filter(t => !t.used_at);
-
-  const pctColor = (pct: number) =>
-    pct >= 80 ? "text-emerald-600" : pct >= 60 ? "text-blue-600" : pct >= 40 ? "text-amber-500" : "text-red-500";
-  const scoreLabel = (pct: number) =>
-    pct >= 80 ? "Excellent" : pct >= 60 ? "Bon niveau" : pct >= 40 ? "Moyen" : "À travailler";
 
   return (
     <main className="min-h-screen p-6 bg-gray-50">
@@ -224,16 +220,14 @@ export default function RecruteurPage() {
               </div>
             ) : (
               results.map(r => {
-                const pct = Math.round(((r.score + r.max_score / 3) / (r.max_score * 4 / 3)) * 100);
                 const isSelected = selectedResult?.id === r.id;
                 return (
                   <div key={r.id} className={`bg-white rounded-2xl border shadow-sm transition-all ${isSelected ? "border-indigo-300" : "border-gray-100"}`}>
                     {/* Résumé ligne */}
                     <button className="w-full p-4 text-left" onClick={() => setSelectedResult(isSelected ? null : r)}>
                       <div className="flex items-center gap-4">
-                        <div className="text-center min-w-[56px]">
-                          <div className={`font-black text-2xl ${pctColor(pct)}`}>{pct}%</div>
-                          <div className={`text-xs font-medium ${pctColor(pct)}`}>{scoreLabel(pct)}</div>
+                        <div className="min-w-[60px]">
+                          <ScoreBadge score={r.score} maxScore={r.max_score} size="sm" showPoints={false} />
                         </div>
                         <div className="flex-1">
                           <div className="font-semibold text-gray-900">{r.candidate_name}</div>
@@ -257,23 +251,7 @@ export default function RecruteurPage() {
                     {/* Détail déplié */}
                     {isSelected && (
                       <div className="px-4 pb-4 space-y-4 border-t border-gray-50 pt-4">
-                        {/* Thèmes */}
-                        <div className="space-y-2">
-                          {Object.entries(r.theme_scores).map(([theme, data]) => {
-                            const max = data.total * 3, min = data.total * -1, range = max - min;
-                            const tp = range > 0 ? Math.round(((data.score - min) / range) * 100) : 0;
-                            return (
-                              <div key={theme} className="flex items-center gap-3">
-                                <div className="text-xs text-gray-600 w-24 font-medium">{THEME_LABELS[theme as Theme] || theme}</div>
-                                <div className="flex-1 bg-gray-100 rounded-full h-2">
-                                  <div className={`h-2 rounded-full ${tp >= 60 ? "bg-emerald-500" : tp >= 40 ? "bg-amber-400" : "bg-red-400"}`}
-                                    style={{ width: `${tp}%` }} />
-                                </div>
-                                <div className="text-xs font-bold w-10 text-right text-gray-600">{tp}%</div>
-                              </div>
-                            );
-                          })}
-                        </div>
+                        <ThemeBreakdown themeScores={r.theme_scores} showCounts />
 
                         {/* Token utilisé */}
                         <div className="text-xs text-gray-400">

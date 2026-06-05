@@ -2,8 +2,9 @@
 export const dynamic = "force-dynamic";
 import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
-import { THEME_LABELS, Theme } from "@/lib/types";
 import { Suspense } from "react";
+import ScoreBadge from "@/components/ScoreBadge";
+import { ThemeBreakdown } from "@/components/ThemeBreakdown";
 
 interface VerifyResult {
   id: string;
@@ -40,9 +41,6 @@ function VerifyContent() {
 
   useEffect(() => { if (params.get("id")) verify(params.get("id")!); }, []);
 
-  const pct = result?.score_percent ?? 0;
-  const scoreColor = pct >= 80 ? "text-emerald-600" : pct >= 60 ? "text-blue-600" : pct >= 40 ? "text-amber-600" : "text-red-500";
-  const scoreLabel = pct >= 80 ? "Excellent" : pct >= 60 ? "Bon niveau" : pct >= 40 ? "Moyen" : "À travailler";
 
   return (
     <main className="min-h-screen p-6">
@@ -95,28 +93,12 @@ function VerifyContent() {
                 </span>
               </div>
 
-              <div className="text-center py-4 border-y border-gray-100">
-                <div className={`text-5xl font-black ${scoreColor}`}>{pct}%</div>
-                <div className={`text-lg font-semibold mt-1 ${scoreColor}`}>{scoreLabel}</div>
-                <div className="text-gray-500 text-sm mt-1">{result.score} / {result.max_score} pts · {result.questions_count} questions</div>
+              <div className="py-4 border-y border-gray-100">
+                <ScoreBadge score={result.score} maxScore={result.max_score} size="lg" />
+                <div className="text-gray-500 text-sm text-center mt-1">{result.questions_count} questions</div>
               </div>
 
-              <div className="space-y-2">
-                {Object.entries(result.theme_scores).map(([theme, data]) => {
-                  const max = data.total * 3, min = data.total * -1, range = max - min;
-                  const tp = range > 0 ? Math.round(((data.score - min) / range) * 100) : 0;
-                  return (
-                    <div key={theme} className="flex items-center gap-3">
-                      <div className="text-xs text-gray-600 w-24 font-medium">{THEME_LABELS[theme as Theme] || theme}</div>
-                      <div className="flex-1 bg-gray-100 rounded-full h-2">
-                        <div className={`h-2 rounded-full ${tp >= 60 ? "bg-emerald-500" : tp >= 40 ? "bg-amber-400" : "bg-red-400"}`}
-                          style={{ width: `${tp}%` }} />
-                      </div>
-                      <div className="text-xs font-bold w-8 text-right text-gray-600">{tp}%</div>
-                    </div>
-                  );
-                })}
-              </div>
+              <ThemeBreakdown themeScores={result.theme_scores} />
 
               <div className="bg-gray-50 rounded-xl p-3 text-xs text-gray-500 font-mono break-all">
                 <div className="font-semibold text-gray-700 mb-1 font-sans">Identifiant unique</div>

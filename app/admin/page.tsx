@@ -3,15 +3,23 @@ export const dynamic = "force-dynamic";
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
+import type { Token, OfficialResult } from "@/lib/supabase/types";
 
+interface UserStat {
+  id: string; email: string; first_name: string; role: string;
+  study_level: string | null; created_at: string;
+  total_sessions: number; total_official: number; last_official_at: string | null;
+}
+
+type TokenWithUser = Token & { used_by_user?: { first_name: string; email: string } | null };
 type Tab = "tokens" | "users" | "recruteurs" | "resultats";
 
 export default function AdminPage() {
   const router = useRouter();
   const [tab, setTab] = useState<Tab>("tokens");
-  const [tokens, setTokens] = useState<any[]>([]);
-  const [users, setUsers] = useState<any[]>([]);
-  const [results, setResults] = useState<any[]>([]);
+  const [tokens, setTokens] = useState<TokenWithUser[]>([]);
+  const [users, setUsers] = useState<UserStat[]>([]);
+  const [results, setResults] = useState<OfficialResult[]>([]);
   const [loading, setLoading] = useState(false);
   const [inviteEmail, setInviteEmail] = useState("");
   const [msg, setMsg] = useState("");
