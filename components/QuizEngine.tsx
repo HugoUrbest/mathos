@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { Question, Answer, THEME_LABELS, Theme } from "@/lib/types";
 
 export interface QuizEngineProps {
@@ -8,7 +8,7 @@ export interface QuizEngineProps {
   modeLabel: string;
   /** Durée en secondes (0 = pas de timer) */
   totalSeconds?: number;
-  /** Si true : pas d'explication après réponse, avance direct */
+  /** Si true : sélection = validation immédiate, pas d'explication */
   strictMode?: boolean;
   /** Bandeau d'alerte supplémentaire (ex. warnings de sortie d'onglet) */
   banner?: React.ReactNode;
@@ -17,7 +17,8 @@ export interface QuizEngineProps {
 
 const CHOICE_LETTERS = ["A", "B", "C", "D"];
 
-function levelLabel(level: string) {
+// Exported so entrainement/page.tsx can use the same mapping
+export function levelLabel(level: string) {
   return level === "primaire" ? "Primaire"
     : level === "college" ? "Collège"
     : level === "lycee"   ? "Lycée"
@@ -58,33 +59,37 @@ export default function QuizEngine({
     setTimeLeft(totalSeconds);
   }, [questions, totalSeconds]);
 
-  // Timer
+  // Timer — un seul interval, updater fonctionnel pour éviter les re-registrations
   useEffect(() => {
-    if (!totalSeconds || timeLeft <= 0) return;
-    const t = setInterval(() => setTimeLeft(v => v <= 1 ? 0 : v - 1), 1000);
+    if (!totalSeconds) return;
+    const t = setInterval(() => setTimeLeft(v => {
+      if (v <= 1) { clearInterval(t); return 0; }
+      return v - 1;
+    }), 1000);
     return () => clearInterval(t);
-  }, [totalSeconds, timeLeft]);
-
-  const finish = useCallback((ans: Answer[]) => onFinish(ans), [onFinish]);
+  }, [totalSeconds]); // ne dépend pas de timeLeft
 
   useEffect(() => {
-    if (totalSeconds && timeLeft === 0 && questions.length > 0) finish(answers);
-  }, [timeLeft, totalSeconds, questions, answers, finish]);
+    if (totalSeconds && timeLeft === 0 && questions.length > 0) onFinish(answers);
+  }, [timeLeft, totalSeconds, questions, answers, onFinish]);
 
-  function commitAnswer(idx: number | null) {
+  function commitAnswer(idx: number | null): Answer[] {
     const updated = [...answers];
     updated[current] = { questionId: questions[current].id, selectedIndex: idx };
     setAnswers(updated);
     return updated;
   }
 
+  // Avancer à la question suivante ou terminer
+  function advance(ans: Answer[]) {
+    if (current + 1 >= questions.length) onFinish(ans);
+    else { setCurrent(c => c + 1); setSelected(null); setRevealed(false); }
+  }
+
   function handleSelect(idx: number) {
     if (revealed) return;
     if (strictMode) {
-      // Mode strict : sélection = validation immédiate, pas d'explication
-      const updated = commitAnswer(idx);
-      if (current + 1 >= questions.length) finish(updated);
-      else { setCurrent(c => c + 1); setSelected(null); }
+      advance(commitAnswer(idx));
     } else {
       setSelected(idx);
     }
@@ -96,15 +101,12 @@ export default function QuizEngine({
       commitAnswer(selected);
       setRevealed(true);
     } else {
-      if (current + 1 >= questions.length) finish(answers);
-      else { setCurrent(c => c + 1); setSelected(null); setRevealed(false); }
+      advance(answers);
     }
   }
 
   function skip() {
-    const updated = commitAnswer(null);
-    if (current + 1 >= questions.length) finish(updated);
-    else { setCurrent(c => c + 1); setSelected(null); setRevealed(false); }
+    advance(commitAnswer(null));
   }
 
   if (!questions.length) return (
@@ -117,7 +119,6 @@ export default function QuizEngine({
   const isUrgent = totalSeconds > 0 && timeLeft < 120;
   const mins = Math.floor(timeLeft / 60).toString().padStart(2, "0");
   const secs = (timeLeft % 60).toString().padStart(2, "0");
-  const progress = (current / questions.length) * 100;
 
   return (
     <div className="min-h-screen flex flex-col items-center p-6 pt-6">
@@ -144,7 +145,7 @@ export default function QuizEngine({
         {/* Progress */}
         <div className="w-full bg-gray-100 rounded-full h-1.5">
           <div className="bg-indigo-500 h-1.5 rounded-full transition-all duration-300"
-            style={{ width: `${progress}%` }} />
+            style={{ width: `${(current / questions.length) * 100}%` }} />
         </div>
 
         {/* Badges thème / niveau */}
@@ -167,7 +168,7 @@ export default function QuizEngine({
           {q.choices.map((choice, idx) => (
             <button key={idx}
               onClick={() => handleSelect(idx)}
-              disabled={revealed || strictMode && selected !== null}
+              disabled={revealed || (strictMode && selected !== null)}
               className={`w-full text-left px-5 py-4 rounded-xl border-2 font-medium transition-all
                 ${choiceStyle(idx, selected, revealed, q.answer)}`}>
               <span className="font-bold mr-3">{CHOICE_LETTERS[idx]}.</span>
@@ -183,7 +184,7 @@ export default function QuizEngine({
           </div>
         )}
 
-        {/* Actions (mode non-strict) */}
+        {/* Actions */}
         {!strictMode && (
           <div className="flex gap-3">
             {!revealed && (
@@ -202,7 +203,6 @@ export default function QuizEngine({
           </div>
         )}
 
-        {/* Mode strict : bouton passer uniquement */}
         {strictMode && !revealed && (
           <button onClick={skip}
             className="w-full py-3 border-2 border-gray-200 text-gray-400 hover:border-gray-300 rounded-xl text-sm">

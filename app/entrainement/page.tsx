@@ -2,9 +2,9 @@
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Theme, Level, StudyLevel, SelfRating, THEME_LABELS, THEME_EMOJIS } from "@/lib/types";
-import { getTrainingQuestions, getLevelForStudyLevel, computeResult, saveResult } from "@/lib/quiz";
+import { getTrainingQuestions, getLevelForStudyLevel, computeResult, saveResult, getStoredProfile } from "@/lib/quiz";
 import type { Answer, Question } from "@/lib/types";
-import QuizEngine from "@/components/QuizEngine";
+import QuizEngine, { levelLabel } from "@/components/QuizEngine";
 
 const THEMES = Object.entries(THEME_LABELS) as [Theme, string][];
 
@@ -21,9 +21,7 @@ export default function EntrainementPage() {
   const [trainingLevel, setTrainingLevel] = useState<Level>("bac");
 
   useEffect(() => {
-    const sl = (localStorage.getItem("mathos_pending_level")         as StudyLevel) || "terminale";
-    const cr = (localStorage.getItem("mathos_pending_class_rating")  as SelfRating) || "moyen";
-    const sr = (localStorage.getItem("mathos_pending_school_rating") as SelfRating) || "moyen";
+    const { studyLevel: sl, classRating: cr, schoolRating: sr } = getStoredProfile();
     setProfile({ sl, cr, sr });
     setTrainingLevel(getLevelForStudyLevel(sl));
   }, []);
@@ -46,11 +44,6 @@ export default function EntrainementPage() {
     setPhase("done");
   }, [questions, profile, selectedTheme, trainingLevel]);
 
-  const levelLabel = trainingLevel === "primaire" ? "Primaire"
-    : trainingLevel === "college" ? "Collège"
-    : trainingLevel === "lycee"   ? "Lycée"
-    : trainingLevel === "bac"     ? "Bac" : "Bac+";
-
   // ── Sélection du thème ────────────────────────────────────────────────────
   if (phase === "choose") return (
     <main className="min-h-screen flex flex-col items-center p-6 pt-8">
@@ -61,7 +54,7 @@ export default function EntrainementPage() {
             <h1 className="text-2xl font-bold text-gray-900">Entraînement</h1>
             <p className="text-sm text-gray-500">
               10 questions · niveau{" "}
-              <span className="font-semibold text-indigo-600">{levelLabel}</span>
+              <span className="font-semibold text-indigo-600">{levelLabel(trainingLevel)}</span>
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Answer, StudyLevel, SelfRating } from "@/lib/types";
-import { getGrandTestQuestions, computeResult, saveResult } from "@/lib/quiz";
+import { getGrandTestQuestions, computeResult, saveResult, getStoredProfile } from "@/lib/quiz";
 import QuizEngine from "@/components/QuizEngine";
 
 export default function GrandTestPage() {
@@ -13,11 +13,8 @@ export default function GrandTestPage() {
   });
 
   useEffect(() => {
-    setProfile({
-      sl: (localStorage.getItem("mathos_pending_level")         as StudyLevel) || "terminale",
-      cr: (localStorage.getItem("mathos_pending_class_rating")  as SelfRating) || "moyen",
-      sr: (localStorage.getItem("mathos_pending_school_rating") as SelfRating) || "moyen",
-    });
+    const { studyLevel: sl, classRating: cr, schoolRating: sr } = getStoredProfile();
+    setProfile({ sl, cr, sr });
   }, []);
 
   const handleFinish = useCallback((answers: Answer[]) => {

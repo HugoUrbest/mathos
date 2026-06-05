@@ -23,15 +23,16 @@ export default function ResultatsPage() {
   if (!result) return null;
 
   const pct = getScorePercent(result.score, result.maxScore);
-  const { color } = getScoreLabel(pct);
+  const { label: scoreLabel, color } = getScoreLabel(pct);
   const isTraining = result.mode === "entrainement";
   const radarData = isTraining ? getMergedRadarData() : getThemeRadarData(result.themeScores);
 
-  const wrongAnswers = result.questions.filter((q, i) =>
-    result.answers[i].selectedIndex !== null && result.answers[i].selectedIndex !== q.answer
-  );
+  const wrongAnswers = result.questions
+    .map((q, i) => ({ q, i }))
+    .filter(({ q, i }) => result.answers[i].selectedIndex !== null && result.answers[i].selectedIndex !== q.answer);
   const skipped = result.answers.filter(a => a.selectedIndex === null).length;
   const correct = result.questions.filter((q, i) => result.answers[i].selectedIndex === q.answer).length;
+  const wrongCount = wrongAnswers.length;
 
   return (
     <main className="min-h-screen p-6">
@@ -62,11 +63,11 @@ export default function ResultatsPage() {
           <div className={`text-6xl font-black text-gray-900`}>
             {result.score}<span className="text-2xl text-gray-400 ml-1">/ {result.maxScore}</span>
           </div>
-          <div className={`text-xl font-bold mt-2 ${color}`}>{getScoreLabel(pct).label}</div>
+          <div className={`text-xl font-bold mt-2 ${color}`}>{scoreLabel}</div>
           <div className="mt-4 flex justify-center gap-6 text-sm">
             {[
               { val: correct,             label: "correctes",  cls: "text-emerald-600" },
-              { val: wrongAnswers.length, label: "erreurs",    cls: "text-red-500" },
+              { val: wrongCount,          label: "erreurs",    cls: "text-red-500" },
               { val: skipped,             label: "passées",    cls: "text-gray-400" },
             ].map(s => (
               <div key={s.label} className="text-center">
@@ -113,7 +114,7 @@ export default function ResultatsPage() {
                 className={`flex-1 py-3 text-sm font-medium transition-colors ${
                   tab === t ? "text-indigo-700 border-b-2 border-indigo-600 bg-indigo-50/50" : "text-gray-500"
                 }`}>
-                {t === "recap" ? "Récapitulatif" : `Erreurs (${wrongAnswers.length})`}
+                {t === "recap" ? "Récapitulatif" : `Erreurs (${wrongCount})`}
               </button>
             ))}
           </div>
@@ -137,8 +138,8 @@ export default function ResultatsPage() {
             {tab === "erreurs" && wrongAnswers.length === 0 && (
               <p className="text-center text-gray-400 py-8">Aucune erreur — bravo !</p>
             )}
-            {tab === "erreurs" && wrongAnswers.map(q => {
-              const ans = result.answers[result.questions.indexOf(q)];
+            {tab === "erreurs" && wrongAnswers.map(({ q, i }) => {
+              const ans = result.answers[i];
               return (
                 <div key={q.id} className="border border-red-100 rounded-2xl p-4 space-y-3">
                   <p className="font-medium text-gray-900 text-sm">{q.question}</p>

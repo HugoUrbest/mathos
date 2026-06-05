@@ -3,7 +3,7 @@ export const dynamic = "force-dynamic";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { Answer, StudyLevel, Question } from "@/lib/types";
-import { getGrandTestQuestions, computeScore } from "@/lib/quiz";
+import { getGrandTestQuestions, computeScore, computeThemeScores, getStoredProfile } from "@/lib/quiz";
 import { createClient } from "@/lib/supabase/client";
 import QuizEngine from "@/components/QuizEngine";
 
@@ -29,10 +29,12 @@ export default function TestOfficielPage() {
   const [tabWarnings, setTabWarnings] = useState(0);
   const [startedAt, setStartedAt]   = useState("");
   const [resultId, setResultId]     = useState<string | null>(null);
+  const [studyLevel, setStudyLevel] = useState<StudyLevel>("terminale");
   const startTimeRef = useRef<number>(0);
 
-  const studyLevel = (typeof window !== "undefined"
-    ? localStorage.getItem("mathos_pending_level") : null) as StudyLevel ?? "terminale";
+  useEffect(() => {
+    setStudyLevel(getStoredProfile().studyLevel);
+  }, []);
 
   // Détection sortie d'onglet
   useEffect(() => {
@@ -67,18 +69,7 @@ export default function TestOfficielPage() {
 
     const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
     const score = computeScore(answers, questions);
-
-    // Construire themeScores
-    const themeScores: Record<string, { correct: number; total: number; score: number }> = {};
-    questions.forEach((q, i) => {
-      if (!themeScores[q.theme]) themeScores[q.theme] = { correct: 0, total: 0, score: 0 };
-      themeScores[q.theme].total++;
-      const sel = answers[i].selectedIndex;
-      if (sel !== null) {
-        if (sel === q.answer) { themeScores[q.theme].correct++; themeScores[q.theme].score += 3; }
-        else { themeScores[q.theme].score -= 1; }
-      }
-    });
+    const themeScores = computeThemeScores(answers, questions);
 
     const res = await fetch("/api/official-result", {
       method: "POST",

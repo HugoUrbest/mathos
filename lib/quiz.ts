@@ -44,7 +44,34 @@ export function getLevelForStudyLevel(studyLevel: StudyLevel): Level {
   return STUDY_LEVEL_TO_QUESTION_LEVEL[studyLevel] ?? "bac";
 }
 
+/** Charge le profil utilisateur depuis localStorage (valeurs par défaut si absent) */
+export function getStoredProfile(): { studyLevel: StudyLevel; classRating: SelfRating; schoolRating: SelfRating } {
+  if (typeof window === "undefined") return { studyLevel: "terminale", classRating: "moyen", schoolRating: "moyen" };
+  return {
+    studyLevel:   (localStorage.getItem("mathos_pending_level")         as StudyLevel) || "terminale",
+    classRating:  (localStorage.getItem("mathos_pending_class_rating")  as SelfRating) || "moyen",
+    schoolRating: (localStorage.getItem("mathos_pending_school_rating") as SelfRating) || "moyen",
+  };
+}
+
 // ─── Calcul des scores ────────────────────────────────────────────────────────
+
+export function computeThemeScores(
+  answers: Answer[],
+  questions: Question[],
+): QuizResult["themeScores"] {
+  const themeScores: QuizResult["themeScores"] = {};
+  questions.forEach((q, idx) => {
+    if (!themeScores[q.theme]) themeScores[q.theme] = { correct: 0, total: 0, score: 0 };
+    themeScores[q.theme].total++;
+    const sel = answers[idx].selectedIndex;
+    if (sel !== null) {
+      if (sel === q.answer) { themeScores[q.theme].correct++; themeScores[q.theme].score += POINTS_CORRECT; }
+      else                  { themeScores[q.theme].score += POINTS_WRONG; }
+    }
+  });
+  return themeScores;
+}
 
 export function computeScore(answers: Answer[], questions: Question[]): number {
   return answers.reduce((total, answer, idx) => {
@@ -67,21 +94,7 @@ export function computeResult(
 ): QuizResult {
   const score = computeScore(answers, questions);
   const maxScore = questions.length * POINTS_CORRECT;
-
-  const themeScores: QuizResult["themeScores"] = {};
-  questions.forEach((q, idx) => {
-    if (!themeScores[q.theme]) themeScores[q.theme] = { correct: 0, total: 0, score: 0 };
-    themeScores[q.theme].total++;
-    const ans = answers[idx];
-    if (ans.selectedIndex !== null) {
-      if (ans.selectedIndex === q.answer) {
-        themeScores[q.theme].correct++;
-        themeScores[q.theme].score += POINTS_CORRECT;
-      } else {
-        themeScores[q.theme].score += POINTS_WRONG;
-      }
-    }
-  });
+  const themeScores = computeThemeScores(answers, questions);
 
   return {
     mode, answers, questions, score, maxScore, themeScores,
