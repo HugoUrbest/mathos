@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import { QuizResult, THEME_LABELS, Theme, STUDY_LEVEL_LABELS, SELF_RATING_LABELS } from "@/lib/types";
-import { getScorePercent, getScoreLabel, getThemeRadarData } from "@/lib/quiz";
+import { getScorePercent, getScoreLabel, getThemeRadarData, getMergedRadarData } from "@/lib/quiz";
 
 const MathRadar = dynamic(() => import("@/components/RadarChart"), { ssr: false });
 
@@ -22,7 +22,11 @@ export default function ResultatsPage() {
 
   const pct = getScorePercent(result.score, result.maxScore);
   const { label, color } = getScoreLabel(pct);
-  const radarData = getThemeRadarData(result.themeScores);
+  // Pour l'entraînement on affiche le radar global fusionné, pour le grand test celui de la session
+  const radarData = result.mode === "entrainement"
+    ? getMergedRadarData()
+    : getThemeRadarData(result.themeScores);
+  const isTraining = result.mode === "entrainement";
 
   const wrongAnswers = result.questions.filter((q, i) => {
     const ans = result.answers[i];
@@ -38,6 +42,10 @@ export default function ResultatsPage() {
         <div className="text-center">
           <div className="text-3xl font-black bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
             Mathos
+          </div>
+          <div className="text-sm font-semibold mt-1 text-gray-600">
+            {isTraining ? "💪 Entraînement" : "🏆 Grand Test"}
+            {isTraining && result.trainingTheme && ` · ${THEME_LABELS[result.trainingTheme]}`}
           </div>
           <div className="flex items-center justify-center gap-2 mt-2 flex-wrap">
             <span className="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full font-medium">
@@ -77,7 +85,8 @@ export default function ResultatsPage() {
 
         {/* Radar */}
         <div className="bg-white rounded-3xl p-6 shadow-sm border border-gray-100">
-          <h2 className="font-bold text-gray-900 mb-4">Ton profil par thème</h2>
+          <h2 className="font-bold text-gray-900 mb-1">Ton profil par thème</h2>
+          {isTraining && <p className="text-xs text-gray-400 mb-3">Radar global · toutes sessions confondues</p>}
           <MathRadar data={radarData} />
           <div className="mt-4 grid grid-cols-2 gap-2">
             {Object.entries(result.themeScores).map(([theme, data]) => {
@@ -194,20 +203,17 @@ export default function ResultatsPage() {
 
         {/* Actions */}
         <div className="flex gap-3">
-          <button
-            onClick={() => router.push("/")}
-            className="flex-1 py-4 rounded-2xl border-2 border-gray-200 text-gray-600 hover:border-gray-300 font-medium"
-          >
+          <button onClick={() => router.push("/")}
+            className="flex-1 py-4 rounded-2xl border-2 border-gray-200 text-gray-600 hover:border-gray-300 font-medium">
             ← Accueil
           </button>
-          <button
-            onClick={() => {
-              localStorage.removeItem("mathos_last_result");
-              router.push("/");
-            }}
-            className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 rounded-2xl transition-colors"
-          >
-            Repasser le test →
+          <button onClick={() => router.push("/stats")}
+            className="flex-1 border-2 border-indigo-200 hover:border-indigo-400 text-indigo-700 font-semibold py-4 rounded-2xl transition-colors">
+            📊 Mes stats
+          </button>
+          <button onClick={() => router.push(isTraining ? "/entrainement" : "/quiz")}
+            className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 rounded-2xl transition-colors">
+            {isTraining ? "Ré-entraîner →" : "Nouveau test →"}
           </button>
         </div>
       </div>

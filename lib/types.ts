@@ -1,19 +1,20 @@
 export type Theme = "calcul" | "algebre" | "geometrie" | "logique" | "probabilites" | "fonctions" | "statistiques" | "enigme";
-export type Level = "college" | "lycee" | "bac" | "bac_plus";
+export type Level = "primaire" | "college" | "lycee" | "bac" | "bac_plus";
 
 export interface Question {
   id: number;
+  type?: string;
   theme: Theme;
   level: Level;
   question: string;
   choices: string[];
-  answer: number; // index de la bonne réponse
+  answer: number;
   explanation: string;
 }
 
 export interface Answer {
   questionId: number;
-  selectedIndex: number | null; // null = pas répondu
+  selectedIndex: number | null;
 }
 
 export type SelfRating = "bon" | "moyen" | "faible";
@@ -30,26 +31,37 @@ export interface UserProfile {
   schoolRating: SelfRating;
 }
 
+// Mode de quiz
+export type QuizMode = "grand_test" | "entrainement";
+
 export interface QuizResult {
+  mode: QuizMode;
   answers: Answer[];
   questions: Question[];
   score: number;
   maxScore: number;
-  themeScores: Record<Theme, { correct: number; total: number; score: number }>;
-  completedAt: Date;
+  themeScores: Record<string, { correct: number; total: number; score: number }>;
+  completedAt: string; // ISO string pour sérialisation JSON
   studyLevel: StudyLevel;
   classRating: SelfRating;
   schoolRating: SelfRating;
   userName: string;
+  // Pour l'entraînement : thème ciblé et niveau de difficulté utilisé
+  trainingTheme?: Theme;
+  trainingLevel?: Level;
 }
 
 export type StudyLevel =
+  | "ce2" | "cm1" | "cm2"
   | "6eme" | "5eme" | "4eme" | "3eme"
   | "seconde" | "premiere" | "terminale"
   | "bac1" | "bac2" | "bac3" | "bac4" | "bac5"
   | "bac6plus";
 
 export const STUDY_LEVEL_LABELS: Record<StudyLevel, string> = {
+  "ce2": "CE2",
+  "cm1": "CM1",
+  "cm2": "CM2",
   "6eme": "6ème",
   "5eme": "5ème",
   "4eme": "4ème",
@@ -63,6 +75,26 @@ export const STUDY_LEVEL_LABELS: Record<StudyLevel, string> = {
   "bac4": "Bac+4",
   "bac5": "Bac+5",
   "bac6plus": "Bac+6 et plus",
+};
+
+// Mapping niveau scolaire → niveau de difficulté des questions
+export const STUDY_LEVEL_TO_QUESTION_LEVEL: Record<StudyLevel, Level> = {
+  "ce2": "primaire",
+  "cm1": "primaire",
+  "cm2": "primaire",
+  "6eme": "college",
+  "5eme": "college",
+  "4eme": "college",
+  "3eme": "college",
+  "seconde": "lycee",
+  "premiere": "lycee",
+  "terminale": "bac",
+  "bac1": "bac",
+  "bac2": "bac_plus",
+  "bac3": "bac_plus",
+  "bac4": "bac_plus",
+  "bac5": "bac_plus",
+  "bac6plus": "bac_plus",
 };
 
 export const THEME_LABELS: Record<Theme, string> = {
@@ -85,4 +117,15 @@ export const THEME_COLORS: Record<Theme, string> = {
   fonctions: "#ef4444",
   statistiques: "#f97316",
   enigme: "#ec4899",
+};
+
+export const THEME_EMOJIS: Record<Theme, string> = {
+  calcul: "🔢",
+  algebre: "📐",
+  geometrie: "📏",
+  logique: "🧠",
+  probabilites: "🎲",
+  fonctions: "📈",
+  statistiques: "📊",
+  enigme: "🔮",
 };
