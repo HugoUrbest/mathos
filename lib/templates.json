@@ -1,0 +1,173 @@
+[
+  {
+    "id": "alg-linear-1",
+    "type": "parametric",
+    "theme": "algebre",
+    "level": "college",
+    "template": "Résoudre : {a}x + {b} = {c}",
+    "explanation_template": "On isole x : {a}x = {c} - {b} = {rhs}, donc x = {rhs}/{a} = {x}.",
+    "variants": [
+      { "params": { "a": 2, "b": 3, "c": 11, "rhs": 8, "x": 4 }, "choices": ["x = 3", "x = 4", "x = 5", "x = 2"], "answer": 1 },
+      { "params": { "a": 3, "b": 5, "c": 14, "rhs": 9, "x": 3 }, "choices": ["x = 2", "x = 4", "x = 3", "x = 5"], "answer": 2 },
+      { "params": { "a": 4, "b": 1, "c": 17, "rhs": 16, "x": 4 }, "choices": ["x = 3", "x = 5", "x = 6", "x = 4"], "answer": 3 },
+      { "params": { "a": 5, "b": 2, "c": 22, "rhs": 20, "x": 4 }, "choices": ["x = 4", "x = 3", "x = 5", "x = 6"], "answer": 0 },
+      { "params": { "a": 2, "b": 7, "c": 19, "rhs": 12, "x": 6 }, "choices": ["x = 5", "x = 7", "x = 6", "x = 4"], "answer": 2 },
+      { "params": { "a": 6, "b": 3, "c": 27, "rhs": 24, "x": 4 }, "choices": ["x = 3", "x = 4", "x = 5", "x = 6"], "answer": 1 },
+      { "params": { "a": 3, "b": 8, "c": 23, "rhs": 15, "x": 5 }, "choices": ["x = 4", "x = 6", "x = 5", "x = 7"], "answer": 2 },
+      { "params": { "a": 7, "b": 4, "c": 39, "rhs": 35, "x": 5 }, "choices": ["x = 5", "x = 4", "x = 6", "x = 7"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "alg-quadratic-1",
+    "type": "parametric",
+    "theme": "algebre",
+    "level": "lycee",
+    "template": "Résoudre : x² - {s}x + {p} = 0",
+    "explanation_template": "On cherche deux nombres de somme {s} et de produit {p}. Ce sont {r1} et {r2}. Solutions : x = {r1} ou x = {r2}.",
+    "variants": [
+      { "params": { "s": 5, "p": 6, "r1": 2, "r2": 3 }, "choices": ["x=1 ou x=6", "x=2 ou x=3", "x=-2 ou x=-3", "x=2 ou x=-3"], "answer": 1 },
+      { "params": { "s": 7, "p": 12, "r1": 3, "r2": 4 }, "choices": ["x=3 ou x=4", "x=2 ou x=6", "x=1 ou x=7", "x=-3 ou x=-4"], "answer": 0 },
+      { "params": { "s": 8, "p": 15, "r1": 3, "r2": 5 }, "choices": ["x=4 ou x=4", "x=1 ou x=8", "x=3 ou x=5", "x=2 ou x=6"], "answer": 2 },
+      { "params": { "s": 9, "p": 20, "r1": 4, "r2": 5 }, "choices": ["x=3 ou x=6", "x=4 ou x=5", "x=2 ou x=7", "x=1 ou x=9"], "answer": 1 },
+      { "params": { "s": 6, "p": 8, "r1": 2, "r2": 4 }, "choices": ["x=1 ou x=8", "x=3 ou x=3", "x=2 ou x=4", "x=-2 ou x=-4"], "answer": 2 },
+      { "params": { "s": 10, "p": 24, "r1": 4, "r2": 6 }, "choices": ["x=4 ou x=6", "x=3 ou x=8", "x=2 ou x=12", "x=5 ou x=5"], "answer": 0 },
+      { "params": { "s": 11, "p": 30, "r1": 5, "r2": 6 }, "choices": ["x=3 ou x=10", "x=4 ou x=7", "x=5 ou x=6", "x=2 ou x=15"], "answer": 2 },
+      { "params": { "s": 12, "p": 35, "r1": 5, "r2": 7 }, "choices": ["x=5 ou x=7", "x=4 ou x=9", "x=6 ou x=6", "x=3 ou x=12"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "calc-mult-1",
+    "type": "parametric",
+    "theme": "calcul",
+    "level": "college",
+    "template": "Quel est le résultat de {a} × {b} ?",
+    "explanation_template": "{a} × {b} = {result}. Astuce : {a} × {b} = {a} × {b1} + {a} × {b2} = {part1} + {part2} = {result}.",
+    "variants": [
+      { "params": { "a": 13, "b": 14, "b1": 10, "b2": 4, "part1": 130, "part2": 52, "result": 182 }, "choices": ["182", "192", "172", "186"], "answer": 0 },
+      { "params": { "a": 17, "b": 13, "b1": 10, "b2": 3, "part1": 170, "part2": 51, "result": 221 }, "choices": ["211", "231", "221", "201"], "answer": 2 },
+      { "params": { "a": 16, "b": 15, "b1": 10, "b2": 5, "part1": 160, "part2": 80, "result": 240 }, "choices": ["250", "230", "245", "240"], "answer": 3 },
+      { "params": { "a": 18, "b": 14, "b1": 10, "b2": 4, "part1": 180, "part2": 72, "result": 252 }, "choices": ["242", "252", "262", "246"], "answer": 1 },
+      { "params": { "a": 19, "b": 13, "b1": 10, "b2": 3, "part1": 190, "part2": 57, "result": 247 }, "choices": ["247", "237", "257", "243"], "answer": 0 },
+      { "params": { "a": 21, "b": 14, "b1": 10, "b2": 4, "part1": 210, "part2": 84, "result": 294 }, "choices": ["284", "304", "294", "288"], "answer": 2 },
+      { "params": { "a": 23, "b": 12, "b1": 10, "b2": 2, "part1": 230, "part2": 46, "result": 276 }, "choices": ["266", "276", "286", "270"], "answer": 1 },
+      { "params": { "a": 24, "b": 13, "b1": 10, "b2": 3, "part1": 240, "part2": 72, "result": 312 }, "choices": ["302", "322", "316", "312"], "answer": 3 }
+    ]
+  },
+  {
+    "id": "geom-pythagore-1",
+    "type": "parametric",
+    "theme": "geometrie",
+    "level": "college",
+    "template": "Dans un triangle rectangle, les deux côtés de l'angle droit mesurent {a} cm et {b} cm. Quelle est la longueur de l'hypoténuse ?",
+    "explanation_template": "Théorème de Pythagore : c² = {a}² + {b}² = {a2} + {b2} = {c2}, donc c = √{c2} = {c} cm.",
+    "variants": [
+      { "params": { "a": 6, "b": 8, "a2": 36, "b2": 64, "c2": 100, "c": 10 }, "choices": ["10 cm", "9 cm", "11 cm", "14 cm"], "answer": 0 },
+      { "params": { "a": 5, "b": 12, "a2": 25, "b2": 144, "c2": 169, "c": 13 }, "choices": ["14 cm", "13 cm", "12 cm", "17 cm"], "answer": 1 },
+      { "params": { "a": 8, "b": 15, "a2": 64, "b2": 225, "c2": 289, "c": 17 }, "choices": ["16 cm", "18 cm", "17 cm", "23 cm"], "answer": 2 },
+      { "params": { "a": 9, "b": 12, "a2": 81, "b2": 144, "c2": 225, "c": 15 }, "choices": ["14 cm", "16 cm", "21 cm", "15 cm"], "answer": 3 },
+      { "params": { "a": 7, "b": 24, "a2": 49, "b2": 576, "c2": 625, "c": 25 }, "choices": ["25 cm", "26 cm", "31 cm", "24 cm"], "answer": 0 },
+      { "params": { "a": 10, "b": 24, "a2": 100, "b2": 576, "c2": 676, "c": 26 }, "choices": ["34 cm", "26 cm", "28 cm", "27 cm"], "answer": 1 },
+      { "params": { "a": 20, "b": 21, "a2": 400, "b2": 441, "c2": 841, "c": 29 }, "choices": ["30 cm", "41 cm", "29 cm", "28 cm"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "prob-dice-1",
+    "type": "parametric",
+    "theme": "probabilites",
+    "level": "lycee",
+    "template": "On lance {n} dés à 6 faces. Quelle est la probabilité d'obtenir {target} sur le premier dé ?",
+    "explanation_template": "Peu importe le nombre de dés, la probabilité sur un dé donné est indépendante : P({target}) = 1/6. Les autres dés n'influencent pas le résultat du premier.",
+    "variants": [
+      { "params": { "n": 2, "target": 6 }, "choices": ["1/36", "1/6", "1/3", "2/6"], "answer": 1 },
+      { "params": { "n": 3, "target": 1 }, "choices": ["1/6", "1/18", "1/216", "3/6"], "answer": 0 },
+      { "params": { "n": 2, "target": 4 }, "choices": ["2/12", "1/12", "1/6", "4/6"], "answer": 2 },
+      { "params": { "n": 4, "target": 2 }, "choices": ["4/24", "1/6", "1/24", "1/1296"], "answer": 1 },
+      { "params": { "n": 3, "target": 5 }, "choices": ["1/216", "3/18", "1/6", "5/6"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "func-deriv-poly-1",
+    "type": "parametric",
+    "theme": "fonctions",
+    "level": "bac",
+    "template": "Quelle est la dérivée de f(x) = {a}x³ + {b}x² + {c}x + {d} ?",
+    "explanation_template": "On dérive terme par terme : ({a}x³)' = {3a}x², ({b}x²)' = {2b}x, ({c}x)' = {c}, ({d})' = 0. Donc f'(x) = {3a}x² + {2b}x + {c}.",
+    "variants": [
+      { "params": { "a": 2, "b": 3, "c": 1, "d": 5, "3a": 6, "2b": 6 }, "choices": ["6x² + 6x + 1", "2x² + 6x + 1", "6x³ + 3x + 1", "6x² + 3x"], "answer": 0 },
+      { "params": { "a": 1, "b": 2, "c": 4, "d": 7, "3a": 3, "2b": 4 }, "choices": ["3x + 4x + 4", "x² + 2x + 4", "3x² + 4x + 4", "3x² + 2x + 7"], "answer": 2 },
+      { "params": { "a": 3, "b": 1, "c": 2, "d": 0, "3a": 9, "2b": 2 }, "choices": ["9x² + 2x + 2", "3x² + 2x + 2", "9x² + x + 2", "9x³ + 2x"], "answer": 0 },
+      { "params": { "a": 1, "b": 4, "c": 3, "d": 2, "3a": 3, "2b": 8 }, "choices": ["x² + 4x + 3", "3x² + 8x + 3", "3x² + 4x + 3", "3x³ + 8x"], "answer": 1 },
+      { "params": { "a": 2, "b": 0, "c": 5, "d": 3, "3a": 6, "2b": 0 }, "choices": ["6x² + 5", "2x² + 5", "6x² + 0x + 5", "6x + 5"], "answer": 0 },
+      { "params": { "a": 4, "b": 2, "c": 1, "d": 6, "3a": 12, "2b": 4 }, "choices": ["12x² + 4x + 6", "4x² + 4x + 1", "12x² + 4x + 1", "12x² + 2x + 1"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "calc-pgcd-1",
+    "type": "parametric",
+    "theme": "calcul",
+    "level": "lycee",
+    "template": "Quel est le PGCD de {a} et {b} ?",
+    "explanation_template": "Algorithme d'Euclide : {steps} Le dernier reste non nul est {result}.",
+    "variants": [
+      { "params": { "a": 48, "b": 18, "steps": "48 = 2×18 + 12, 18 = 1×12 + 6, 12 = 2×6 + 0.", "result": 6 }, "choices": ["3", "6", "9", "12"], "answer": 1 },
+      { "params": { "a": 56, "b": 42, "steps": "56 = 1×42 + 14, 42 = 3×14 + 0.", "result": 14 }, "choices": ["7", "14", "21", "28"], "answer": 1 },
+      { "params": { "a": 72, "b": 48, "steps": "72 = 1×48 + 24, 48 = 2×24 + 0.", "result": 24 }, "choices": ["12", "16", "24", "36"], "answer": 2 },
+      { "params": { "a": 90, "b": 60, "steps": "90 = 1×60 + 30, 60 = 2×30 + 0.", "result": 30 }, "choices": ["10", "15", "20", "30"], "answer": 3 },
+      { "params": { "a": 100, "b": 75, "steps": "100 = 1×75 + 25, 75 = 3×25 + 0.", "result": 25 }, "choices": ["5", "10", "25", "50"], "answer": 2 },
+      { "params": { "a": 84, "b": 36, "steps": "84 = 2×36 + 12, 36 = 3×12 + 0.", "result": 12 }, "choices": ["4", "6", "12", "18"], "answer": 2 },
+      { "params": { "a": 120, "b": 45, "steps": "120 = 2×45 + 30, 45 = 1×30 + 15, 30 = 2×15 + 0.", "result": 15 }, "choices": ["5", "10", "15", "30"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "stat-moyenne-1",
+    "type": "parametric",
+    "theme": "statistiques",
+    "level": "lycee",
+    "template": "Quelle est la moyenne de la série : {vals} ?",
+    "explanation_template": "Moyenne = ({sum}) / {n} = {result}.",
+    "variants": [
+      { "params": { "vals": "4, 6, 8, 10, 12", "sum": "4+6+8+10+12 = 40", "n": 5, "result": 8 }, "choices": ["7", "8", "9", "10"], "answer": 1 },
+      { "params": { "vals": "3, 7, 11, 15, 4", "sum": "3+7+11+15+4 = 40", "n": 5, "result": 8 }, "choices": ["6", "7", "8", "9"], "answer": 2 },
+      { "params": { "vals": "2, 4, 6, 8", "sum": "2+4+6+8 = 20", "n": 4, "result": 5 }, "choices": ["4", "5", "6", "7"], "answer": 1 },
+      { "params": { "vals": "10, 20, 30, 40", "sum": "10+20+30+40 = 100", "n": 4, "result": 25 }, "choices": ["20", "25", "30", "22"], "answer": 1 },
+      { "params": { "vals": "5, 10, 15, 20, 25", "sum": "5+10+15+20+25 = 75", "n": 5, "result": 15 }, "choices": ["12", "13", "14", "15"], "answer": 3 },
+      { "params": { "vals": "1, 3, 5, 7, 9", "sum": "1+3+5+7+9 = 25", "n": 5, "result": 5 }, "choices": ["4", "5", "6", "7"], "answer": 1 },
+      { "params": { "vals": "6, 9, 12, 15, 18", "sum": "6+9+12+15+18 = 60", "n": 5, "result": 12 }, "choices": ["10", "11", "12", "13"], "answer": 2 },
+      { "params": { "vals": "14, 16, 18, 20, 22", "sum": "14+16+18+20+22 = 90", "n": 5, "result": 18 }, "choices": ["16", "17", "18", "19"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "geom-aire-rect-1",
+    "type": "parametric",
+    "theme": "geometrie",
+    "level": "college",
+    "template": "Un rectangle a une longueur de {l} cm et une largeur de {w} cm. Quelle est son aire ?",
+    "explanation_template": "Aire = longueur × largeur = {l} × {w} = {result} cm².",
+    "variants": [
+      { "params": { "l": 7, "w": 4, "result": 28 }, "choices": ["22 cm²", "24 cm²", "28 cm²", "32 cm²"], "answer": 2 },
+      { "params": { "l": 9, "w": 6, "result": 54 }, "choices": ["30 cm²", "45 cm²", "54 cm²", "63 cm²"], "answer": 2 },
+      { "params": { "l": 12, "w": 7, "result": 84 }, "choices": ["38 cm²", "74 cm²", "84 cm²", "96 cm²"], "answer": 2 },
+      { "params": { "l": 11, "w": 8, "result": 88 }, "choices": ["38 cm²", "88 cm²", "98 cm²", "78 cm²"], "answer": 1 },
+      { "params": { "l": 15, "w": 6, "result": 90 }, "choices": ["42 cm²", "90 cm²", "80 cm²", "100 cm²"], "answer": 1 },
+      { "params": { "l": 13, "w": 9, "result": 117 }, "choices": ["44 cm²", "107 cm²", "127 cm²", "117 cm²"], "answer": 3 },
+      { "params": { "l": 20, "w": 8, "result": 160 }, "choices": ["56 cm²", "140 cm²", "160 cm²", "180 cm²"], "answer": 2 },
+      { "params": { "l": 25, "w": 4, "result": 100 }, "choices": ["58 cm²", "90 cm²", "100 cm²", "110 cm²"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "logic-divisibility-1",
+    "type": "parametric",
+    "theme": "logique",
+    "level": "college",
+    "template": "Le nombre {n} est-il divisible par {d} ?",
+    "explanation_template": "{n} ÷ {d} = {result} (reste {rem}). {n} {is_div} divisible par {d}.",
+    "variants": [
+      { "params": { "n": 144, "d": 9, "result": 16, "rem": 0, "is_div": "est" }, "choices": ["Oui", "Non", "Seulement si n est pair", "On ne peut pas savoir"], "answer": 0 },
+      { "params": { "n": 127, "d": 7, "result": 18, "rem": 1, "is_div": "n'est pas" }, "choices": ["Oui", "Non", "Seulement si n est impair", "On ne peut pas savoir"], "answer": 1 },
+      { "params": { "n": 252, "d": 4, "result": 63, "rem": 0, "is_div": "est" }, "choices": ["Non", "Oui", "Seulement si n est multiple de 2", "On ne peut pas savoir"], "answer": 1 },
+      { "params": { "n": 315, "d": 9, "result": 35, "rem": 0, "is_div": "est" }, "choices": ["Oui (3+1+5=9)", "Non", "Seulement si terminaison = 5", "Impossible à dire"], "answer": 0 },
+      { "params": { "n": 248, "d": 3, "result": 82, "rem": 2, "is_div": "n'est pas" }, "choices": ["Oui", "Non (2+4+8=14, non divisible par 3)", "Oui car 248 est pair", "On ne peut pas savoir"], "answer": 1 },
+      { "params": { "n": 360, "d": 8, "result": 45, "rem": 0, "is_div": "est" }, "choices": ["Non", "Oui (360÷8=45)", "Seulement si multiple de 4", "On ne peut pas savoir"], "answer": 1 }
+    ]
+  }
+]

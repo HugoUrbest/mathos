@@ -1,4 +1,4 @@
-export type Theme = "calcul" | "algebre" | "geometrie" | "logique" | "probabilites" | "fonctions" | "statistiques";
+export type Theme = "calcul" | "algebre" | "geometrie" | "logique" | "probabilites" | "fonctions" | "statistiques" | "enigme";
 export type Level = "college" | "lycee" | "bac" | "bac_plus";
 
 export interface Question {
@@ -73,6 +73,7 @@ export const THEME_LABELS: Record<Theme, string> = {
   probabilites: "Probabilités",
   fonctions: "Fonctions",
   statistiques: "Statistiques",
+  enigme: "Énigme",
 };
 
 export const THEME_COLORS: Record<Theme, string> = {
@@ -83,4 +84,5 @@ export const THEME_COLORS: Record<Theme, string> = {
   probabilites: "#10b981",
   fonctions: "#ef4444",
   statistiques: "#f97316",
+  enigme: "#ec4899",
 };
