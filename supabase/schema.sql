@@ -138,6 +138,17 @@ create trigger on_auth_user_created
   after insert on auth.users
   for each row execute procedure public.handle_new_user();
 
+-- ─── Vue : résultats enrichis pour les recruteurs ────────────────────────────
+-- Permet à un recruteur de voir tous les résultats de ses tokens en une requête
+create or replace view public.recruiter_results as
+  select
+    or2.*,
+    t.code          as token_code,
+    t.generated_by  as recruiter_id,
+    t.supervised    as token_supervised
+  from public.official_results or2
+  join public.tokens t on t.id = or2.token_id;
+
 -- ─── Vue : stats agrégées par utilisateur (pour admin) ───────────────────────
 create or replace view public.user_stats as
   select
