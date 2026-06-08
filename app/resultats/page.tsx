@@ -78,10 +78,10 @@ export default function ResultatsPage() {
           </div>
         </div>
 
-        {/* Radar */}
+        {/* Compétences */}
         <div className="bg-white rounded-3xl p-6 shadow-sm border border-gray-100">
-          <h2 className="font-bold text-gray-900 mb-1">Ton profil par thème</h2>
-          {isTraining && <p className="text-xs text-gray-400 mb-3">Radar global · toutes sessions confondues</p>}
+          <h2 className="font-bold text-gray-900 mb-1">Tes compétences par thème</h2>
+          {isTraining && <p className="text-xs text-gray-400 mb-3">Polygone global · toutes sessions confondues</p>}
           <MathRadar data={radarData} />
           <div className="mt-4">
             <ThemeBreakdown themeScores={result.themeScores} />
@@ -159,7 +159,7 @@ export default function ResultatsPage() {
         {/* Actions */}
         <div className="flex gap-3">
           <button onClick={() => router.push("/")} className="flex-1 py-4 rounded-2xl border-2 border-gray-200 text-gray-600 hover:border-gray-300 font-medium">← Accueil</button>
-          <button onClick={() => router.push("/stats")} className="flex-1 border-2 border-indigo-200 hover:border-indigo-400 text-indigo-700 font-semibold py-4 rounded-2xl">📊 Mes stats</button>
+          <button onClick={() => router.push("/stats")} className="flex-1 border-2 border-indigo-200 hover:border-indigo-400 text-indigo-700 font-semibold py-4 rounded-2xl">📊 Mes résultats</button>
           <button onClick={() => router.push(isTraining ? "/entrainement" : "/quiz")}
             className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 rounded-2xl">
             {isTraining ? "Ré-entraîner →" : "Nouveau test →"}

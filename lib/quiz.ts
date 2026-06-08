@@ -175,6 +175,115 @@ export function getThemeProgression(theme: Theme): { date: string; score: number
     });
 }
 
+// ─── Benchmarks & percentiles ────────────────────────────────────────────────
+
+/** Percentile d'un score parmi une liste (0-100) */
+export function computePercentile(score: number, allScores: number[]): number {
+  if (allScores.length === 0) return 0;
+  const below = allScores.filter(s => s < score).length;
+  return Math.round((below / allScores.length) * 100);
+}
+
+/** Score au Xème percentile d'une liste */
+function scoreAtPercentile(sorted: number[], pct: number): number {
+  if (sorted.length === 0) return 0;
+  const idx = Math.floor((pct / 100) * sorted.length);
+  return sorted[Math.min(idx, sorted.length - 1)];
+}
+
+/**
+ * Données radar enrichies avec benchmarks top 10/20/50%
+ * basés sur les résultats stockés localement (s'améliore avec le temps).
+ * Valeurs de référence statiques utilisées si pas assez de données.
+ */
+export function getMergedRadarDataWithBenchmarks() {
+  const all = getStoredResults();
+
+  // Scores de référence par thème (valeurs raisonnables en l'absence de données)
+  const STATIC_BENCHMARKS: Record<string, { top10: number; top20: number; top50: number }> = {
+    default: { top10: 85, top20: 72, top50: 50 },
+  };
+
+  // Accumuler les scores par thème depuis tous les résultats
+  const themeAllScores: Record<string, number[]> = {};
+  all.forEach(r => {
+    Object.entries(r.themeScores).forEach(([theme, data]) => {
+      const max = data.total * POINTS_CORRECT;
+      const min = data.total * POINTS_WRONG;
+      const range = max - min;
+      const pct = range > 0 ? Math.round(((data.score - min) / range) * 100) : 0;
+      if (!themeAllScores[theme]) themeAllScores[theme] = [];
+      themeAllScores[theme].push(pct);
+    });
+  });
+
+  // Construire les données radar avec benchmarks
+  const merged = getMergedThemeScores();
+  return Object.entries(merged).map(([theme, data]) => {
+    const max = data.total * POINTS_CORRECT;
+    const min = data.total * POINTS_WRONG;
+    const range = max - min;
+    const value = range > 0 ? Math.round(((data.score - min) / range) * 100) : 0;
+
+    const scores = (themeAllScores[theme] || []).sort((a, b) => a - b);
+    const hasEnough = scores.length >= 5;
+
+    const ref = STATIC_BENCHMARKS.default;
+    return {
+      theme: THEME_LABELS[theme as Theme] || theme,
+      value,
+      fullMark: 100,
+      top10: hasEnough ? scoreAtPercentile(scores, 90) : ref.top10,
+      top20: hasEnough ? scoreAtPercentile(scores, 80) : ref.top20,
+      top50: hasEnough ? scoreAtPercentile(scores, 50) : ref.top50,
+    };
+  });
+}
+
+/**
+ * Scatter data : moyenne des scores par thème sur les 200 dernières questions répondues.
+ * Retourne un point par thème avec la moyenne et le nombre de questions.
+ */
+export function getScatterData(): { theme: string; themeKey: Theme; avg: number; count: number }[] {
+  const all = getStoredResults();
+
+  // Collecter toutes les questions (les 200 dernières)
+  const allAnsweredResults = all
+    .slice(-50) // les 50 dernières sessions au max
+    .flatMap(r =>
+      r.questions.map((q, i) => ({
+        theme: q.theme,
+        answered: r.answers[i].selectedIndex !== null,
+        correct: r.answers[i].selectedIndex === q.answer,
+        score: r.answers[i].selectedIndex === null ? 0
+          : r.answers[i].selectedIndex === q.answer ? POINTS_CORRECT : POINTS_WRONG,
+      }))
+    )
+    .filter(q => q.answered)
+    .slice(-200);
+
+  // Grouper par thème
+  const byTheme: Record<string, { scores: number[] }> = {};
+  allAnsweredResults.forEach(q => {
+    if (!byTheme[q.theme]) byTheme[q.theme] = { scores: [] };
+    byTheme[q.theme].scores.push(q.score);
+  });
+
+  return Object.entries(byTheme).map(([theme, data]) => {
+    const totalPossible = data.scores.length * POINTS_CORRECT;
+    const totalMin = data.scores.length * POINTS_WRONG;
+    const actual = data.scores.reduce((s, v) => s + v, 0);
+    const range = totalPossible - totalMin;
+    const avg = range > 0 ? Math.round(((actual - totalMin) / range) * 100) : 0;
+    return {
+      theme: THEME_LABELS[theme as Theme] || theme,
+      themeKey: theme as Theme,
+      avg,
+      count: data.scores.length,
+    };
+  }).sort((a, b) => b.avg - a.avg);
+}
+
 // ─── Helpers d'affichage ──────────────────────────────────────────────────────
 
 export function getScorePercent(score: number, maxScore: number): number {

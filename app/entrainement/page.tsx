@@ -99,7 +99,7 @@ export default function EntrainementPage() {
         <div className="text-5xl">🎯</div>
         <div>
           <h2 className="text-2xl font-bold text-gray-900">Session terminée !</h2>
-          <p className="text-gray-500 mt-1">Tes résultats ont été ajoutés à ton radar</p>
+          <p className="text-gray-500 mt-1">Tes résultats ont été ajoutés à tes compétences</p>
         </div>
         <div className="flex flex-col gap-3">
           <button onClick={() => { setPhase("choose"); setSelectedTheme(null); }}
@@ -112,7 +112,7 @@ export default function EntrainementPage() {
           </button>
           <button onClick={() => router.push("/stats")}
             className="w-full border-2 border-gray-200 hover:border-indigo-300 text-gray-700 font-medium py-4 rounded-2xl">
-            📊 Mes statistiques
+            📊 Mes résultats
           </button>
           <button onClick={() => router.push("/")} className="text-gray-400 hover:text-gray-600 text-sm">
             ← Accueil
