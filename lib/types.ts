@@ -32,7 +32,7 @@ export interface UserProfile {
 }
 
 // Mode de quiz
-export type QuizMode = "grand_test" | "entrainement";
+export type QuizMode = "grand_test" | "entrainement" | "examen_certifiant";
 
 export interface QuizResult {
   mode: QuizMode;

@@ -1,6 +1,7 @@
 "use client";
 export const dynamic = "force-dynamic";
 import { useState, useEffect, useCallback } from "react";
+import type { Level } from "@/lib/types";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import type { Token, OfficialResult } from "@/lib/supabase/types";
@@ -21,6 +22,7 @@ export default function AdminPage() {
   const [users, setUsers] = useState<UserStat[]>([]);
   const [results, setResults] = useState<OfficialResult[]>([]);
   const [loading, setLoading] = useState(false);
+  const [tokenLevel, setTokenLevel] = useState<Level | "">(""); // niveau optionnel pour le token
   const [inviteEmail, setInviteEmail] = useState("");
   const [msg, setMsg] = useState("");
 
@@ -60,7 +62,11 @@ export default function AdminPage() {
 
   async function generateToken(supervised: boolean) {
     setLoading(true);
-    await fetch("/api/tokens", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ supervised }) });
+    await fetch("/api/tokens", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ supervised, level: tokenLevel || null }),
+    });
     await loadTokens();
     setLoading(false);
   }
@@ -110,15 +116,28 @@ export default function AdminPage() {
         {/* ── Tokens ── */}
         {tab === "tokens" && (
           <div className="space-y-4">
-            <div className="flex gap-3">
-              <button onClick={() => generateToken(false)} disabled={loading}
-                className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-xl text-sm disabled:bg-gray-200">
-                + Token Non-surveillé
-              </button>
-              <button onClick={() => generateToken(true)} disabled={loading}
-                className="bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-4 py-2 rounded-xl text-sm disabled:bg-gray-200">
-                + Token Supervisé
-              </button>
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <label className="text-sm text-gray-600 font-medium shrink-0">Niveau imposé :</label>
+                <select value={tokenLevel} onChange={e => setTokenLevel(e.target.value as Level | "")}
+                  className="border border-gray-200 rounded-lg px-3 py-1.5 text-sm text-gray-700 focus:outline-none focus:border-indigo-400">
+                  <option value="">Libre (candidat choisit)</option>
+                  <option value="college">Collège</option>
+                  <option value="lycee">Lycée</option>
+                  <option value="bac">Terminale / Bac</option>
+                  <option value="bac_plus">Bac+1 et supérieur</option>
+                </select>
+              </div>
+              <div className="flex gap-3">
+                <button onClick={() => generateToken(false)} disabled={loading}
+                  className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-xl text-sm disabled:bg-gray-200">
+                  + Token Non-surveillé
+                </button>
+                <button onClick={() => generateToken(true)} disabled={loading}
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-4 py-2 rounded-xl text-sm disabled:bg-gray-200">
+                  + Token Supervisé
+                </button>
+              </div>
             </div>
 
             <div className="bg-white rounded-2xl border border-gray-100 overflow-hidden">

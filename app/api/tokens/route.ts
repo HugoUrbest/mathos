@@ -19,6 +19,7 @@ export async function POST(req: NextRequest) {
 
   const body = await req.json();
   const supervised = body.supervised === true;
+  const level: string | null = body.level || null; // niveau imposé par le recruteur (optionnel)
   const expiresAt = new Date(Date.now() + 90 * 24 * 60 * 60 * 1000); // 90 jours
 
   // Générer un code unique
@@ -35,6 +36,7 @@ export async function POST(req: NextRequest) {
     code,
     generated_by: user.id,
     supervised,
+    level,
     expires_at: expiresAt.toISOString(),
   }).select().single();
 

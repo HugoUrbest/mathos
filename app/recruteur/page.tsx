@@ -1,6 +1,7 @@
 "use client";
 export const dynamic = "force-dynamic";
 import { useState, useEffect, useCallback } from "react";
+import type { Level } from "@/lib/types";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import ScoreBadge from "@/components/ScoreBadge";
@@ -41,6 +42,7 @@ export default function RecruteurPage() {
   const [results, setResults] = useState<Result[]>([]);
   const [loading, setLoading] = useState(false);
   const [generating, setGenerating] = useState(false);
+  const [tokenLevel, setTokenLevel] = useState<Level | "">(""); // niveau optionnel
   const [selectedResult, setSelectedResult] = useState<Result | null>(null);
   const supabase = createClient();
 
@@ -71,7 +73,7 @@ export default function RecruteurPage() {
     await fetch("/api/tokens", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ supervised: false }),
+      body: JSON.stringify({ supervised: false, level: tokenLevel || null }),
     });
     await loadTokens();
     setGenerating(false);
@@ -143,14 +145,25 @@ export default function RecruteurPage() {
         {/* ── Tokens ── */}
         {tab === "tokens" && (
           <div className="space-y-4">
-            <div className="flex items-center justify-between">
+            <div className="space-y-3">
               <p className="text-sm text-gray-600">
-                Chaque token permet à un candidat de passer un test officiel gratuitement. Le résultat vous est automatiquement transmis.
+                Chaque token permet à un candidat de passer un examen certifiant gratuitement. Le résultat vous est automatiquement transmis.
               </p>
-              <button onClick={generateToken} disabled={generating}
-                className="ml-4 shrink-0 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-200 text-white font-semibold px-4 py-2 rounded-xl text-sm transition-colors">
-                {generating ? "…" : "+ Nouveau token"}
-              </button>
+              <div className="flex items-center gap-3">
+                <label className="text-sm text-gray-600 font-medium shrink-0">Niveau imposé :</label>
+                <select value={tokenLevel} onChange={e => setTokenLevel(e.target.value as Level | "")}
+                  className="border border-gray-200 rounded-lg px-3 py-1.5 text-sm text-gray-700 focus:outline-none focus:border-indigo-400 flex-1">
+                  <option value="">Libre (candidat choisit)</option>
+                  <option value="college">Collège</option>
+                  <option value="lycee">Lycée</option>
+                  <option value="bac">Terminale / Bac</option>
+                  <option value="bac_plus">Bac+1 et supérieur</option>
+                </select>
+                <button onClick={generateToken} disabled={generating}
+                  className="shrink-0 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-200 text-white font-semibold px-4 py-2 rounded-xl text-sm transition-colors">
+                  {generating ? "…" : "+ Nouveau token"}
+                </button>
+              </div>
             </div>
 
             {/* Tokens disponibles */}

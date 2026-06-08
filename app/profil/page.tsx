@@ -12,6 +12,12 @@ const RATINGS: { value: SelfRating; label: string; desc: string; emoji: string }
   { value: "faible", label: "Faible", desc: "En dessous de la moyenne", emoji: "😬" },
 ];
 
+const SCHOOL_RATINGS: { value: SelfRating; label: string; desc: string; emoji: string }[] = [
+  { value: "bon",    label: "Bon",    desc: "Établissement réputé fort en maths",  emoji: "💪" },
+  { value: "moyen",  label: "Moyen",  desc: "Établissement dans la moyenne",        emoji: "😐" },
+  { value: "faible", label: "Faible", desc: "Établissement plutôt faible en maths", emoji: "😬" },
+];
+
 const LEVELS = Object.entries(STUDY_LEVEL_LABELS) as [StudyLevel, string][];
 
 function ProfilContent() {
@@ -125,13 +131,13 @@ function ProfilContent() {
         {/* Niveau dans l'établissement */}
         <Section
           title="Dans l'établissement"
-          subtitle="En maths, par rapport à tous les élèves"
-          value={`${RATINGS.find(r => r.value === schoolRating)?.emoji} ${SELF_RATING_LABELS[schoolRating]}`}
+          subtitle="Niveau global de ton établissement en maths"
+          value={`${SCHOOL_RATINGS.find(r => r.value === schoolRating)?.emoji} ${SELF_RATING_LABELS[schoolRating]}`}
           onEdit={() => setEditing(editing === "school" ? null : "school")}
           open={editing === "school"}
         >
           <div className="space-y-2 mt-3">
-            {RATINGS.map(r => (
+            {SCHOOL_RATINGS.map(r => (
               <button key={r.value} onClick={() => { setSchoolRating(r.value); setEditing(null); if (!isFirstTime) save(); }}
                 className={`w-full text-left p-3 rounded-xl border-2 transition-all ${
                   schoolRating === r.value

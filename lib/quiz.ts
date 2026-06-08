@@ -6,6 +6,7 @@ import {
 import { generateQuestions } from "./procedural";
 
 const GRAND_TEST_SIZE = 30;
+const CERTIFYING_TEST_SIZE = 50;
 const TRAINING_SIZE = 10;
 // Ratio procédural dans l'entraînement : 50% statique + 50% procédural
 const TRAINING_PROCEDURAL_RATIO = 0.5;
@@ -21,6 +22,19 @@ export function getGrandTestQuestions(): Question[] {
   const shuffled = [...allQuestions].filter(q => q.level !== "primaire")
     .sort(() => Math.random() - 0.5);
   return shuffled.slice(0, GRAND_TEST_SIZE);
+}
+
+export function getCertifyingTestQuestions(level?: Level): Question[] {
+  // Examen certifiant : 50 questions statiques, tous thèmes
+  // Si un niveau est précisé, on filtre + on complète avec les autres niveaux si besoin
+  const pool = [...allQuestions].filter(q => q.level !== "primaire");
+  const shuffled = pool.sort(() => Math.random() - 0.5);
+  if (level) {
+    const atLevel = shuffled.filter(q => q.level === level);
+    const others  = shuffled.filter(q => q.level !== level);
+    return [...atLevel, ...others].slice(0, CERTIFYING_TEST_SIZE);
+  }
+  return shuffled.slice(0, CERTIFYING_TEST_SIZE);
 }
 
 export function getTrainingQuestions(theme: Theme, level: Level): Question[] {
