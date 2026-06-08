@@ -52,49 +52,36 @@ export interface QuizResult {
 }
 
 export type StudyLevel =
-  | "ce2" | "cm1" | "cm2"
+  | "primaire"
   | "6eme" | "5eme" | "4eme" | "3eme"
   | "seconde" | "premiere" | "terminale"
-  | "bac1" | "bac2" | "bac3" | "bac4" | "bac5"
-  | "bac6plus";
+  | "bac1" | "bac2";
 
 export const STUDY_LEVEL_LABELS: Record<StudyLevel, string> = {
-  "ce2": "CE2",
-  "cm1": "CM1",
-  "cm2": "CM2",
-  "6eme": "6ème",
-  "5eme": "5ème",
-  "4eme": "4ème",
-  "3eme": "3ème",
-  "seconde": "Seconde",
-  "premiere": "Première",
+  "primaire":  "Primaire",
+  "6eme":      "6ème",
+  "5eme":      "5ème",
+  "4eme":      "4ème",
+  "3eme":      "3ème",
+  "seconde":   "Seconde",
+  "premiere":  "Première",
   "terminale": "Terminale",
-  "bac1": "Bac+1",
-  "bac2": "Bac+2",
-  "bac3": "Bac+3",
-  "bac4": "Bac+4",
-  "bac5": "Bac+5",
-  "bac6plus": "Bac+6 et plus",
+  "bac1":      "Bac+1",
+  "bac2":      "Bac+2",
 };
 
 // Mapping niveau scolaire → niveau de difficulté des questions
 export const STUDY_LEVEL_TO_QUESTION_LEVEL: Record<StudyLevel, Level> = {
-  "ce2": "primaire",
-  "cm1": "primaire",
-  "cm2": "primaire",
-  "6eme": "college",
-  "5eme": "college",
-  "4eme": "college",
-  "3eme": "college",
-  "seconde": "lycee",
-  "premiere": "lycee",
+  "primaire":  "primaire",
+  "6eme":      "college",
+  "5eme":      "college",
+  "4eme":      "college",
+  "3eme":      "college",
+  "seconde":   "lycee",
+  "premiere":  "lycee",
   "terminale": "bac",
-  "bac1": "bac",
-  "bac2": "bac_plus",
-  "bac3": "bac_plus",
-  "bac4": "bac_plus",
-  "bac5": "bac_plus",
-  "bac6plus": "bac_plus",
+  "bac1":      "bac",
+  "bac2":      "bac_plus",
 };
 
 export const THEME_LABELS: Record<Theme, string> = {
