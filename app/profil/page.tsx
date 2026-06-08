@@ -3,8 +3,10 @@ import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   StudyLevel, STUDY_LEVEL_LABELS, SelfRating, SELF_RATING_LABELS,
+  STUDY_LEVEL_TO_QUESTION_LEVEL, THEME_LABELS, THEME_EMOJIS, Theme,
 } from "@/lib/types";
 import { getStoredProfile } from "@/lib/quiz";
+import { getCurriculumForLevel } from "@/lib/curriculum";
 
 const RATINGS: { value: SelfRating; label: string; desc: string; emoji: string }[] = [
   { value: "bon",    label: "Bon",    desc: "Au-dessus de la moyenne",  emoji: "💪" },
@@ -88,7 +90,7 @@ function ProfilContent() {
         >
           <div className="grid grid-cols-2 gap-2 mt-3">
             {LEVELS.map(([key, label]) => (
-              <button key={key} onClick={() => { setStudyLevel(key); setEditing(isFirstTime ? "class" : null); if (!isFirstTime) save(); }}
+              <button key={key} onClick={() => { setStudyLevel(key); if (!isFirstTime) save(); }}
                 className={`py-2.5 px-3 rounded-xl border-2 text-sm font-medium transition-all ${
                   studyLevel === key
                     ? "border-indigo-600 bg-indigo-50 text-indigo-700"
@@ -98,6 +100,17 @@ function ProfilContent() {
               </button>
             ))}
           </div>
+
+          {/* Programme correspondant au niveau sélectionné */}
+          <CurriculumPreview studyLevel={studyLevel} />
+
+          {isFirstTime && (
+            <button
+              onClick={() => setEditing("class")}
+              className="w-full mt-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors">
+              Continuer →
+            </button>
+          )}
         </Section>
 
         {/* Niveau en classe */}
@@ -182,6 +195,37 @@ function ProfilContent() {
         )}
       </div>
     </main>
+  );
+}
+
+function CurriculumPreview({ studyLevel }: { studyLevel: StudyLevel }) {
+  const level = STUDY_LEVEL_TO_QUESTION_LEVEL[studyLevel];
+  const curriculum = getCurriculumForLevel(level);
+  const themes = Object.entries(curriculum) as [Theme, { label: string; detail?: string }[]][];
+  if (themes.length === 0) return null;
+
+  return (
+    <div className="mt-4 space-y-3">
+      <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
+        Programme abordé à ce niveau
+      </div>
+      {themes.map(([theme, topics]) => (
+        <div key={theme} className="bg-gray-50 rounded-xl p-3">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-base">{THEME_EMOJIS[theme]}</span>
+            <span className="font-semibold text-gray-800 text-sm">{THEME_LABELS[theme]}</span>
+          </div>
+          <ul className="space-y-1">
+            {topics.map((t, i) => (
+              <li key={i} className="text-xs text-gray-600">
+                <span className="font-medium text-gray-700">{t.label}</span>
+                {t.detail && <span className="text-gray-400"> — {t.detail}</span>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
   );
 }
 
