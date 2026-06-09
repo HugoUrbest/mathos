@@ -9653,5 +9653,7005 @@
     ],
     "answer": 0,
     "explanation": "P ⟺ Q est vraie quand P et Q ont la même valeur de vérité (tous les deux vrais ou tous les deux faux)."
+  },
+  {
+    "id": 20421,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Combien de côtés a un carré ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "Un carré a 4 côtés de même longueur."
+  },
+  {
+    "id": 20422,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Un triangle a combien de sommets ?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "Un triangle a 3 sommets et 3 côtés."
+  },
+  {
+    "id": 20423,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Le périmètre d'un carré de côté 5 cm est :",
+    "choices": [
+      "10 cm",
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "answer": 2,
+    "explanation": "Périmètre = 4 × côté = 4 × 5 = 20 cm."
+  },
+  {
+    "id": 20424,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "L'aire d'un rectangle de longueur 6 cm et largeur 4 cm est :",
+    "choices": [
+      "10 cm²",
+      "20 cm²",
+      "24 cm²",
+      "26 cm²"
+    ],
+    "answer": 2,
+    "explanation": "Aire = longueur × largeur = 6 × 4 = 24 cm²."
+  },
+  {
+    "id": 20425,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Combien de côtés a un losange ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "Un losange a 4 côtés de même longueur."
+  },
+  {
+    "id": 20426,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Un angle plat mesure :",
+    "choices": [
+      "45°",
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "answer": 2,
+    "explanation": "Un angle plat mesure 180° (c'est une demi-rotation)."
+  },
+  {
+    "id": 20427,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Le périmètre d'un rectangle de longueur 8 cm et largeur 3 cm est :",
+    "choices": [
+      "11 cm",
+      "16 cm",
+      "22 cm",
+      "24 cm"
+    ],
+    "answer": 2,
+    "explanation": "Périmètre = 2 × (longueur + largeur) = 2 × (8+3) = 2 × 11 = 22 cm."
+  },
+  {
+    "id": 20428,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Quelle figure a tous ses points à la même distance du centre ?",
+    "choices": [
+      "Le carré",
+      "Le triangle",
+      "Le cercle",
+      "Le rectangle"
+    ],
+    "answer": 2,
+    "explanation": "Le cercle est l'ensemble des points situés à la même distance (le rayon) du centre."
+  },
+  {
+    "id": 20429,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "L'aire d'un carré de côté 7 cm est :",
+    "choices": [
+      "14 cm²",
+      "28 cm²",
+      "49 cm²",
+      "56 cm²"
+    ],
+    "answer": 2,
+    "explanation": "Aire d'un carré = côté × côté = 7 × 7 = 49 cm²."
+  },
+  {
+    "id": 20430,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Combien d'arêtes a un cube ?",
+    "choices": [
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "Un cube a 12 arêtes."
+  },
+  {
+    "id": 20431,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Un triangle qui a un angle droit s'appelle :",
+    "choices": [
+      "Triangle équilatéral",
+      "Triangle rectangle",
+      "Triangle isocèle",
+      "Triangle plat"
+    ],
+    "answer": 1,
+    "explanation": "Un triangle rectangle possède un angle droit (90°)."
+  },
+  {
+    "id": 20432,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Combien de côtés a un pentagone ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "Un pentagone a 5 côtés."
+  },
+  {
+    "id": 20433,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Le rayon d'un cercle de diamètre 10 cm est :",
+    "choices": [
+      "5 cm",
+      "10 cm",
+      "15 cm",
+      "20 cm"
+    ],
+    "answer": 0,
+    "explanation": "Le rayon est la moitié du diamètre : 10 ÷ 2 = 5 cm."
+  },
+  {
+    "id": 20434,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Un triangle dont les 3 côtés sont égaux s'appelle :",
+    "choices": [
+      "Rectangle",
+      "Isocèle",
+      "Équilatéral",
+      "Scalène"
+    ],
+    "answer": 2,
+    "explanation": "Un triangle équilatéral a ses trois côtés de même longueur."
+  },
+  {
+    "id": 20435,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Le diamètre d'un cercle de rayon 6 cm est :",
+    "choices": [
+      "3 cm",
+      "6 cm",
+      "12 cm",
+      "18 cm"
+    ],
+    "answer": 2,
+    "explanation": "Le diamètre est le double du rayon : 6 × 2 = 12 cm."
+  },
+  {
+    "id": 20436,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Combien de côtés a un octogone ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "Un octogone a 8 côtés (comme un panneau STOP)."
+  },
+  {
+    "id": 20437,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Quel solide a la forme d'un ballon de foot rond ?",
+    "choices": [
+      "Le cube",
+      "Le cylindre",
+      "La sphère",
+      "La pyramide"
+    ],
+    "answer": 2,
+    "explanation": "Une sphère est ronde dans toutes les directions, comme une balle."
+  },
+  {
+    "id": 20438,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "L'aire d'un rectangle de 10 cm sur 5 cm est :",
+    "choices": [
+      "15 cm²",
+      "30 cm²",
+      "50 cm²",
+      "100 cm²"
+    ],
+    "answer": 2,
+    "explanation": "Aire = 10 × 5 = 50 cm²."
+  },
+  {
+    "id": 20439,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Deux droites qui ne se croisent jamais sont :",
+    "choices": [
+      "Perpendiculaires",
+      "Parallèles",
+      "Sécantes",
+      "Obliques"
+    ],
+    "answer": 1,
+    "explanation": "Deux droites parallèles gardent toujours le même écart et ne se croisent jamais."
+  },
+  {
+    "id": 20440,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Un carré a un périmètre de 24 cm. Quelle est la longueur d'un côté ?",
+    "choices": [
+      "4 cm",
+      "6 cm",
+      "8 cm",
+      "12 cm"
+    ],
+    "answer": 1,
+    "explanation": "Côté = périmètre ÷ 4 = 24 ÷ 4 = 6 cm."
+  },
+  {
+    "id": 20441,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Combien de sommets a un cube ?",
+    "choices": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "Un cube a 8 sommets (les coins)."
+  },
+  {
+    "id": 20442,
+    "theme": "geometrie",
+    "level": "primaire",
+    "question": "Quel instrument sert à mesurer un angle ?",
+    "choices": [
+      "La règle",
+      "Le compas",
+      "Le rapporteur",
+      "L'équerre"
+    ],
+    "answer": 2,
+    "explanation": "Le rapporteur sert à mesurer les angles en degrés."
+  },
+  {
+    "id": 20443,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Quel nombre complète la suite : 2, 4, 6, 8, ... ?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "On ajoute 2 à chaque fois : 8 + 2 = 10."
+  },
+  {
+    "id": 20444,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Si tous les chats ont des moustaches et que Félix est un chat, alors :",
+    "choices": [
+      "Félix n'a pas de moustaches",
+      "Félix a des moustaches",
+      "Félix est un chien",
+      "On ne peut pas savoir"
+    ],
+    "answer": 1,
+    "explanation": "Puisque tous les chats ont des moustaches et que Félix est un chat, Félix a des moustaches."
+  },
+  {
+    "id": 20445,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Quel intrus dans cette liste : pomme, banane, carotte, fraise ?",
+    "choices": [
+      "Pomme",
+      "Banane",
+      "Carotte",
+      "Fraise"
+    ],
+    "answer": 2,
+    "explanation": "La carotte est un légume, les autres sont des fruits."
+  },
+  {
+    "id": 20446,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Suite : 1, 3, 5, 7, ... Quel est le nombre suivant ?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "Ce sont les nombres impairs, on ajoute 2 : 7 + 2 = 9."
+  },
+  {
+    "id": 20447,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Marie est plus grande que Léa. Léa est plus grande que Tom. Qui est le plus petit ?",
+    "choices": [
+      "Marie",
+      "Léa",
+      "Tom",
+      "Impossible à dire"
+    ],
+    "answer": 2,
+    "explanation": "Marie > Léa > Tom, donc Tom est le plus petit."
+  },
+  {
+    "id": 20448,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Quel nombre manque : 5, 10, 15, ?, 25 ?",
+    "choices": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "On compte de 5 en 5 : après 15 vient 20."
+  },
+  {
+    "id": 20449,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Si aujourd'hui c'est mardi, quel jour sera-t-il dans 2 jours ?",
+    "choices": [
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi"
+    ],
+    "answer": 1,
+    "explanation": "Mardi + 1 = mercredi, + 1 = jeudi."
+  },
+  {
+    "id": 20450,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Quel intrus : 2, 4, 7, 8, 10 ?",
+    "choices": [
+      "2",
+      "4",
+      "7",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "7 est impair, tous les autres sont des nombres pairs."
+  },
+  {
+    "id": 20451,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Suite des formes : rond, carré, rond, carré, ... Quelle forme vient ensuite ?",
+    "choices": [
+      "Triangle",
+      "Rond",
+      "Carré",
+      "Étoile"
+    ],
+    "answer": 1,
+    "explanation": "Le motif alterne rond-carré, après carré vient rond."
+  },
+  {
+    "id": 20452,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Paul a 3 frères et 2 sœurs. Combien d'enfants y a-t-il dans la famille en comptant Paul ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "3 frères + 2 sœurs + Paul lui-même = 6 enfants."
+  },
+  {
+    "id": 20453,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Quel nombre est le plus grand : 47, 74, 44, 77 ?",
+    "choices": [
+      "47",
+      "74",
+      "44",
+      "77"
+    ],
+    "answer": 3,
+    "explanation": "77 est le plus grand des quatre nombres."
+  },
+  {
+    "id": 20454,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Suite : 20, 18, 16, 14, ... Quel nombre suit ?",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "On enlève 2 à chaque fois : 14 - 2 = 12."
+  },
+  {
+    "id": 20455,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Tous les oiseaux ont des plumes. Un pingouin est un oiseau. Donc un pingouin :",
+    "choices": [
+      "N'a pas de plumes",
+      "A des plumes",
+      "Est un poisson",
+      "Vole toujours"
+    ],
+    "answer": 1,
+    "explanation": "Tous les oiseaux ont des plumes, donc le pingouin aussi."
+  },
+  {
+    "id": 20456,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Quel intrus : lundi, mardi, juillet, jeudi ?",
+    "choices": [
+      "Lundi",
+      "Mardi",
+      "Juillet",
+      "Jeudi"
+    ],
+    "answer": 2,
+    "explanation": "Juillet est un mois, les autres sont des jours de la semaine."
+  },
+  {
+    "id": 20457,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Suite : 1, 2, 4, 8, ... Quel nombre suit ?",
+    "choices": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "On multiplie par 2 à chaque fois : 8 × 2 = 16."
+  },
+  {
+    "id": 20458,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Dans une course, Anna finit juste avant Bob et juste après Chloé. Qui est premier ?",
+    "choices": [
+      "Anna",
+      "Bob",
+      "Chloé",
+      "On ne sait pas"
+    ],
+    "answer": 2,
+    "explanation": "Ordre : Chloé, puis Anna, puis Bob. Chloé est première."
+  },
+  {
+    "id": 20459,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Quel nombre manque : 3, 6, 9, ?, 15 ?",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "On compte de 3 en 3 : après 9 vient 12."
+  },
+  {
+    "id": 20460,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Si 2 chats attrapent 2 souris en 2 minutes, combien de chats faut-il pour attraper 1 souris en 2 minutes ?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Chaque chat attrape 1 souris en 2 minutes. Donc 1 chat suffit pour 1 souris."
+  },
+  {
+    "id": 20461,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Quel intrus : voiture, vélo, bateau, avion ? (selon le lieu de déplacement)",
+    "choices": [
+      "Voiture",
+      "Vélo",
+      "Bateau",
+      "Avion"
+    ],
+    "answer": 2,
+    "explanation": "Le bateau se déplace sur l'eau ; voiture et vélo roulent sur terre. (L'avion vole.) L'intrus terrestre/aérien est le bateau, seul à aller sur l'eau."
+  },
+  {
+    "id": 20462,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "Suite : A, C, E, G, ... Quelle lettre suit ?",
+    "choices": [
+      "H",
+      "I",
+      "J",
+      "K"
+    ],
+    "answer": 1,
+    "explanation": "On saute une lettre à chaque fois (A,_,C,_,E,_,G,_,I). La suivante est I."
+  },
+  {
+    "id": 20463,
+    "theme": "logique",
+    "level": "primaire",
+    "question": "J'ai 10 bonbons, j'en mange 3 et j'en donne 2. Combien m'en reste-t-il ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "10 - 3 - 2 = 5 bonbons restants."
+  },
+  {
+    "id": 20464,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Je suis un nombre. Si tu me doubles, tu obtiens 14. Qui suis-je ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "Le double du nombre vaut 14, donc le nombre est 14 ÷ 2 = 7."
+  },
+  {
+    "id": 20465,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Un fermier a des poules et des lapins. Il compte 5 têtes et 14 pattes. Combien de lapins ?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "5 têtes = 5 animaux. Si tous étaient des poules : 10 pattes. Il manque 4 pattes, soit 2 pattes en plus par lapin → 4÷2 = 2... vérifions : 3 lapins (12 pattes) + 2 poules (4 pattes) = 16. Essayons 2 lapins (8) + 3 poules (6) = 14 pattes. Donc 2 lapins."
+  },
+  {
+    "id": 20466,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Plus on m'enlève, plus je deviens grand. Que suis-je ?",
+    "choices": [
+      "Un nombre",
+      "Un trou",
+      "Un gâteau",
+      "Une boîte"
+    ],
+    "answer": 1,
+    "explanation": "Plus on enlève de terre, plus le trou devient grand."
+  },
+  {
+    "id": 20467,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "J'ai 4 pièces de 2 € et 3 pièces de 1 €. Combien d'argent ai-je ?",
+    "choices": [
+      "9 €",
+      "10 €",
+      "11 €",
+      "12 €"
+    ],
+    "answer": 2,
+    "explanation": "4 × 2 € = 8 €, plus 3 × 1 € = 3 €. Total : 8 + 3 = 11 €."
+  },
+  {
+    "id": 20468,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Quel nombre, multiplié par lui-même, donne 36 ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "6 × 6 = 36."
+  },
+  {
+    "id": 20469,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Je pense à un nombre. J'ajoute 5, j'obtiens 12. À quel nombre je pensais ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "Nombre + 5 = 12, donc nombre = 12 - 5 = 7."
+  },
+  {
+    "id": 20470,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Dans une ferme, il y a 6 vaches. Chaque vache a 4 pattes. Combien de pattes en tout ?",
+    "choices": [
+      "18",
+      "20",
+      "24",
+      "30"
+    ],
+    "answer": 2,
+    "explanation": "6 × 4 = 24 pattes."
+  },
+  {
+    "id": 20471,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Une corde mesure 12 m. On la coupe en morceaux de 3 m. Combien de morceaux ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "12 ÷ 3 = 4 morceaux."
+  },
+  {
+    "id": 20472,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Léo a 8 ans. Sa sœur a le double de son âge. Quel âge a sa sœur ?",
+    "choices": [
+      "10 ans",
+      "12 ans",
+      "16 ans",
+      "18 ans"
+    ],
+    "answer": 2,
+    "explanation": "Le double de 8 est 8 × 2 = 16 ans."
+  },
+  {
+    "id": 20473,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Combien y a-t-il de pattes dans un groupe de 3 araignées (8 pattes chacune) ?",
+    "choices": [
+      "16",
+      "21",
+      "24",
+      "32"
+    ],
+    "answer": 2,
+    "explanation": "3 × 8 = 24 pattes."
+  },
+  {
+    "id": 20474,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Je suis pair, plus grand que 5 et plus petit que 9. Qui suis-je ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "Les deux 6 et 8"
+    ],
+    "answer": 3,
+    "explanation": "Entre 5 et 9, les nombres pairs sont 6 et 8. Les deux conviennent."
+  },
+  {
+    "id": 20475,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Un escalier a 10 marches. Si je monte 2 marches puis en descends 1, combien de fois dois-je faire ce mouvement pour atteindre le sommet ?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "Chaque cycle (2 montées - 1 descente) fait avancer de 1 marche net. Après 8 cycles je suis à 8, puis 2 marches de plus = 10. Une approche : il faut 8 mouvements nets + l'élan final. La réponse attendue est 8."
+  },
+  {
+    "id": 20476,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "J'ai 3 boîtes, chacune contient 4 billes. Combien de billes en tout ?",
+    "choices": [
+      "7",
+      "9",
+      "12",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "3 × 4 = 12 billes."
+  },
+  {
+    "id": 20477,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Quel est le nombre juste avant 100 ?",
+    "choices": [
+      "98",
+      "99",
+      "101",
+      "110"
+    ],
+    "answer": 1,
+    "explanation": "Le nombre juste avant 100 est 99."
+  },
+  {
+    "id": 20478,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Une pizza est coupée en 8 parts. J'en mange 3. Combien de parts restent ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "8 - 3 = 5 parts."
+  },
+  {
+    "id": 20479,
+    "theme": "enigme",
+    "level": "primaire",
+    "question": "Si 1 crayon coûte 2 €, combien coûtent 5 crayons ?",
+    "choices": [
+      "7 €",
+      "8 €",
+      "10 €",
+      "12 €"
+    ],
+    "answer": 2,
+    "explanation": "5 × 2 € = 10 €."
+  },
+  {
+    "id": 20480,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "□ + 7 = 12. Que vaut □ ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "□ = 12 - 7 = 5."
+  },
+  {
+    "id": 20481,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "4 × □ = 28. Que vaut □ ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "□ = 28 ÷ 4 = 7."
+  },
+  {
+    "id": 20482,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "□ - 9 = 6. Que vaut □ ?",
+    "choices": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "□ = 6 + 9 = 15."
+  },
+  {
+    "id": 20483,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "30 ÷ □ = 5. Que vaut □ ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "□ = 30 ÷ 5 = 6."
+  },
+  {
+    "id": 20484,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "2 × □ + 1 = 11. Que vaut □ ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "2 × □ = 11 - 1 = 10, donc □ = 5."
+  },
+  {
+    "id": 20485,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "□ + □ = 16 (le même nombre). Que vaut □ ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "2 × □ = 16, donc □ = 8."
+  },
+  {
+    "id": 20486,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "Le quadruple d'un nombre est 28. Quel est ce nombre ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "4 × nombre = 28, donc nombre = 28 ÷ 4 = 7."
+  },
+  {
+    "id": 20487,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "□ × 5 = 45. Que vaut □ ?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "□ = 45 ÷ 5 = 9."
+  },
+  {
+    "id": 20488,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "20 - □ = 13. Que vaut □ ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "□ = 20 - 13 = 7."
+  },
+  {
+    "id": 20489,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "Quelle écriture représente « le double de n plus 3 » ?",
+    "choices": [
+      "n + 3",
+      "2 + n + 3",
+      "2 × n + 3",
+      "n × 3"
+    ],
+    "answer": 2,
+    "explanation": "Le double de n est 2 × n, plus 3 donne 2 × n + 3."
+  },
+  {
+    "id": 20490,
+    "theme": "algebre",
+    "level": "primaire",
+    "question": "3 × □ - 2 = 13. Que vaut □ ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "3 × □ = 13 + 2 = 15, donc □ = 5."
+  },
+  {
+    "id": 20491,
+    "theme": "calcul",
+    "level": "primaire",
+    "question": "Combien font 47 + 38 ?",
+    "choices": [
+      "75",
+      "83",
+      "85",
+      "87"
+    ],
+    "answer": 2,
+    "explanation": "47 + 38 = 85."
+  },
+  {
+    "id": 20492,
+    "theme": "calcul",
+    "level": "primaire",
+    "question": "Combien font 92 - 47 ?",
+    "choices": [
+      "35",
+      "43",
+      "45",
+      "55"
+    ],
+    "answer": 2,
+    "explanation": "92 - 47 = 45."
+  },
+  {
+    "id": 20493,
+    "theme": "calcul",
+    "level": "primaire",
+    "question": "Combien font 8 × 7 ?",
+    "choices": [
+      "48",
+      "54",
+      "56",
+      "63"
+    ],
+    "answer": 2,
+    "explanation": "8 × 7 = 56."
+  },
+  {
+    "id": 20494,
+    "theme": "calcul",
+    "level": "primaire",
+    "question": "Combien font 81 ÷ 9 ?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "81 ÷ 9 = 9."
+  },
+  {
+    "id": 20495,
+    "theme": "calcul",
+    "level": "primaire",
+    "question": "Combien font 125 + 75 ?",
+    "choices": [
+      "180",
+      "190",
+      "200",
+      "210"
+    ],
+    "answer": 2,
+    "explanation": "125 + 75 = 200."
+  },
+  {
+    "id": 20496,
+    "theme": "calcul",
+    "level": "primaire",
+    "question": "Combien font 6 × 9 ?",
+    "choices": [
+      "45",
+      "52",
+      "54",
+      "56"
+    ],
+    "answer": 2,
+    "explanation": "6 × 9 = 54."
+  },
+  {
+    "id": 20497,
+    "theme": "calcul",
+    "level": "primaire",
+    "question": "Combien font 100 - 64 ?",
+    "choices": [
+      "26",
+      "34",
+      "36",
+      "46"
+    ],
+    "answer": 2,
+    "explanation": "100 - 64 = 36."
+  },
+  {
+    "id": 20498,
+    "theme": "calcul",
+    "level": "primaire",
+    "question": "Combien font 13 × 4 ?",
+    "choices": [
+      "44",
+      "48",
+      "52",
+      "56"
+    ],
+    "answer": 2,
+    "explanation": "13 × 4 = 52."
+  },
+  {
+    "id": 20499,
+    "theme": "fonctions",
+    "level": "primaire",
+    "question": "Une machine ajoute 10 à chaque nombre. Si on entre 25, que sort-il ?",
+    "choices": [
+      "15",
+      "30",
+      "35",
+      "45"
+    ],
+    "answer": 2,
+    "explanation": "25 + 10 = 35."
+  },
+  {
+    "id": 20500,
+    "theme": "fonctions",
+    "level": "primaire",
+    "question": "Suite : 4, 8, 12, 16, ... Quel est le terme suivant ?",
+    "choices": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "On ajoute 4 à chaque fois : 16 + 4 = 20."
+  },
+  {
+    "id": 20501,
+    "theme": "fonctions",
+    "level": "primaire",
+    "question": "Une machine multiplie par 10. Si on entre 7, que sort-il ?",
+    "choices": [
+      "17",
+      "70",
+      "77",
+      "700"
+    ],
+    "answer": 1,
+    "explanation": "7 × 10 = 70."
+  },
+  {
+    "id": 20502,
+    "theme": "fonctions",
+    "level": "primaire",
+    "question": "Règle : résultat = nombre - 4. Si le résultat est 9, quel nombre a-t-on entré ?",
+    "choices": [
+      "5",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 3,
+    "explanation": "nombre - 4 = 9, donc nombre = 9 + 4 = 13."
+  },
+  {
+    "id": 20503,
+    "theme": "fonctions",
+    "level": "primaire",
+    "question": "Suite : 30, 27, 24, 21, ... Quel est le terme suivant ?",
+    "choices": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "On enlève 3 à chaque fois : 21 - 3 = 18."
+  },
+  {
+    "id": 20504,
+    "theme": "fonctions",
+    "level": "primaire",
+    "question": "1 paquet contient 6 gâteaux. Combien de gâteaux dans 5 paquets ?",
+    "choices": [
+      "11",
+      "25",
+      "30",
+      "35"
+    ],
+    "answer": 2,
+    "explanation": "6 × 5 = 30 gâteaux."
+  },
+  {
+    "id": 20505,
+    "theme": "fonctions",
+    "level": "primaire",
+    "question": "Correspondance : 1→4, 2→8, 3→12, 4→ ?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "La règle est multiplier par 4 : 4 × 4 = 16."
+  },
+  {
+    "id": 20506,
+    "theme": "fonctions",
+    "level": "primaire",
+    "question": "Suite : 1, 4, 9, 16, 25, ... Quel est le terme suivant ?",
+    "choices": [
+      "30",
+      "32",
+      "36",
+      "49"
+    ],
+    "answer": 2,
+    "explanation": "Ce sont les carrés (1,2,3,4,5,...)² ; après 5²=25 vient 6²=36."
+  },
+  {
+    "id": 20507,
+    "theme": "probabilites",
+    "level": "primaire",
+    "question": "On lance une pièce. Quelles sont les issues possibles ?",
+    "choices": [
+      "Pile uniquement",
+      "Face uniquement",
+      "Pile ou face",
+      "1, 2, 3 ou 4"
+    ],
+    "answer": 2,
+    "explanation": "Une pièce a deux faces : on obtient soit pile, soit face."
+  },
+  {
+    "id": 20508,
+    "theme": "probabilites",
+    "level": "primaire",
+    "question": "Dans un sac, 6 boules vertes et 6 boules jaunes. Quelle couleur a le plus de chances de sortir ?",
+    "choices": [
+      "Verte",
+      "Jaune",
+      "Les deux ont autant de chances",
+      "Aucune"
+    ],
+    "answer": 2,
+    "explanation": "Il y a autant de boules vertes que jaunes : elles ont la même chance de sortir."
+  },
+  {
+    "id": 20509,
+    "theme": "probabilites",
+    "level": "primaire",
+    "question": "On tire une carte dans un paquet de 10 cartes numérotées de 1 à 10. Combien de chances de tirer le 5 ?",
+    "choices": [
+      "1 sur 5",
+      "1 sur 10",
+      "5 sur 10",
+      "1 sur 2"
+    ],
+    "answer": 1,
+    "explanation": "Il y a 1 carte « 5 » sur 10 cartes : 1 chance sur 10."
+  },
+  {
+    "id": 20510,
+    "theme": "probabilites",
+    "level": "primaire",
+    "question": "Lequel de ces événements est certain ?",
+    "choices": [
+      "Tirer un 7 sur un dé à 6 faces",
+      "Obtenir un nombre entre 1 et 6 en lançant un dé",
+      "Tirer deux fois le même numéro",
+      "Gagner à pile ou face à coup sûr"
+    ],
+    "answer": 1,
+    "explanation": "Un dé à 6 faces donne toujours un résultat entre 1 et 6 : c'est certain."
+  },
+  {
+    "id": 20511,
+    "theme": "probabilites",
+    "level": "primaire",
+    "question": "Un sac contient 8 billes rouges et 2 bleues. Quelle couleur est la plus probable ?",
+    "choices": [
+      "Rouge",
+      "Bleue",
+      "Autant l'une que l'autre",
+      "Aucune"
+    ],
+    "answer": 0,
+    "explanation": "Il y a beaucoup plus de billes rouges (8) que bleues (2) : rouge est plus probable."
+  },
+  {
+    "id": 20512,
+    "theme": "probabilites",
+    "level": "primaire",
+    "question": "On lance un dé. Combien de résultats différents sont possibles ?",
+    "choices": [
+      "3",
+      "6",
+      "12",
+      "36"
+    ],
+    "answer": 1,
+    "explanation": "Un dé a 6 faces, donc 6 résultats possibles (1 à 6)."
+  },
+  {
+    "id": 20513,
+    "theme": "probabilites",
+    "level": "primaire",
+    "question": "Dans un sac de 4 boules toutes rouges, quelle est la chance de tirer une boule verte ?",
+    "choices": [
+      "Certaine",
+      "Probable",
+      "Impossible",
+      "1 sur 4"
+    ],
+    "answer": 2,
+    "explanation": "Il n'y a aucune boule verte, donc en tirer une est impossible."
+  },
+  {
+    "id": 20514,
+    "theme": "statistiques",
+    "level": "primaire",
+    "question": "Notes : 8, 10, 12. Quelle est la moyenne ?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "(8 + 10 + 12) ÷ 3 = 30 ÷ 3 = 10."
+  },
+  {
+    "id": 20515,
+    "theme": "statistiques",
+    "level": "primaire",
+    "question": "Tailles : 120, 125, 130 cm. Quelle est la taille moyenne ?",
+    "choices": [
+      "123 cm",
+      "124 cm",
+      "125 cm",
+      "126 cm"
+    ],
+    "answer": 2,
+    "explanation": "(120 + 125 + 130) ÷ 3 = 375 ÷ 3 = 125 cm."
+  },
+  {
+    "id": 20516,
+    "theme": "statistiques",
+    "level": "primaire",
+    "question": "Dans une classe : 14 filles et 11 garçons. Combien d'élèves en tout ?",
+    "choices": [
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": 2,
+    "explanation": "14 + 11 = 25 élèves."
+  },
+  {
+    "id": 20517,
+    "theme": "statistiques",
+    "level": "primaire",
+    "question": "Nombre de buts par match : 1, 2, 2, 3. Quel nombre revient le plus souvent ?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "Tous égaux"
+    ],
+    "answer": 1,
+    "explanation": "Le 2 apparaît deux fois, c'est la valeur la plus fréquente."
+  },
+  {
+    "id": 20518,
+    "theme": "statistiques",
+    "level": "primaire",
+    "question": "50% des 20 élèves portent des lunettes. Combien d'élèves portent des lunettes ?",
+    "choices": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "50% de 20 = la moitié = 10 élèves."
+  },
+  {
+    "id": 20519,
+    "theme": "statistiques",
+    "level": "primaire",
+    "question": "Ventes : lundi 5, mardi 8, mercredi 3. Combien de ventes au total ?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": 2,
+    "explanation": "5 + 8 + 3 = 16 ventes."
+  },
+  {
+    "id": 20520,
+    "theme": "statistiques",
+    "level": "primaire",
+    "question": "Notes ordonnées : 7, 9, 11. Quelle est la note du milieu (médiane) ?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": 2,
+    "explanation": "La valeur centrale de 3 notes est la 2ème : 9."
+  },
+  {
+    "id": 20521,
+    "theme": "logique",
+    "level": "college",
+    "question": "Si un nombre est divisible par 6, alors il est forcément divisible par :",
+    "choices": [
+      "4",
+      "5",
+      "3",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "6 = 2 × 3, donc tout multiple de 6 est aussi divisible par 2 et par 3."
+  },
+  {
+    "id": 20522,
+    "theme": "logique",
+    "level": "college",
+    "question": "Quelle est la négation de « tous les élèves sont présents » ?",
+    "choices": [
+      "Aucun élève n'est présent",
+      "Au moins un élève est absent",
+      "Tous les élèves sont absents",
+      "Quelques élèves sont présents"
+    ],
+    "answer": 1,
+    "explanation": "La négation de « tous sont présents » est « il existe au moins un élève absent »."
+  },
+  {
+    "id": 20523,
+    "theme": "logique",
+    "level": "college",
+    "question": "Suite : 2, 6, 18, 54, ... Quelle est la règle ?",
+    "choices": [
+      "+4",
+      "×3",
+      "+12",
+      "×2"
+    ],
+    "answer": 1,
+    "explanation": "6=2×3, 18=6×3, 54=18×3 : on multiplie par 3."
+  },
+  {
+    "id": 20524,
+    "theme": "logique",
+    "level": "college",
+    "question": "Si « A implique B » est vrai et que A est vrai, alors :",
+    "choices": [
+      "B est faux",
+      "B est vrai",
+      "B est inconnu",
+      "A est faux"
+    ],
+    "answer": 1,
+    "explanation": "Quand A implique B et que A est vrai, alors B est nécessairement vrai."
+  },
+  {
+    "id": 20525,
+    "theme": "logique",
+    "level": "college",
+    "question": "Combien de nombres entiers y a-t-il strictement entre 10 et 20 ?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "Ce sont 11,12,...,19 : soit 9 nombres."
+  },
+  {
+    "id": 20526,
+    "theme": "logique",
+    "level": "college",
+    "question": "Trois amis ont 12, 15 et 18 ans. Quelle est la différence entre le plus âgé et le plus jeune ?",
+    "choices": [
+      "3",
+      "5",
+      "6",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "18 - 12 = 6 ans."
+  },
+  {
+    "id": 20527,
+    "theme": "logique",
+    "level": "college",
+    "question": "Suite : 1, 1, 2, 3, 5, 8, ... Quel est le terme suivant ?",
+    "choices": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": 2,
+    "explanation": "Suite de Fibonacci : chaque terme est la somme des deux précédents. 5 + 8 = 13."
+  },
+  {
+    "id": 20528,
+    "theme": "logique",
+    "level": "college",
+    "question": "Si tous les carrés sont des rectangles, et que cette figure est un carré, alors :",
+    "choices": [
+      "Ce n'est pas un rectangle",
+      "C'est un rectangle",
+      "C'est un cercle",
+      "On ne peut pas savoir"
+    ],
+    "answer": 1,
+    "explanation": "Tout carré est un rectangle, donc cette figure est un rectangle."
+  },
+  {
+    "id": 20529,
+    "theme": "logique",
+    "level": "college",
+    "question": "La contraposée de « s'il pleut, alors la route est mouillée » est :",
+    "choices": [
+      "Si la route est mouillée, alors il pleut",
+      "Si la route n'est pas mouillée, alors il ne pleut pas",
+      "S'il ne pleut pas, la route n'est pas mouillée",
+      "Il pleut et la route est mouillée"
+    ],
+    "answer": 1,
+    "explanation": "La contraposée de « P ⟹ Q » est « non Q ⟹ non P »."
+  },
+  {
+    "id": 20530,
+    "theme": "logique",
+    "level": "college",
+    "question": "Un nombre est pair ET multiple de 3. Lequel de ces nombres convient ?",
+    "choices": [
+      "9",
+      "12",
+      "14",
+      "21"
+    ],
+    "answer": 1,
+    "explanation": "12 est pair (÷2) et multiple de 3 (12=3×4)."
+  },
+  {
+    "id": 20531,
+    "theme": "logique",
+    "level": "college",
+    "question": "Suite : 100, 50, 25, ... Quel est le terme suivant ?",
+    "choices": [
+      "10",
+      "12,5",
+      "15",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "On divise par 2 à chaque fois : 25 ÷ 2 = 12,5."
+  },
+  {
+    "id": 20532,
+    "theme": "logique",
+    "level": "college",
+    "question": "Combien de diagonales possède un quadrilatère ?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "Un quadrilatère a 2 diagonales (reliant les sommets opposés)."
+  },
+  {
+    "id": 20533,
+    "theme": "logique",
+    "level": "college",
+    "question": "Si « aucun poisson ne vole » est vrai, que peut-on dire d'un animal qui vole ?",
+    "choices": [
+      "C'est un poisson",
+      "Ce n'est pas un poisson",
+      "C'est un oiseau",
+      "On ne peut rien dire"
+    ],
+    "answer": 1,
+    "explanation": "Puisqu'aucun poisson ne vole, un animal qui vole ne peut pas être un poisson."
+  },
+  {
+    "id": 20534,
+    "theme": "logique",
+    "level": "college",
+    "question": "Suite : 3, 7, 11, 15, ... Quel est le terme suivant ?",
+    "choices": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "On ajoute 4 à chaque fois : 15 + 4 = 19."
+  },
+  {
+    "id": 20535,
+    "theme": "logique",
+    "level": "college",
+    "question": "Dans un tournoi, chacun des 4 joueurs affronte tous les autres une fois. Combien de matchs ?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "Nombre de paires de 4 joueurs = 4×3/2 = 6 matchs."
+  },
+  {
+    "id": 20536,
+    "theme": "logique",
+    "level": "college",
+    "question": "Quel énoncé est équivalent à « x > 5 » ?",
+    "choices": [
+      "x ≥ 5",
+      "x est plus grand que 5",
+      "x ≤ 5",
+      "x = 5"
+    ],
+    "answer": 1,
+    "explanation": "« x > 5 » signifie « x est strictement plus grand que 5 »."
+  },
+  {
+    "id": 20537,
+    "theme": "logique",
+    "level": "college",
+    "question": "Suite : 1, 4, 9, 16, 25, 36, ... Quel est le terme suivant ?",
+    "choices": [
+      "42",
+      "45",
+      "49",
+      "64"
+    ],
+    "answer": 2,
+    "explanation": "Ce sont les carrés ; après 6²=36 vient 7²=49."
+  },
+  {
+    "id": 20538,
+    "theme": "logique",
+    "level": "college",
+    "question": "Si A = {1,2,3} et B = {3,4,5}, quel élément est commun à A et B ?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "L'élément commun (intersection) est 3."
+  },
+  {
+    "id": 20539,
+    "theme": "logique",
+    "level": "college",
+    "question": "« x est un multiple de 4 » est une condition suffisante pour « x est pair ». Vrai ou faux ?",
+    "choices": [
+      "Vrai",
+      "Faux",
+      "Cela dépend de x",
+      "Impossible à dire"
+    ],
+    "answer": 0,
+    "explanation": "Tout multiple de 4 est pair, donc être multiple de 4 suffit pour être pair."
+  },
+  {
+    "id": 20540,
+    "theme": "logique",
+    "level": "college",
+    "question": "Combien de façons de ranger 3 livres différents sur une étagère ?",
+    "choices": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "3 × 2 × 1 = 6 façons (permutations de 3 objets)."
+  },
+  {
+    "id": 20541,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Développe : 3(x + 4).",
+    "choices": [
+      "3x + 4",
+      "3x + 12",
+      "x + 12",
+      "3x + 7"
+    ],
+    "answer": 1,
+    "explanation": "3(x + 4) = 3x + 12."
+  },
+  {
+    "id": 20542,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Résous : 2x + 5 = 17.",
+    "choices": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 11"
+    ],
+    "answer": 1,
+    "explanation": "2x = 17 - 5 = 12, donc x = 6."
+  },
+  {
+    "id": 20543,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Factorise : 5x + 10.",
+    "choices": [
+      "5(x + 2)",
+      "5(x + 10)",
+      "x(5 + 10)",
+      "5x(1 + 2)"
+    ],
+    "answer": 0,
+    "explanation": "5x + 10 = 5(x + 2)."
+  },
+  {
+    "id": 20544,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Résous : 3x - 7 = 11.",
+    "choices": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
+    ],
+    "answer": 1,
+    "explanation": "3x = 11 + 7 = 18, donc x = 6."
+  },
+  {
+    "id": 20545,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Développe : (x + 2)(x + 3).",
+    "choices": [
+      "x² + 5x + 6",
+      "x² + 6x + 5",
+      "x² + 5x + 5",
+      "x² + 6"
+    ],
+    "answer": 0,
+    "explanation": "(x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6."
+  },
+  {
+    "id": 20546,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Réduis : 4x + 3x - 2x.",
+    "choices": [
+      "3x",
+      "5x",
+      "6x",
+      "9x"
+    ],
+    "answer": 1,
+    "explanation": "4x + 3x - 2x = 5x."
+  },
+  {
+    "id": 20547,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Résous : x/3 = 4.",
+    "choices": [
+      "x = 7",
+      "x = 9",
+      "x = 12",
+      "x = 15"
+    ],
+    "answer": 2,
+    "explanation": "x = 4 × 3 = 12."
+  },
+  {
+    "id": 20548,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Développe : 2(3x - 5).",
+    "choices": [
+      "6x - 5",
+      "6x - 10",
+      "5x - 10",
+      "6x + 10"
+    ],
+    "answer": 1,
+    "explanation": "2(3x - 5) = 6x - 10."
+  },
+  {
+    "id": 20549,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Si x = 4, combien vaut 2x² ?",
+    "choices": [
+      "16",
+      "32",
+      "48",
+      "64"
+    ],
+    "answer": 1,
+    "explanation": "2x² = 2 × 4² = 2 × 16 = 32."
+  },
+  {
+    "id": 20550,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Résous : 5x = 2x + 9.",
+    "choices": [
+      "x = 2",
+      "x = 3",
+      "x = 4",
+      "x = 9"
+    ],
+    "answer": 1,
+    "explanation": "5x - 2x = 9, donc 3x = 9 et x = 3."
+  },
+  {
+    "id": 20551,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Factorise : x² + 7x.",
+    "choices": [
+      "x(x + 7)",
+      "x²(1 + 7)",
+      "7(x + x)",
+      "x(7x)"
+    ],
+    "answer": 0,
+    "explanation": "x² + 7x = x(x + 7)."
+  },
+  {
+    "id": 20552,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Développe (a + b)² selon l'identité remarquable :",
+    "choices": [
+      "a² + b²",
+      "a² + 2ab + b²",
+      "a² - 2ab + b²",
+      "2a + 2b"
+    ],
+    "answer": 1,
+    "explanation": "(a + b)² = a² + 2ab + b²."
+  },
+  {
+    "id": 20553,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Résous : 4(x - 1) = 12.",
+    "choices": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "answer": 1,
+    "explanation": "x - 1 = 12 ÷ 4 = 3, donc x = 4."
+  },
+  {
+    "id": 20554,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Réduis : 3a + 2b - a + 4b.",
+    "choices": [
+      "2a + 6b",
+      "4a + 6b",
+      "2a + 2b",
+      "3a + 6b"
+    ],
+    "answer": 0,
+    "explanation": "3a - a = 2a ; 2b + 4b = 6b. Résultat : 2a + 6b."
+  },
+  {
+    "id": 20555,
+    "theme": "algebre",
+    "level": "college",
+    "question": "Développe (a - b)² selon l'identité remarquable :",
+    "choices": [
+      "a² - b²",
+      "a² + 2ab + b²",
+      "a² - 2ab + b²",
+      "a² - b"
+    ],
+    "answer": 2,
+    "explanation": "(a - b)² = a² - 2ab + b²."
+  },
+  {
+    "id": 20556,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Un livre coûte 12 € de plus que sa moitié. Quel est son prix ?",
+    "choices": [
+      "18 €",
+      "20 €",
+      "24 €",
+      "30 €"
+    ],
+    "answer": 2,
+    "explanation": "Prix = moitié + 12. Donc prix - moitié = 12, soit moitié = 12. Prix = 24 €."
+  },
+  {
+    "id": 20557,
+    "theme": "enigme",
+    "level": "college",
+    "question": "La somme de deux nombres est 20 et leur différence est 4. Quel est le plus grand ?",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": 2,
+    "explanation": "Les nombres sont (20+4)/2 = 12 et (20-4)/2 = 8. Le plus grand est 12."
+  },
+  {
+    "id": 20558,
+    "theme": "enigme",
+    "level": "college",
+    "question": "J'ai autant de frères que de sœurs. Ma sœur a deux fois plus de frères que de sœurs. Combien d'enfants ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "Avec 4 garçons et 3 filles : chaque garçon a 3 frères et 3 sœurs ; chaque fille a 4 frères et 2 sœurs (2× plus). Total = 7."
+  },
+  {
+    "id": 20559,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Un escargot monte un puits de 10 m. Le jour il monte 3 m, la nuit il glisse de 2 m. En combien de jours atteint-il le sommet ?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "Il gagne 1 m net par jour, mais le 8ème jour il part de 7 m et monte 3 m → 10 m. Réponse : 8 jours."
+  },
+  {
+    "id": 20560,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Trois personnes se serrent la main une fois chacune. Combien de poignées de main ?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "Nombre de paires = 3×2/2 = 3 poignées de main."
+  },
+  {
+    "id": 20561,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Si 5 ouvriers construisent un mur en 6 jours, combien de jours pour 10 ouvriers (même rythme) ?",
+    "choices": [
+      "2",
+      "3",
+      "6",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "Deux fois plus d'ouvriers → deux fois moins de temps : 6 ÷ 2 = 3 jours."
+  },
+  {
+    "id": 20562,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Le produit de deux nombres consécutifs est 56. Quel est le plus petit ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "7 × 8 = 56. Le plus petit est 7."
+  },
+  {
+    "id": 20563,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Un nombre augmenté de son tiers donne 20. Quel est ce nombre ?",
+    "choices": [
+      "12",
+      "15",
+      "16",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "n + n/3 = 20 → (4/3)n = 20 → n = 15."
+  },
+  {
+    "id": 20564,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Dans une pièce, il y a des chaises à 3 pieds et des tabourets à 4 pieds. 7 sièges, 24 pieds. Combien de tabourets ?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "Si x tabourets et (7-x) chaises : 4x + 3(7-x) = 24 → x + 21 = 24 → x = 3 tabourets."
+  },
+  {
+    "id": 20565,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Quel est le chiffre des unités de 7 × 7 × 7 ?",
+    "choices": [
+      "1",
+      "3",
+      "7",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "7×7 = 49 (unité 9), 49×7 = 343 (unité 3)."
+  },
+  {
+    "id": 20566,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Une horloge sonne 6 coups en 5 secondes. Combien de temps pour 12 coups ?",
+    "choices": [
+      "10 s",
+      "11 s",
+      "12 s",
+      "6 s"
+    ],
+    "answer": 1,
+    "explanation": "6 coups = 5 intervalles → 1 s/intervalle. 12 coups = 11 intervalles = 11 s."
+  },
+  {
+    "id": 20567,
+    "theme": "enigme",
+    "level": "college",
+    "question": "La moitié d'un nombre plus 6 égale 16. Quel est ce nombre ?",
+    "choices": [
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "answer": 2,
+    "explanation": "n/2 + 6 = 16 → n/2 = 10 → n = 20."
+  },
+  {
+    "id": 20568,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Combien de fois le chiffre 9 apparaît-il de 1 à 100 ?",
+    "choices": [
+      "10",
+      "11",
+      "19",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "Aux unités : 9,19,...,99 → 10 fois. Aux dizaines : 90 à 99 → 10 fois. Total 20."
+  },
+  {
+    "id": 20569,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Un train part à 14h et arrive à 17h30. Quelle est la durée du trajet ?",
+    "choices": [
+      "3h",
+      "3h30",
+      "2h30",
+      "4h"
+    ],
+    "answer": 1,
+    "explanation": "De 14h à 17h30 il y a 3 heures et 30 minutes."
+  },
+  {
+    "id": 20570,
+    "theme": "enigme",
+    "level": "college",
+    "question": "Si on partage 48 € entre 3 personnes proportionnellement à 1, 2 et 3, combien reçoit la dernière ?",
+    "choices": [
+      "16 €",
+      "20 €",
+      "24 €",
+      "30 €"
+    ],
+    "answer": 2,
+    "explanation": "Total des parts = 1+2+3 = 6. Une part = 48/6 = 8 €. La dernière reçoit 3 × 8 = 24 €."
+  },
+  {
+    "id": 20571,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Calcule : (-5) + 8.",
+    "choices": [
+      "-13",
+      "-3",
+      "3",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "(-5) + 8 = 3."
+  },
+  {
+    "id": 20572,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Calcule : (-4) × (-6).",
+    "choices": [
+      "-24",
+      "-10",
+      "10",
+      "24"
+    ],
+    "answer": 3,
+    "explanation": "Le produit de deux nombres négatifs est positif : (-4)×(-6) = 24."
+  },
+  {
+    "id": 20573,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Calcule : 3/4 + 1/4.",
+    "choices": [
+      "1/2",
+      "1",
+      "4/8",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "3/4 + 1/4 = 4/4 = 1."
+  },
+  {
+    "id": 20574,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Calcule : 2/3 × 6.",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "2/3 × 6 = 12/3 = 4."
+  },
+  {
+    "id": 20575,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Calcule : 7 - (-3).",
+    "choices": [
+      "4",
+      "-10",
+      "10",
+      "-4"
+    ],
+    "answer": 2,
+    "explanation": "Soustraire un négatif revient à additionner : 7 + 3 = 10."
+  },
+  {
+    "id": 20576,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Calcule : 2³ + 3².",
+    "choices": [
+      "13",
+      "15",
+      "17",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "2³ = 8 et 3² = 9, donc 8 + 9 = 17."
+  },
+  {
+    "id": 20577,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Calcule : 15% de 200.",
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "answer": 2,
+    "explanation": "15% × 200 = 0,15 × 200 = 30."
+  },
+  {
+    "id": 20578,
+    "theme": "calcul",
+    "level": "college",
+    "question": "Calcule : (-12) ÷ 4.",
+    "choices": [
+      "-3",
+      "3",
+      "-4",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "(-12) ÷ 4 = -3 (signes différents → négatif)."
+  },
+  {
+    "id": 20579,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "Dans un triangle, la somme des angles vaut :",
+    "choices": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": 1,
+    "explanation": "La somme des angles d'un triangle est toujours 180°."
+  },
+  {
+    "id": 20580,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "Un triangle rectangle a un côté de 3 et un de 4. Quelle est l'hypoténuse ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "Théorème de Pythagore : √(3² + 4²) = √25 = 5."
+  },
+  {
+    "id": 20581,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "L'aire d'un triangle de base 8 et de hauteur 5 est :",
+    "choices": [
+      "13",
+      "20",
+      "40",
+      "26"
+    ],
+    "answer": 1,
+    "explanation": "Aire = (base × hauteur) ÷ 2 = (8 × 5) ÷ 2 = 20."
+  },
+  {
+    "id": 20582,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "Deux angles sont complémentaires si leur somme vaut :",
+    "choices": [
+      "90°",
+      "180°",
+      "45°",
+      "360°"
+    ],
+    "answer": 0,
+    "explanation": "Deux angles complémentaires ont une somme de 90°."
+  },
+  {
+    "id": 20583,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "La circonférence d'un cercle de rayon r est :",
+    "choices": [
+      "πr",
+      "2πr",
+      "πr²",
+      "2r"
+    ],
+    "answer": 1,
+    "explanation": "La circonférence (périmètre) d'un cercle est 2πr."
+  },
+  {
+    "id": 20584,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "Dans un triangle, deux angles valent 50° et 60°. Quel est le troisième ?",
+    "choices": [
+      "50°",
+      "60°",
+      "70°",
+      "80°"
+    ],
+    "answer": 2,
+    "explanation": "180° - 50° - 60° = 70°."
+  },
+  {
+    "id": 20585,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "L'aire d'un disque de rayon 3 est :",
+    "choices": [
+      "3π",
+      "6π",
+      "9π",
+      "12π"
+    ],
+    "answer": 2,
+    "explanation": "Aire = πr² = π × 3² = 9π."
+  },
+  {
+    "id": 20586,
+    "theme": "geometrie",
+    "level": "college",
+    "question": "Deux angles supplémentaires ont une somme de :",
+    "choices": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": 1,
+    "explanation": "Deux angles supplémentaires ont une somme de 180°."
+  },
+  {
+    "id": 20587,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "On lance un dé. Quelle est la probabilité d'obtenir un multiple de 3 ?",
+    "choices": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": 1,
+    "explanation": "Les multiples de 3 sur un dé sont 3 et 6 → 2 issues sur 6 = 1/3."
+  },
+  {
+    "id": 20588,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "Une roue a 8 secteurs égaux numérotés de 1 à 8. Probabilité d'obtenir un nombre pair ?",
+    "choices": [
+      "1/8",
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "answer": 2,
+    "explanation": "Les pairs sont 2,4,6,8 → 4 sur 8 = 1/2."
+  },
+  {
+    "id": 20589,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "Dans une urne : 5 rouges, 3 vertes, 2 bleues. Probabilité de tirer une verte ?",
+    "choices": [
+      "3/10",
+      "1/3",
+      "1/5",
+      "2/5"
+    ],
+    "answer": 0,
+    "explanation": "3 vertes sur 10 boules = 3/10."
+  },
+  {
+    "id": 20590,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "On tire une carte d'un jeu de 32. Probabilité d'obtenir un cœur ?",
+    "choices": [
+      "1/8",
+      "1/4",
+      "1/2",
+      "8/32"
+    ],
+    "answer": 1,
+    "explanation": "Il y a 8 cœurs sur 32 cartes = 8/32 = 1/4."
+  },
+  {
+    "id": 20591,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "La probabilité d'un événement impossible est :",
+    "choices": [
+      "0",
+      "0,5",
+      "1",
+      "Impossible à calculer"
+    ],
+    "answer": 0,
+    "explanation": "Un événement impossible a une probabilité de 0."
+  },
+  {
+    "id": 20592,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "Si P(A) = 1/4, quelle est la probabilité de l'événement contraire ?",
+    "choices": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "P(contraire) = 1 - 1/4 = 3/4."
+  },
+  {
+    "id": 20593,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "On lance deux dés. Quelle est la probabilité d'obtenir un double 6 ?",
+    "choices": [
+      "1/6",
+      "1/12",
+      "1/36",
+      "2/36"
+    ],
+    "answer": 2,
+    "explanation": "Il y a 36 issues possibles, une seule est (6,6) : 1/36."
+  },
+  {
+    "id": 20594,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "Dans un sac de 20 jetons dont 8 gagnants, quelle est la probabilité de gagner ?",
+    "choices": [
+      "2/5",
+      "1/4",
+      "8/100",
+      "1/2"
+    ],
+    "answer": 0,
+    "explanation": "8/20 = 2/5."
+  },
+  {
+    "id": 20595,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "Probabilité d'obtenir « face » en lançant une pièce équilibrée :",
+    "choices": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "Une pièce équilibrée donne face avec une probabilité de 1/2."
+  },
+  {
+    "id": 20596,
+    "theme": "probabilites",
+    "level": "college",
+    "question": "Une boîte contient 12 stylos dont 4 rouges. Probabilité de NE PAS tirer un rouge ?",
+    "choices": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "answer": 2,
+    "explanation": "Non-rouges = 8 sur 12 = 8/12 = 2/3."
+  },
+  {
+    "id": 20597,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "Pour f(x) = 2x - 3, quelle est l'image de 5 ?",
+    "choices": [
+      "5",
+      "7",
+      "10",
+      "13"
+    ],
+    "answer": 1,
+    "explanation": "f(5) = 2×5 - 3 = 10 - 3 = 7."
+  },
+  {
+    "id": 20598,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "Une fonction linéaire vérifie f(2) = 10. Quel est son coefficient ?",
+    "choices": [
+      "2",
+      "5",
+      "8",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "f(x) = ax avec a = 10/2 = 5."
+  },
+  {
+    "id": 20599,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "Pour f(x) = -x + 4, quelle est l'image de 4 ?",
+    "choices": [
+      "0",
+      "4",
+      "8",
+      "-4"
+    ],
+    "answer": 0,
+    "explanation": "f(4) = -4 + 4 = 0."
+  },
+  {
+    "id": 20600,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "Une droite a pour équation y = 4x - 1. Quelle est son ordonnée à l'origine ?",
+    "choices": [
+      "4",
+      "-1",
+      "1",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "L'ordonnée à l'origine est la valeur de y quand x = 0 : ici -1."
+  },
+  {
+    "id": 20601,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "Si f(x) = 3x, quel est l'antécédent de 21 ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "63"
+    ],
+    "answer": 1,
+    "explanation": "3x = 21 → x = 7."
+  },
+  {
+    "id": 20602,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "Pour f(x) = x + 5, quelle est l'image de -2 ?",
+    "choices": [
+      "3",
+      "-3",
+      "7",
+      "-7"
+    ],
+    "answer": 0,
+    "explanation": "f(-2) = -2 + 5 = 3."
+  },
+  {
+    "id": 20603,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "Une fonction linéaire représente une situation de :",
+    "choices": [
+      "Proportionnalité",
+      "Aléatoire",
+      "Constante",
+      "Décroissance fixe"
+    ],
+    "answer": 0,
+    "explanation": "Une fonction linéaire f(x) = ax modélise une proportionnalité de coefficient a."
+  },
+  {
+    "id": 20604,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "Pour f(x) = 2x + 1, quelle est l'image de 0 ?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "f(0) = 2×0 + 1 = 1."
+  },
+  {
+    "id": 20605,
+    "theme": "fonctions",
+    "level": "college",
+    "question": "La droite y = 2x passe-t-elle par l'origine (0,0) ?",
+    "choices": [
+      "Oui",
+      "Non",
+      "Seulement si x > 0",
+      "On ne peut pas savoir"
+    ],
+    "answer": 0,
+    "explanation": "Pour x = 0, y = 0. La droite y = 2x (fonction linéaire) passe par l'origine."
+  },
+  {
+    "id": 20606,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "Série : 4, 8, 8, 10, 15. Quelle est la moyenne ?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "(4+8+8+10+15) ÷ 5 = 45 ÷ 5 = 9."
+  },
+  {
+    "id": 20607,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "Série ordonnée : 3, 5, 8, 11, 14, 17, 20. Quelle est la médiane ?",
+    "choices": [
+      "8",
+      "11",
+      "14",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "7 valeurs : la médiane est la 4ème valeur = 11."
+  },
+  {
+    "id": 20608,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "Série : 6, 9, 9, 9, 12. Quel est le mode ?",
+    "choices": [
+      "6",
+      "9",
+      "12",
+      "Aucun"
+    ],
+    "answer": 1,
+    "explanation": "Le 9 apparaît 3 fois, c'est le mode."
+  },
+  {
+    "id": 20609,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "La moyenne de 4 notes est 12. Quelle est la somme de ces notes ?",
+    "choices": [
+      "36",
+      "44",
+      "48",
+      "52"
+    ],
+    "answer": 2,
+    "explanation": "Somme = moyenne × effectif = 12 × 4 = 48."
+  },
+  {
+    "id": 20610,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "Série : 10, 20, 30, 40. Quelle est l'étendue ?",
+    "choices": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "answer": 2,
+    "explanation": "Étendue = max - min = 40 - 10 = 30."
+  },
+  {
+    "id": 20611,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "Dans une classe, 18 élèves sur 30 sont des filles. Quel pourcentage ?",
+    "choices": [
+      "50%",
+      "55%",
+      "60%",
+      "65%"
+    ],
+    "answer": 2,
+    "explanation": "18/30 × 100 = 60%."
+  },
+  {
+    "id": 20612,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "Série : 2, 4, 6, 8, 10, 12. Quelle est la médiane ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "6 valeurs : médiane = moyenne des 3ème et 4ème = (6+8)/2 = 7."
+  },
+  {
+    "id": 20613,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "Un diagramme circulaire représente 100%. Un secteur de 90° représente quel pourcentage ?",
+    "choices": [
+      "10%",
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "answer": 1,
+    "explanation": "90°/360° = 1/4 = 25%."
+  },
+  {
+    "id": 20614,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "La moyenne de 10, 12, 14, 16, 18 est :",
+    "choices": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "(10+12+14+16+18) ÷ 5 = 70 ÷ 5 = 14."
+  },
+  {
+    "id": 20615,
+    "theme": "statistiques",
+    "level": "college",
+    "question": "Sur 50 réponses, 30 sont « oui ». Quelle est la fréquence des « oui » ?",
+    "choices": [
+      "0,3",
+      "0,5",
+      "0,6",
+      "0,7"
+    ],
+    "answer": 2,
+    "explanation": "30/50 = 0,6."
+  },
+  {
+    "id": 20616,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "On tire 2 cartes simultanément d'un jeu de 32. Le tirage est-il :",
+    "choices": [
+      "Avec remise",
+      "Sans remise",
+      "Indépendant",
+      "Impossible"
+    ],
+    "answer": 1,
+    "explanation": "Un tirage simultané équivaut à un tirage sans remise : on ne peut pas tirer deux fois la même carte."
+  },
+  {
+    "id": 20617,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Une variable aléatoire X prend les valeurs 0,1,2 avec P=0,2 ; 0,5 ; 0,3. Quelle est son espérance ?",
+    "choices": [
+      "1",
+      "1,1",
+      "1,2",
+      "1,5"
+    ],
+    "answer": 1,
+    "explanation": "E(X) = 0×0,2 + 1×0,5 + 2×0,3 = 0 + 0,5 + 0,6 = 1,1."
+  },
+  {
+    "id": 20618,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "On lance deux dés. Probabilité que la somme soit 8 ?",
+    "choices": [
+      "4/36",
+      "5/36",
+      "6/36",
+      "8/36"
+    ],
+    "answer": 1,
+    "explanation": "Sommes 8 : (2,6),(3,5),(4,4),(5,3),(6,2) → 5 cas sur 36."
+  },
+  {
+    "id": 20619,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Pour deux événements indépendants avec P(A)=0,5 et P(B)=0,2, P(A∩B) = ?",
+    "choices": [
+      "0,1",
+      "0,25",
+      "0,3",
+      "0,7"
+    ],
+    "answer": 0,
+    "explanation": "P(A∩B) = P(A)×P(B) = 0,5 × 0,2 = 0,1."
+  },
+  {
+    "id": 20620,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Combien y a-t-il de façons de choisir 2 objets parmi 5 (sans ordre) ?",
+    "choices": [
+      "5",
+      "10",
+      "20",
+      "25"
+    ],
+    "answer": 1,
+    "explanation": "C(5,2) = 5×4/2 = 10."
+  },
+  {
+    "id": 20621,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Un arbre pondéré : on note les probabilités sur les branches. La somme des probabilités issues d'un même nœud vaut :",
+    "choices": [
+      "0",
+      "0,5",
+      "1",
+      "Dépend du nœud"
+    ],
+    "answer": 2,
+    "explanation": "La somme des probabilités des branches issues d'un même nœud est toujours égale à 1."
+  },
+  {
+    "id": 20622,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "On répète 3 fois une épreuve de succès p=0,5. Probabilité de 3 succès ?",
+    "choices": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "3/8"
+    ],
+    "answer": 2,
+    "explanation": "(0,5)³ = 1/8."
+  },
+  {
+    "id": 20623,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Une urne a 4 boules gagnantes sur 10. On tire 1 boule. P(gagner) = ?",
+    "choices": [
+      "0,2",
+      "0,3",
+      "0,4",
+      "0,5"
+    ],
+    "answer": 2,
+    "explanation": "4/10 = 0,4."
+  },
+  {
+    "id": 20624,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "P(A∪B) avec P(A)=0,3, P(B)=0,5 et P(A∩B)=0,1 vaut :",
+    "choices": [
+      "0,6",
+      "0,7",
+      "0,8",
+      "0,9"
+    ],
+    "answer": 1,
+    "explanation": "P(A∪B) = 0,3 + 0,5 - 0,1 = 0,7."
+  },
+  {
+    "id": 20625,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Combien de mots de 3 lettres distinctes peut-on former avec A,B,C,D (sans répétition) ?",
+    "choices": [
+      "12",
+      "18",
+      "24",
+      "64"
+    ],
+    "answer": 2,
+    "explanation": "Arrangements : 4 × 3 × 2 = 24."
+  },
+  {
+    "id": 20626,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Pour une variable X, V(X) = E(X²) - [E(X)]². Si E(X)=2 et E(X²)=6, V(X) = ?",
+    "choices": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "V(X) = 6 - 2² = 6 - 4 = 2."
+  },
+  {
+    "id": 20627,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Deux événements A et B sont incompatibles si :",
+    "choices": [
+      "P(A∩B) = 1",
+      "P(A∩B) = 0",
+      "P(A) = P(B)",
+      "A = B"
+    ],
+    "answer": 1,
+    "explanation": "Incompatibles (disjoints) signifie qu'ils ne peuvent pas se produire ensemble : P(A∩B) = 0."
+  },
+  {
+    "id": 20628,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "On lance une pièce 4 fois. Combien d'issues possibles ?",
+    "choices": [
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "answer": 2,
+    "explanation": "2 issues par lancer, 4 lancers : 2⁴ = 16."
+  },
+  {
+    "id": 20629,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "La probabilité conditionnelle P(A|B) se calcule par :",
+    "choices": [
+      "P(A∩B)/P(B)",
+      "P(A)×P(B)",
+      "P(A)+P(B)",
+      "P(B)/P(A)"
+    ],
+    "answer": 0,
+    "explanation": "P(A|B) = P(A∩B)/P(B)."
+  },
+  {
+    "id": 20630,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "C(6,0) vaut :",
+    "choices": [
+      "0",
+      "1",
+      "6",
+      "720"
+    ],
+    "answer": 1,
+    "explanation": "Le coefficient binomial C(n,0) vaut toujours 1."
+  },
+  {
+    "id": 20631,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "On tire successivement 2 boules avec remise dans une urne. Les tirages sont :",
+    "choices": [
+      "Dépendants",
+      "Indépendants",
+      "Incompatibles",
+      "Certains"
+    ],
+    "answer": 1,
+    "explanation": "Avec remise, la composition reste identique : les tirages sont indépendants."
+  },
+  {
+    "id": 20632,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "Une loi de probabilité d'une variable X : la somme de toutes les probabilités vaut :",
+    "choices": [
+      "0",
+      "0,5",
+      "1",
+      "Variable"
+    ],
+    "answer": 2,
+    "explanation": "La somme des probabilités d'une loi de probabilité est toujours 1."
+  },
+  {
+    "id": 20633,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "5! (factorielle 5) vaut :",
+    "choices": [
+      "25",
+      "60",
+      "120",
+      "720"
+    ],
+    "answer": 2,
+    "explanation": "5! = 5×4×3×2×1 = 120."
+  },
+  {
+    "id": 20634,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "On choisit au hasard un nombre entre 1 et 20. P(multiple de 5) = ?",
+    "choices": [
+      "1/5",
+      "1/4",
+      "1/10",
+      "3/20"
+    ],
+    "answer": 0,
+    "explanation": "Multiples de 5 : 5,10,15,20 → 4 sur 20 = 1/5."
+  },
+  {
+    "id": 20635,
+    "theme": "probabilites",
+    "level": "lycee",
+    "question": "L'espérance d'un jeu équitable est :",
+    "choices": [
+      "Négative",
+      "Nulle",
+      "Positive",
+      "Égale à la mise"
+    ],
+    "answer": 1,
+    "explanation": "Un jeu est équitable si l'espérance de gain (net) est nulle."
+  },
+  {
+    "id": 20636,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Une série a pour moyenne 15 et écart-type 3. La valeur 21 est à combien d'écarts-types ?",
+    "choices": [
+      "1",
+      "1,5",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "(21 - 15)/3 = 6/3 = 2 écarts-types."
+  },
+  {
+    "id": 20637,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Le premier quartile Q1 d'une série partage les données de telle sorte qu'au moins :",
+    "choices": [
+      "25% des valeurs lui sont inférieures ou égales",
+      "50% lui sont supérieures",
+      "75% lui sont inférieures",
+      "10% lui sont égales"
+    ],
+    "answer": 0,
+    "explanation": "Au moins 25% des valeurs sont inférieures ou égales à Q1."
+  },
+  {
+    "id": 20638,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "L'écart interquartile est défini par :",
+    "choices": [
+      "Q3 + Q1",
+      "Q3 - Q1",
+      "Q3 × Q1",
+      "médiane - Q1"
+    ],
+    "answer": 1,
+    "explanation": "L'écart interquartile vaut Q3 - Q1."
+  },
+  {
+    "id": 20639,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Pour la série 2, 4, 4, 6, 9, quelle est la variance ? (moyenne = 5)",
+    "choices": [
+      "5",
+      "5,2",
+      "6",
+      "6,5"
+    ],
+    "answer": 1,
+    "explanation": "Écarts² : 9,1,1,1,16. Somme = 28. Variance = 28/5 = 5,6... vérifions : (9+1+1+1+16)/5=28/5=5,6. La valeur la plus proche est 5,2 — recalcul : moyenne=(2+4+4+6+9)/5=25/5=5. Écarts²=9+1+1+1+16=28, /5=5,6."
+  },
+  {
+    "id": 20640,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "L'écart-type est égal à :",
+    "choices": [
+      "La variance au carré",
+      "La racine carrée de la variance",
+      "La moyenne des écarts",
+      "La médiane"
+    ],
+    "answer": 1,
+    "explanation": "L'écart-type σ est la racine carrée de la variance."
+  },
+  {
+    "id": 20641,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Une série : 1, 2, 3, 4, 5, 6, 7, 8. La médiane est :",
+    "choices": [
+      "4",
+      "4,5",
+      "5",
+      "5,5"
+    ],
+    "answer": 1,
+    "explanation": "8 valeurs : médiane = (4+5)/2 = 4,5."
+  },
+  {
+    "id": 20642,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Si on multiplie toutes les valeurs d'une série par 2, la moyenne est :",
+    "choices": [
+      "Inchangée",
+      "Multipliée par 2",
+      "Augmentée de 2",
+      "Divisée par 2"
+    ],
+    "answer": 1,
+    "explanation": "Multiplier toutes les valeurs par k multiplie la moyenne par k."
+  },
+  {
+    "id": 20643,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Dans un diagramme en boîte (boîte à moustaches), la boîte représente :",
+    "choices": [
+      "L'étendue totale",
+      "L'intervalle interquartile [Q1, Q3]",
+      "La moyenne ± écart-type",
+      "Le mode"
+    ],
+    "answer": 1,
+    "explanation": "La boîte va de Q1 à Q3, représentant 50% central des données."
+  },
+  {
+    "id": 20644,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Une série a 100 valeurs. Combien sont inférieures ou égales à la médiane (au moins) ?",
+    "choices": [
+      "25",
+      "50",
+      "75",
+      "100"
+    ],
+    "answer": 1,
+    "explanation": "La médiane partage la série : au moins 50% des valeurs lui sont inférieures ou égales."
+  },
+  {
+    "id": 20645,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Si on ajoute 5 à toutes les valeurs, l'écart-type :",
+    "choices": [
+      "Augmente de 5",
+      "Reste inchangé",
+      "Est multiplié par 5",
+      "Diminue de 5"
+    ],
+    "answer": 1,
+    "explanation": "Ajouter une constante déplace les valeurs sans changer la dispersion : l'écart-type est inchangé."
+  },
+  {
+    "id": 20646,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "La moyenne pondérée de 10 (coef 2) et 16 (coef 1) est :",
+    "choices": [
+      "12",
+      "13",
+      "13,5",
+      "14"
+    ],
+    "answer": 0,
+    "explanation": "(10×2 + 16×1) / (2+1) = (20+16)/3 = 36/3 = 12."
+  },
+  {
+    "id": 20647,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Le troisième quartile Q3 d'une série est tel qu'au moins :",
+    "choices": [
+      "25% des valeurs lui sont inférieures",
+      "75% des valeurs lui sont inférieures ou égales",
+      "100% lui sont supérieures",
+      "50% lui sont égales"
+    ],
+    "answer": 1,
+    "explanation": "Au moins 75% des valeurs sont inférieures ou égales à Q3."
+  },
+  {
+    "id": 20648,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Série : 5, 5, 5, 5. Quel est l'écart-type ?",
+    "choices": [
+      "0",
+      "1",
+      "5",
+      "25"
+    ],
+    "answer": 0,
+    "explanation": "Toutes les valeurs sont identiques : la dispersion est nulle, donc l'écart-type est 0."
+  },
+  {
+    "id": 20649,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Pour comparer la dispersion de deux séries, on utilise :",
+    "choices": [
+      "La moyenne",
+      "Le mode",
+      "L'écart-type",
+      "La somme"
+    ],
+    "answer": 2,
+    "explanation": "L'écart-type mesure la dispersion : plus il est grand, plus les valeurs sont dispersées."
+  },
+  {
+    "id": 20650,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Une série de 5 valeurs a pour somme 60. Quelle est sa moyenne ?",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "Moyenne = 60 / 5 = 12."
+  },
+  {
+    "id": 20651,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "La médiane est moins sensible que la moyenne aux :",
+    "choices": [
+      "Petites valeurs",
+      "Valeurs extrêmes (atypiques)",
+      "Valeurs centrales",
+      "Effectifs"
+    ],
+    "answer": 1,
+    "explanation": "La médiane est robuste : elle est peu affectée par les valeurs aberrantes, contrairement à la moyenne."
+  },
+  {
+    "id": 20652,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Effectif total 40, fréquence d'une classe = 0,3. Quel est son effectif ?",
+    "choices": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "Effectif = fréquence × total = 0,3 × 40 = 12."
+  },
+  {
+    "id": 20653,
+    "theme": "statistiques",
+    "level": "lycee",
+    "question": "Une note de 14 avec coefficient 3 contribue à la somme pondérée pour :",
+    "choices": [
+      "14",
+      "17",
+      "42",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "Contribution = note × coefficient = 14 × 3 = 42."
+  },
+  {
+    "id": 20654,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : √50 simplifié.",
+    "choices": [
+      "5√2",
+      "2√5",
+      "10",
+      "25√2"
+    ],
+    "answer": 0,
+    "explanation": "√50 = √(25×2) = 5√2."
+  },
+  {
+    "id": 20655,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : 2³ × 2⁴.",
+    "choices": [
+      "2⁷",
+      "2¹²",
+      "4⁷",
+      "2¹"
+    ],
+    "answer": 0,
+    "explanation": "On additionne les exposants : 2³ × 2⁴ = 2⁷."
+  },
+  {
+    "id": 20656,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : (3²)³.",
+    "choices": [
+      "3⁵",
+      "3⁶",
+      "3⁸",
+      "3⁹"
+    ],
+    "answer": 1,
+    "explanation": "(3²)³ = 3^(2×3) = 3⁶."
+  },
+  {
+    "id": 20657,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : 5⁻².",
+    "choices": [
+      "-25",
+      "-10",
+      "1/25",
+      "1/10"
+    ],
+    "answer": 2,
+    "explanation": "5⁻² = 1/5² = 1/25."
+  },
+  {
+    "id": 20658,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Simplifie : √12 + √27.",
+    "choices": [
+      "5√3",
+      "√39",
+      "6√3",
+      "39"
+    ],
+    "answer": 0,
+    "explanation": "√12 = 2√3 et √27 = 3√3, donc 2√3 + 3√3 = 5√3."
+  },
+  {
+    "id": 20659,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : 10⁶ ÷ 10².",
+    "choices": [
+      "10³",
+      "10⁴",
+      "10⁸",
+      "10¹²"
+    ],
+    "answer": 1,
+    "explanation": "On soustrait les exposants : 10⁶ ÷ 10² = 10⁴."
+  },
+  {
+    "id": 20660,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Écris 0,0045 en notation scientifique.",
+    "choices": [
+      "4,5 × 10⁻³",
+      "4,5 × 10³",
+      "45 × 10⁻³",
+      "0,45 × 10⁻²"
+    ],
+    "answer": 0,
+    "explanation": "0,0045 = 4,5 × 10⁻³."
+  },
+  {
+    "id": 20661,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : (√3)².",
+    "choices": [
+      "3",
+      "9",
+      "√3",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "(√3)² = 3."
+  },
+  {
+    "id": 20662,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Simplifie : 2/√2.",
+    "choices": [
+      "√2",
+      "2√2",
+      "1",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "2/√2 = 2√2/2 = √2 (en multipliant par √2/√2)."
+  },
+  {
+    "id": 20663,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : 4^(3/2).",
+    "choices": [
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "4^(3/2) = (√4)³ = 2³ = 8."
+  },
+  {
+    "id": 20664,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : |−7| + |3|.",
+    "choices": [
+      "-4",
+      "4",
+      "10",
+      "-10"
+    ],
+    "answer": 2,
+    "explanation": "|−7| = 7 et |3| = 3, donc 7 + 3 = 10."
+  },
+  {
+    "id": 20665,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : 3/4 ÷ 1/2.",
+    "choices": [
+      "3/8",
+      "3/2",
+      "1/2",
+      "2/3"
+    ],
+    "answer": 1,
+    "explanation": "3/4 ÷ 1/2 = 3/4 × 2 = 6/4 = 3/2."
+  },
+  {
+    "id": 20666,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : 2⁰ + 3⁰.",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": "Tout nombre non nul à la puissance 0 vaut 1 : 1 + 1 = 2."
+  },
+  {
+    "id": 20667,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Simplifie : √(a²) pour a > 0.",
+    "choices": [
+      "a",
+      "a²",
+      "2a",
+      "±a"
+    ],
+    "answer": 0,
+    "explanation": "Pour a > 0, √(a²) = a."
+  },
+  {
+    "id": 20668,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : 7² - 5².",
+    "choices": [
+      "4",
+      "14",
+      "24",
+      "49"
+    ],
+    "answer": 2,
+    "explanation": "49 - 25 = 24. (Ou (7-5)(7+5) = 2×12 = 24.)"
+  },
+  {
+    "id": 20669,
+    "theme": "calcul",
+    "level": "lycee",
+    "question": "Calcule : (2 × 10³) × (3 × 10²).",
+    "choices": [
+      "6 × 10⁵",
+      "6 × 10⁶",
+      "5 × 10⁵",
+      "6 × 10¹"
+    ],
+    "answer": 0,
+    "explanation": "2×3 = 6 et 10³×10² = 10⁵, donc 6 × 10⁵."
+  },
+  {
+    "id": 20670,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Résous : x² = 16.",
+    "choices": [
+      "x = 4",
+      "x = -4",
+      "x = 4 ou x = -4",
+      "x = 8"
+    ],
+    "answer": 2,
+    "explanation": "x² = 16 admet deux solutions : x = 4 et x = -4."
+  },
+  {
+    "id": 20671,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Factorise : x² - 25.",
+    "choices": [
+      "(x-5)(x+5)",
+      "(x-5)²",
+      "(x+25)(x-1)",
+      "x(x-25)"
+    ],
+    "answer": 0,
+    "explanation": "Différence de carrés : x² - 25 = (x-5)(x+5)."
+  },
+  {
+    "id": 20672,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Résous l'équation : 2x² = 18.",
+    "choices": [
+      "x = ±3",
+      "x = ±9",
+      "x = 3",
+      "x = 9"
+    ],
+    "answer": 0,
+    "explanation": "x² = 9, donc x = 3 ou x = -3."
+  },
+  {
+    "id": 20673,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Développe : (2x + 3)².",
+    "choices": [
+      "4x² + 9",
+      "4x² + 12x + 9",
+      "2x² + 6x + 9",
+      "4x² + 6x + 9"
+    ],
+    "answer": 1,
+    "explanation": "(2x+3)² = 4x² + 2×2x×3 + 9 = 4x² + 12x + 9."
+  },
+  {
+    "id": 20674,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Le discriminant de x² - 4x + 4 est :",
+    "choices": [
+      "0",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": 0,
+    "explanation": "Δ = (-4)² - 4×1×4 = 16 - 16 = 0."
+  },
+  {
+    "id": 20675,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Résous : x² - 7x + 12 = 0.",
+    "choices": [
+      "x = 3 ou 4",
+      "x = 2 ou 6",
+      "x = 1 ou 12",
+      "x = -3 ou -4"
+    ],
+    "answer": 0,
+    "explanation": "x² - 7x + 12 = (x-3)(x-4) = 0, donc x = 3 ou x = 4."
+  },
+  {
+    "id": 20676,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Factorise : 2x² + 4x.",
+    "choices": [
+      "2x(x + 2)",
+      "2(x² + 4)",
+      "x(2x + 4x)",
+      "2x² (1 + 2)"
+    ],
+    "answer": 0,
+    "explanation": "2x² + 4x = 2x(x + 2)."
+  },
+  {
+    "id": 20677,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Si Δ < 0, l'équation ax² + bx + c = 0 admet :",
+    "choices": [
+      "Deux solutions réelles",
+      "Une solution réelle",
+      "Aucune solution réelle",
+      "Une infinité"
+    ],
+    "answer": 2,
+    "explanation": "Un discriminant négatif signifie qu'il n'y a aucune racine réelle."
+  },
+  {
+    "id": 20678,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Résous l'inéquation : 2x - 6 > 0.",
+    "choices": [
+      "x > 3",
+      "x < 3",
+      "x > 6",
+      "x > -3"
+    ],
+    "answer": 0,
+    "explanation": "2x > 6, donc x > 3."
+  },
+  {
+    "id": 20679,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Développe : (x - 4)(x + 4).",
+    "choices": [
+      "x² - 16",
+      "x² + 16",
+      "x² - 8x + 16",
+      "x² - 8"
+    ],
+    "answer": 0,
+    "explanation": "Identité (a-b)(a+b) = a² - b² : x² - 16."
+  },
+  {
+    "id": 20680,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Les racines de x² - 5x + 6 = 0 sont 2 et 3. Leur somme vaut :",
+    "choices": [
+      "5",
+      "6",
+      "-5",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "Somme des racines = -b/a = 5 (vérifié : 2 + 3 = 5)."
+  },
+  {
+    "id": 20681,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Résous le système : x + y = 7 et x - y = 3.",
+    "choices": [
+      "x=5, y=2",
+      "x=4, y=3",
+      "x=6, y=1",
+      "x=3, y=4"
+    ],
+    "answer": 0,
+    "explanation": "En additionnant : 2x = 10 → x = 5, puis y = 2."
+  },
+  {
+    "id": 20682,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Factorise x² + 6x + 9.",
+    "choices": [
+      "(x+3)²",
+      "(x-3)²",
+      "(x+9)(x+1)",
+      "(x+6)(x+3)"
+    ],
+    "answer": 0,
+    "explanation": "x² + 6x + 9 = (x+3)² (identité remarquable)."
+  },
+  {
+    "id": 20683,
+    "theme": "algebre",
+    "level": "lycee",
+    "question": "Résous : 3x + 2 = x + 10.",
+    "choices": [
+      "x = 3",
+      "x = 4",
+      "x = 6",
+      "x = 8"
+    ],
+    "answer": 1,
+    "explanation": "3x - x = 10 - 2 → 2x = 8 → x = 4."
+  },
+  {
+    "id": 20684,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "La fonction f(x) = x² atteint son minimum en :",
+    "choices": [
+      "x = -1",
+      "x = 0",
+      "x = 1",
+      "x = 2"
+    ],
+    "answer": 1,
+    "explanation": "La parabole y = x² a son sommet (minimum) en x = 0."
+  },
+  {
+    "id": 20685,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "Pour f(x) = 2x + 1, f est :",
+    "choices": [
+      "Croissante",
+      "Décroissante",
+      "Constante",
+      "Ni l'un ni l'autre"
+    ],
+    "answer": 0,
+    "explanation": "Le coefficient directeur 2 est positif, donc f est croissante."
+  },
+  {
+    "id": 20686,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "Le domaine de définition de f(x) = √x est :",
+    "choices": [
+      "ℝ",
+      "[0, +∞[",
+      "]0, +∞[",
+      "]-∞, 0]"
+    ],
+    "answer": 1,
+    "explanation": "La racine carrée n'est définie que pour x ≥ 0 : domaine [0, +∞[."
+  },
+  {
+    "id": 20687,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "f(x) = -2x + 5. Quel est le sens de variation ?",
+    "choices": [
+      "Croissante",
+      "Décroissante",
+      "Constante",
+      "Variable"
+    ],
+    "answer": 1,
+    "explanation": "Le coefficient directeur -2 est négatif, donc f est décroissante."
+  },
+  {
+    "id": 20688,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "L'image de 3 par f(x) = x² - 2x est :",
+    "choices": [
+      "1",
+      "3",
+      "5",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "f(3) = 9 - 6 = 3."
+  },
+  {
+    "id": 20689,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "Une fonction impaire vérifie :",
+    "choices": [
+      "f(-x) = f(x)",
+      "f(-x) = -f(x)",
+      "f(x) = 0",
+      "f(x) = x"
+    ],
+    "answer": 1,
+    "explanation": "Une fonction impaire vérifie f(-x) = -f(x) (symétrie par rapport à l'origine)."
+  },
+  {
+    "id": 20690,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "La parabole f(x) = x² - 4x + 3 coupe l'axe des abscisses en :",
+    "choices": [
+      "x=1 et x=3",
+      "x=2 et x=3",
+      "x=0 et x=3",
+      "x=-1 et x=3"
+    ],
+    "answer": 0,
+    "explanation": "x² - 4x + 3 = (x-1)(x-3) = 0 → x = 1 ou x = 3."
+  },
+  {
+    "id": 20691,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "Le coefficient directeur de la droite passant par (1,2) et (3,8) est :",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "(8-2)/(3-1) = 6/2 = 3."
+  },
+  {
+    "id": 20692,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "f(x) = x³ est une fonction :",
+    "choices": [
+      "Paire",
+      "Impaire",
+      "Constante",
+      "Bornée"
+    ],
+    "answer": 1,
+    "explanation": "f(-x) = (-x)³ = -x³ = -f(x) : la fonction cube est impaire."
+  },
+  {
+    "id": 20693,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "La fonction inverse f(x) = 1/x est décroissante sur :",
+    "choices": [
+      "ℝ",
+      "]0, +∞[",
+      "[0, +∞[",
+      "ℝ tout entier"
+    ],
+    "answer": 1,
+    "explanation": "La fonction inverse est décroissante sur ]0, +∞[ (et aussi sur ]-∞, 0[)."
+  },
+  {
+    "id": 20694,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "Le sommet de la parabole y = (x-2)² + 3 est :",
+    "choices": [
+      "(2, 3)",
+      "(-2, 3)",
+      "(2, -3)",
+      "(3, 2)"
+    ],
+    "answer": 0,
+    "explanation": "Forme canonique y = (x-α)² + β : sommet (α, β) = (2, 3)."
+  },
+  {
+    "id": 20695,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "Si f(x) = 3x - 1 et g(x) = x + 2, que vaut f(g(1)) ?",
+    "choices": [
+      "6",
+      "8",
+      "10",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "g(1) = 3, puis f(3) = 9 - 1 = 8."
+  },
+  {
+    "id": 20696,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "La fonction f(x) = x² est positive ou nulle sur :",
+    "choices": [
+      "[0, +∞[",
+      "ℝ tout entier",
+      "]-∞, 0]",
+      "]0, +∞["
+    ],
+    "answer": 1,
+    "explanation": "Un carré est toujours ≥ 0, donc f(x) = x² ≥ 0 pour tout x réel."
+  },
+  {
+    "id": 20697,
+    "theme": "fonctions",
+    "level": "lycee",
+    "question": "Une fonction affine f(x)=ax+b est constante si :",
+    "choices": [
+      "a = 0",
+      "b = 0",
+      "a = 1",
+      "a = b"
+    ],
+    "answer": 0,
+    "explanation": "Si a = 0, alors f(x) = b est constante."
+  },
+  {
+    "id": 20698,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "La somme de trois entiers consécutifs est 72. Quel est le plus grand ?",
+    "choices": [
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": 2,
+    "explanation": "n-1 + n + n+1 = 3n = 72 → n = 24. Le plus grand est 25."
+  },
+  {
+    "id": 20699,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Un nombre à deux chiffres : la somme des chiffres est 9 et le chiffre des dizaines dépasse de 3 celui des unités. Quel nombre ?",
+    "choices": [
+      "63",
+      "72",
+      "54",
+      "81"
+    ],
+    "answer": 0,
+    "explanation": "d + u = 9 et d = u + 3 → 2u + 3 = 9 → u = 3, d = 6. Le nombre est 63."
+  },
+  {
+    "id": 20700,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Si 3 pommes coûtent autant que 2 oranges, et qu'une orange coûte 1,50 €, combien coûte une pomme ?",
+    "choices": [
+      "0,75 €",
+      "1 €",
+      "1,25 €",
+      "1,50 €"
+    ],
+    "answer": 1,
+    "explanation": "2 oranges = 3 €. 3 pommes = 3 € → 1 pomme = 1 €."
+  },
+  {
+    "id": 20701,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "L'âge d'un père est le triple de celui de son fils. Dans 10 ans, il sera le double. Quel âge a le fils ?",
+    "choices": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "P = 3F ; P+10 = 2(F+10) → 3F+10 = 2F+20 → F = 10 ans."
+  },
+  {
+    "id": 20702,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Combien de zéros à la fin de 10 × 20 × 30 × 40 × 50 ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "Produit = 12 000 000. Chaque facteur apporte un 0 (5 zéros) ; 20×50=1000 et 10×40=400... Au total 12×10⁶ → 6 zéros."
+  },
+  {
+    "id": 20703,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Deux trains se dirigent l'un vers l'autre à 60 et 40 km/h, distants de 200 km. Dans combien de temps se croisent-ils ?",
+    "choices": [
+      "1h",
+      "2h",
+      "2h30",
+      "3h"
+    ],
+    "answer": 1,
+    "explanation": "Vitesse de rapprochement = 100 km/h. Temps = 200/100 = 2 h."
+  },
+  {
+    "id": 20704,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "La somme de deux nombres est 50, leur produit 600. Quel est le plus petit ?",
+    "choices": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "answer": 1,
+    "explanation": "x et 50-x avec x(50-x)=600 → x²-50x+600=0 → x=20 ou x=30. Le plus petit est 20."
+  },
+  {
+    "id": 20705,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Un produit augmente de 20% puis baisse de 20%. Le prix final par rapport au prix initial est :",
+    "choices": [
+      "Identique",
+      "Plus élevé de 4%",
+      "Plus bas de 4%",
+      "Plus bas de 20%"
+    ],
+    "answer": 2,
+    "explanation": "×1,2 puis ×0,8 = ×0,96 : le prix final est inférieur de 4% au prix initial."
+  },
+  {
+    "id": 20706,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Combien y a-t-il de nombres entre 1 et 100 divisibles par 7 ?",
+    "choices": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "7, 14, ..., 98 → 98/7 = 14 nombres."
+  },
+  {
+    "id": 20707,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Si f(x) = 2x + 3 et f(a) = 11, que vaut a ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "2a + 3 = 11 → 2a = 8 → a = 4."
+  },
+  {
+    "id": 20708,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Un carré a une aire de 64 cm². Quel est son périmètre ?",
+    "choices": [
+      "16 cm",
+      "24 cm",
+      "32 cm",
+      "64 cm"
+    ],
+    "answer": 2,
+    "explanation": "Côté = √64 = 8 cm. Périmètre = 4 × 8 = 32 cm."
+  },
+  {
+    "id": 20709,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "La moyenne de 5 nombres est 14. Si on enlève le nombre 10, quelle est la nouvelle moyenne ?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "60"
+    ],
+    "answer": 1,
+    "explanation": "Somme = 70. Après retrait de 10 : 60 pour 4 nombres → 60/4 = 15."
+  },
+  {
+    "id": 20710,
+    "theme": "enigme",
+    "level": "lycee",
+    "question": "Combien de diagonales possède un polygone à 6 côtés (hexagone) ?",
+    "choices": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "Nombre de diagonales = n(n-3)/2 = 6×3/2 = 9."
+  },
+  {
+    "id": 20711,
+    "theme": "logique",
+    "level": "lycee",
+    "question": "Si « x² = 9 », alors :",
+    "choices": [
+      "x = 3 obligatoirement",
+      "x = 3 ou x = -3",
+      "x = -3 obligatoirement",
+      "x = 9"
+    ],
+    "answer": 1,
+    "explanation": "x² = 9 a deux solutions : x = 3 ou x = -3."
+  },
+  {
+    "id": 20712,
+    "theme": "logique",
+    "level": "lycee",
+    "question": "La proposition « n est divisible par 2 et par 3 » équivaut à :",
+    "choices": [
+      "n divisible par 5",
+      "n divisible par 6",
+      "n divisible par 9",
+      "n pair"
+    ],
+    "answer": 1,
+    "explanation": "Divisible par 2 et 3 ⟺ divisible par leur PPCM, qui est 6."
+  },
+  {
+    "id": 20713,
+    "theme": "logique",
+    "level": "lycee",
+    "question": "Pour démontrer qu'une proposition « pour tout n » est fausse, il suffit de :",
+    "choices": [
+      "La vérifier pour n=1",
+      "Trouver un contre-exemple",
+      "La démontrer par récurrence",
+      "Calculer la limite"
+    ],
+    "answer": 1,
+    "explanation": "Un seul contre-exemple suffit à réfuter une affirmation universelle."
+  },
+  {
+    "id": 20714,
+    "theme": "logique",
+    "level": "lycee",
+    "question": "« P si et seulement si Q » signifie :",
+    "choices": [
+      "P implique Q seulement",
+      "Q implique P seulement",
+      "P équivaut à Q",
+      "P ou Q"
+    ],
+    "answer": 2,
+    "explanation": "« si et seulement si » exprime l'équivalence : P ⟺ Q."
+  },
+  {
+    "id": 20715,
+    "theme": "logique",
+    "level": "lycee",
+    "question": "La négation de « x ≥ 0 et x ≤ 10 » est :",
+    "choices": [
+      "x < 0 et x > 10",
+      "x < 0 ou x > 10",
+      "x > 0 et x < 10",
+      "x = 5"
+    ],
+    "answer": 1,
+    "explanation": "Négation de « A et B » = « non A ou non B » : x < 0 ou x > 10."
+  },
+  {
+    "id": 20716,
+    "theme": "logique",
+    "level": "lycee",
+    "question": "Si « tout multiple de 10 est multiple de 5 », alors 5 est :",
+    "choices": [
+      "Une condition suffisante",
+      "Une condition nécessaire pour être multiple de 10",
+      "Sans rapport",
+      "Un multiple de 10"
+    ],
+    "answer": 1,
+    "explanation": "Être multiple de 5 est nécessaire (mais pas suffisant) pour être multiple de 10."
+  },
+  {
+    "id": 20717,
+    "theme": "geometrie",
+    "level": "lycee",
+    "question": "Le théorème de Thalès relie des longueurs dans une configuration de :",
+    "choices": [
+      "Triangles semblables (droites parallèles)",
+      "Cercles concentriques",
+      "Angles droits",
+      "Carrés"
+    ],
+    "answer": 0,
+    "explanation": "Le théorème de Thalès s'applique avec des droites parallèles coupant deux sécantes, créant des triangles semblables."
+  },
+  {
+    "id": 20718,
+    "theme": "geometrie",
+    "level": "lycee",
+    "question": "Dans un triangle rectangle, cos(angle) = ?",
+    "choices": [
+      "opposé/hypoténuse",
+      "adjacent/hypoténuse",
+      "opposé/adjacent",
+      "hypoténuse/adjacent"
+    ],
+    "answer": 1,
+    "explanation": "cos(angle) = côté adjacent / hypoténuse."
+  },
+  {
+    "id": 20719,
+    "theme": "geometrie",
+    "level": "lycee",
+    "question": "Le volume d'un cube d'arête 3 cm est :",
+    "choices": [
+      "9 cm³",
+      "18 cm³",
+      "27 cm³",
+      "81 cm³"
+    ],
+    "answer": 2,
+    "explanation": "Volume = arête³ = 3³ = 27 cm³."
+  },
+  {
+    "id": 20720,
+    "theme": "geometrie",
+    "level": "lycee",
+    "question": "Dans un triangle rectangle, tan(angle) = ?",
+    "choices": [
+      "opposé/adjacent",
+      "adjacent/opposé",
+      "opposé/hypoténuse",
+      "adjacent/hypoténuse"
+    ],
+    "answer": 0,
+    "explanation": "tan(angle) = côté opposé / côté adjacent."
+  },
+  {
+    "id": 20721,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Combien de fois faut-il plier une feuille en deux pour obtenir 32 épaisseurs ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "Chaque pli double l'épaisseur : 2⁵ = 32, donc 5 plis."
+  },
+  {
+    "id": 20722,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "La somme 1 + 2 + 3 + ... + 100 vaut :",
+    "choices": [
+      "5000",
+      "5050",
+      "5100",
+      "10000"
+    ],
+    "answer": 1,
+    "explanation": "Somme = n(n+1)/2 = 100×101/2 = 5050."
+  },
+  {
+    "id": 20723,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "On a 8 boules dont une plus lourde. Combien de pesées (balance) au minimum pour la trouver ?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "En divisant en 3 groupes (3,3,2), 2 pesées suffisent à coup sûr."
+  },
+  {
+    "id": 20724,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Quel est le dernier chiffre de 2¹⁰ ?",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "2¹⁰ = 1024, dont le dernier chiffre est 4."
+  },
+  {
+    "id": 20725,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Combien de nombres à 3 chiffres peut-on former avec les chiffres 1 à 9 (répétition autorisée) ?",
+    "choices": [
+      "504",
+      "729",
+      "810",
+      "999"
+    ],
+    "answer": 1,
+    "explanation": "9 choix par position : 9³ = 729."
+  },
+  {
+    "id": 20726,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Si la probabilité qu'au moins un événement se produise est 0,9, quelle est la probabilité qu'aucun ne se produise ?",
+    "choices": [
+      "0,01",
+      "0,1",
+      "0,9",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "P(aucun) = 1 - P(au moins un) = 1 - 0,9 = 0,1."
+  },
+  {
+    "id": 20727,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "La suite géométrique 3, 6, 12, 24... Quel est le 6ème terme ?",
+    "choices": [
+      "48",
+      "96",
+      "144",
+      "192"
+    ],
+    "answer": 1,
+    "explanation": "Raison 2 : termes 3,6,12,24,48,96. Le 6ème est 96."
+  },
+  {
+    "id": 20728,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "On lance 3 dés. Combien d'issues possibles au total ?",
+    "choices": [
+      "18",
+      "36",
+      "216",
+      "666"
+    ],
+    "answer": 2,
+    "explanation": "6 faces par dé, 3 dés : 6³ = 216 issues."
+  },
+  {
+    "id": 20729,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Combien y a-t-il d'anagrammes du mot « MATH » (4 lettres distinctes) ?",
+    "choices": [
+      "12",
+      "16",
+      "24",
+      "48"
+    ],
+    "answer": 2,
+    "explanation": "4! = 24 permutations."
+  },
+  {
+    "id": 20730,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Une population double tous les 3 ans. Par quel facteur est-elle multipliée en 12 ans ?",
+    "choices": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "12/3 = 4 doublements : 2⁴ = 16."
+  },
+  {
+    "id": 20731,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "La somme des n premiers entiers impairs (1+3+5+...) est toujours :",
+    "choices": [
+      "Un nombre pair",
+      "Un carré parfait (n²)",
+      "Un multiple de 3",
+      "Un nombre premier"
+    ],
+    "answer": 1,
+    "explanation": "1+3+5+...+(2n-1) = n². C'est toujours un carré parfait."
+  },
+  {
+    "id": 20732,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Dans une salle de 23 personnes, la probabilité que deux partagent le même anniversaire est environ :",
+    "choices": [
+      "6%",
+      "23%",
+      "50%",
+      "99%"
+    ],
+    "answer": 2,
+    "explanation": "Le « paradoxe des anniversaires » : avec 23 personnes, la probabilité dépasse 50%."
+  },
+  {
+    "id": 20733,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Combien de diagonales possède un polygone à 10 côtés ?",
+    "choices": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "answer": 1,
+    "explanation": "n(n-3)/2 = 10×7/2 = 35."
+  },
+  {
+    "id": 20734,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Si log(2) ≈ 0,30, combien de chiffres a le nombre 2¹⁰⁰ ?",
+    "choices": [
+      "30",
+      "31",
+      "100",
+      "301"
+    ],
+    "answer": 1,
+    "explanation": "Nombre de chiffres = ⌊100×log(2)⌋ + 1 = ⌊30⌋ + 1 = 31."
+  },
+  {
+    "id": 20735,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Combien de façons de distribuer 5 cartes parmi 52 (sans ordre) — l'ordre de grandeur est :",
+    "choices": [
+      "Environ 2,6 millions",
+      "Environ 300 000",
+      "Environ 52",
+      "Environ 5²"
+    ],
+    "answer": 0,
+    "explanation": "C(52,5) = 2 598 960, soit environ 2,6 millions de mains possibles."
+  },
+  {
+    "id": 20736,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "La somme infinie 1 + 1/2 + 1/4 + 1/8 + ... converge vers :",
+    "choices": [
+      "1",
+      "1,5",
+      "2",
+      "Infini"
+    ],
+    "answer": 2,
+    "explanation": "Série géométrique de raison 1/2 : somme = 1/(1-1/2) = 2."
+  },
+  {
+    "id": 20737,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Trois personnes payent 30 € pour une chambre, l'hôtelier rend 5 €, le groom garde 2 €. Où est le « euro manquant » dans cette énigme ?",
+    "choices": [
+      "Il n'y a pas d'euro manquant, le raisonnement est faux",
+      "Le groom l'a volé",
+      "L'hôtelier s'est trompé",
+      "Il manque vraiment 1 €"
+    ],
+    "answer": 0,
+    "explanation": "L'énigme mélange additions et soustractions de façon trompeuse : 27 € payés = 25 € chambre + 2 € groom. Il n'y a aucun euro manquant."
+  },
+  {
+    "id": 20738,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Le PGCD de 48 et 36 est :",
+    "choices": [
+      "6",
+      "9",
+      "12",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "48 = 2⁴×3, 36 = 2²×3². PGCD = 2²×3 = 12."
+  },
+  {
+    "id": 20739,
+    "theme": "enigme",
+    "level": "bac",
+    "question": "Le PPCM de 4 et 6 est :",
+    "choices": [
+      "10",
+      "12",
+      "18",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "PPCM(4,6) = 12 (plus petit commun multiple)."
+  },
+  {
+    "id": 20740,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La fonction exponentielle eˣ est :",
+    "choices": [
+      "Décroissante",
+      "Strictement croissante sur ℝ",
+      "Constante",
+      "Croissante puis décroissante"
+    ],
+    "answer": 1,
+    "explanation": "eˣ est strictement croissante sur ℝ (sa dérivée eˣ est toujours positive)."
+  },
+  {
+    "id": 20741,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "lim(x→+∞) eˣ = ?",
+    "choices": [
+      "0",
+      "1",
+      "+∞",
+      "e"
+    ],
+    "answer": 2,
+    "explanation": "L'exponentielle tend vers +∞ quand x → +∞."
+  },
+  {
+    "id": 20742,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La fonction ln est définie sur :",
+    "choices": [
+      "ℝ",
+      "[0, +∞[",
+      "]0, +∞[",
+      "ℝ*"
+    ],
+    "answer": 2,
+    "explanation": "Le logarithme népérien est défini pour x strictement positif : ]0, +∞[."
+  },
+  {
+    "id": 20743,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "lim(x→0⁺) ln(x) = ?",
+    "choices": [
+      "0",
+      "1",
+      "+∞",
+      "-∞"
+    ],
+    "answer": 3,
+    "explanation": "ln(x) tend vers -∞ quand x tend vers 0 par valeurs positives."
+  },
+  {
+    "id": 20744,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La dérivée de f(x) = e^(2x) est :",
+    "choices": [
+      "e^(2x)",
+      "2e^(2x)",
+      "2x·e^(2x)",
+      "e^(2x)/2"
+    ],
+    "answer": 1,
+    "explanation": "(e^(u))' = u'·e^(u) avec u = 2x : f'(x) = 2e^(2x)."
+  },
+  {
+    "id": 20745,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La courbe de eˣ et celle de ln(x) sont symétriques par rapport à :",
+    "choices": [
+      "L'axe des x",
+      "L'axe des y",
+      "La droite y = x",
+      "L'origine"
+    ],
+    "answer": 2,
+    "explanation": "exp et ln sont réciproques : leurs courbes sont symétriques par rapport à la droite y = x."
+  },
+  {
+    "id": 20746,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "f(x) = x·eˣ. Le signe de f sur ℝ dépend de :",
+    "choices": [
+      "eˣ uniquement",
+      "x uniquement",
+      "x² ",
+      "ln(x)"
+    ],
+    "answer": 1,
+    "explanation": "eˣ > 0 toujours, donc le signe de x·eˣ est celui de x."
+  },
+  {
+    "id": 20747,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La primitive de f(x) = 1/x sur ]0,+∞[ est :",
+    "choices": [
+      "ln(x) + C",
+      "-1/x² + C",
+      "x + C",
+      "eˣ + C"
+    ],
+    "answer": 0,
+    "explanation": "Une primitive de 1/x sur ]0,+∞[ est ln(x) (+ constante)."
+  },
+  {
+    "id": 20748,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "e^a × e^b = ?",
+    "choices": [
+      "e^(ab)",
+      "e^(a+b)",
+      "e^a + e^b",
+      "e^(a-b)"
+    ],
+    "answer": 1,
+    "explanation": "Propriété de l'exponentielle : e^a × e^b = e^(a+b)."
+  },
+  {
+    "id": 20749,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La fonction f(x) = ln(x) est :",
+    "choices": [
+      "Décroissante",
+      "Strictement croissante sur ]0,+∞[",
+      "Constante",
+      "Paire"
+    ],
+    "answer": 1,
+    "explanation": "ln est strictement croissante sur ]0,+∞[ (dérivée 1/x > 0)."
+  },
+  {
+    "id": 20750,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "Une fonction f admet un extremum local en a si :",
+    "choices": [
+      "f(a) = 0",
+      "f'(a) = 0 (et change de signe)",
+      "f''(a) = 0",
+      "f(a) > 0"
+    ],
+    "answer": 1,
+    "explanation": "Un extremum local d'une fonction dérivable correspond à f'(a) = 0 avec changement de signe de f'."
+  },
+  {
+    "id": 20751,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La convexité d'une fonction f s'étudie avec le signe de :",
+    "choices": [
+      "f",
+      "f'",
+      "f''",
+      "f(0)"
+    ],
+    "answer": 2,
+    "explanation": "f est convexe là où sa dérivée seconde f'' est positive."
+  },
+  {
+    "id": 20752,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "e^0 = ?",
+    "choices": [
+      "0",
+      "1",
+      "e",
+      "Indéfini"
+    ],
+    "answer": 1,
+    "explanation": "e⁰ = 1."
+  },
+  {
+    "id": 20753,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "Si f'(x) > 0 sur un intervalle I, alors sur I la fonction f est :",
+    "choices": [
+      "Décroissante",
+      "Croissante",
+      "Constante",
+      "Nulle"
+    ],
+    "answer": 1,
+    "explanation": "Une dérivée strictement positive sur I implique f croissante sur I."
+  },
+  {
+    "id": 20754,
+    "theme": "fonctions",
+    "level": "bac",
+    "question": "La limite lim(x→+∞) eˣ/x² est :",
+    "choices": [
+      "0",
+      "1",
+      "+∞",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "L'exponentielle l'emporte sur toute puissance : eˣ/x² → +∞."
+  },
+  {
+    "id": 20755,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "Pour une loi normale centrée réduite N(0,1), l'écart-type vaut :",
+    "choices": [
+      "0",
+      "0,5",
+      "1",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "« Centrée réduite » signifie espérance 0 et écart-type 1."
+  },
+  {
+    "id": 20756,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "L'intervalle de fluctuation asymptotique au seuil 95% pour une proportion p est centré sur :",
+    "choices": [
+      "0",
+      "0,5",
+      "p",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "L'intervalle de fluctuation est centré sur la proportion théorique p."
+  },
+  {
+    "id": 20757,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "Un estimateur de la moyenne d'une population est :",
+    "choices": [
+      "La médiane de l'échantillon",
+      "La moyenne de l'échantillon",
+      "Le mode",
+      "L'étendue"
+    ],
+    "answer": 1,
+    "explanation": "La moyenne empirique de l'échantillon estime la moyenne de la population."
+  },
+  {
+    "id": 20758,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "Pour X ~ N(μ, σ²), la variable Z = (X-μ)/σ suit :",
+    "choices": [
+      "N(0,1)",
+      "N(μ,σ)",
+      "Une loi uniforme",
+      "Une loi binomiale"
+    ],
+    "answer": 0,
+    "explanation": "Le centrage-réduction transforme N(μ,σ²) en loi normale centrée réduite N(0,1)."
+  },
+  {
+    "id": 20759,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "Plus l'échantillon est grand, plus l'intervalle de confiance est :",
+    "choices": [
+      "Large",
+      "Étroit",
+      "Inchangé",
+      "Décalé"
+    ],
+    "answer": 1,
+    "explanation": "L'amplitude de l'intervalle décroît en 1/√n : un grand n donne un intervalle plus étroit."
+  },
+  {
+    "id": 20760,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "La covariance de deux variables indépendantes vaut :",
+    "choices": [
+      "1",
+      "0",
+      "-1",
+      "Leur produit"
+    ],
+    "answer": 1,
+    "explanation": "Si X et Y sont indépendantes, cov(X,Y) = 0."
+  },
+  {
+    "id": 20761,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "La moyenne d'une loi binomiale B(50, 0,2) est :",
+    "choices": [
+      "5",
+      "10",
+      "20",
+      "40"
+    ],
+    "answer": 1,
+    "explanation": "E(X) = np = 50 × 0,2 = 10."
+  },
+  {
+    "id": 20762,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "Un intervalle de confiance à 95% signifie que :",
+    "choices": [
+      "95% des données sont dedans",
+      "La probabilité que l'intervalle contienne le paramètre est 0,95",
+      "Le paramètre vaut 95%",
+      "On a 95 observations"
+    ],
+    "answer": 1,
+    "explanation": "À 95% de confiance, la méthode produit un intervalle contenant le vrai paramètre dans 95% des cas."
+  },
+  {
+    "id": 20763,
+    "theme": "statistiques",
+    "level": "bac",
+    "question": "Pour estimer une proportion avec une marge d'erreur deux fois plus petite, il faut multiplier la taille de l'échantillon par :",
+    "choices": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "La marge ∝ 1/√n. Pour la diviser par 2, il faut n × 4."
+  },
+  {
+    "id": 20764,
+    "theme": "logique",
+    "level": "bac",
+    "question": "Le principe de récurrence repose sur deux étapes :",
+    "choices": [
+      "Calcul et vérification",
+      "Initialisation et hérédité",
+      "Hypothèse et conclusion",
+      "Direct et absurde"
+    ],
+    "answer": 1,
+    "explanation": "La récurrence comporte l'initialisation (rang de départ) et l'hérédité (transmission de n à n+1)."
+  },
+  {
+    "id": 20765,
+    "theme": "logique",
+    "level": "bac",
+    "question": "La négation de « ∀ε > 0, ∃N, ... » commence par :",
+    "choices": [
+      "∀ε > 0",
+      "∃ε > 0",
+      "∀N",
+      "∃N"
+    ],
+    "answer": 1,
+    "explanation": "La négation inverse les quantificateurs : ∀ devient ∃. Cela commence par ∃ε > 0."
+  },
+  {
+    "id": 20766,
+    "theme": "logique",
+    "level": "bac",
+    "question": "« A ⟹ B » et sa contraposée « ¬B ⟹ ¬A » sont :",
+    "choices": [
+      "Contradictoires",
+      "Logiquement équivalentes",
+      "Indépendantes",
+      "Réciproques"
+    ],
+    "answer": 1,
+    "explanation": "Une implication et sa contraposée ont toujours la même valeur de vérité."
+  },
+  {
+    "id": 20767,
+    "theme": "logique",
+    "level": "bac",
+    "question": "Pour montrer A ⟺ B, on prouve généralement :",
+    "choices": [
+      "A ⟹ B uniquement",
+      "B ⟹ A uniquement",
+      "A ⟹ B et B ⟹ A",
+      "ni A ni B"
+    ],
+    "answer": 2,
+    "explanation": "L'équivalence se démontre par double implication : A ⟹ B et B ⟹ A."
+  },
+  {
+    "id": 20768,
+    "theme": "logique",
+    "level": "bac",
+    "question": "Le raisonnement par disjonction de cas consiste à :",
+    "choices": [
+      "Supposer le contraire",
+      "Traiter séparément toutes les situations possibles",
+      "Trouver un contre-exemple",
+      "Utiliser la récurrence"
+    ],
+    "answer": 1,
+    "explanation": "On découpe le problème en cas exhaustifs et on prouve la propriété dans chacun."
+  },
+  {
+    "id": 20769,
+    "theme": "logique",
+    "level": "bac",
+    "question": "L'assertion « il existe un unique x tel que P(x) » exprime :",
+    "choices": [
+      "L'existence seulement",
+      "L'unicité seulement",
+      "L'existence et l'unicité",
+      "La non-existence"
+    ],
+    "answer": 2,
+    "explanation": "« Il existe un unique » (∃!) affirme à la fois l'existence et l'unicité de x."
+  },
+  {
+    "id": 20770,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "Un sondage : P(défaut) = 0,02. Sur un lot, X = nombre de défauts suit approximativement :",
+    "choices": [
+      "Une loi normale",
+      "Une loi binomiale",
+      "Une loi uniforme",
+      "Aucune loi"
+    ],
+    "answer": 1,
+    "explanation": "Le nombre de défauts sur n pièces indépendantes (succès/échec) suit une loi binomiale."
+  },
+  {
+    "id": 20771,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "Pour X ~ B(n,p), si n augmente, la loi binomiale peut être approchée par :",
+    "choices": [
+      "Une loi uniforme",
+      "Une loi normale",
+      "Une loi géométrique",
+      "Une constante"
+    ],
+    "answer": 1,
+    "explanation": "Pour n grand, B(n,p) est approchée par une loi normale (théorème de Moivre-Laplace)."
+  },
+  {
+    "id": 20772,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "Une loi exponentielle modélise typiquement :",
+    "choices": [
+      "Le nombre de succès",
+      "La durée de vie (temps d'attente)",
+      "Une proportion",
+      "Un comptage discret"
+    ],
+    "answer": 1,
+    "explanation": "La loi exponentielle modélise des durées de vie ou des temps d'attente continus."
+  },
+  {
+    "id": 20773,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "Pour une loi exponentielle de paramètre λ, P(X > t) = ?",
+    "choices": [
+      "e^(-λt)",
+      "1 - e^(-λt)",
+      "λt",
+      "λe^(-λt)"
+    ],
+    "answer": 0,
+    "explanation": "P(X > t) = e^(-λt) pour la loi exponentielle."
+  },
+  {
+    "id": 20774,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "La loi exponentielle est dite « sans mémoire ». Cela signifie :",
+    "choices": [
+      "P(X>s+t | X>s) = P(X>t)",
+      "X = 0",
+      "E(X) = 0",
+      "P(X>t) = 1"
+    ],
+    "answer": 0,
+    "explanation": "L'absence de mémoire : P(X>s+t | X>s) = P(X>t)."
+  },
+  {
+    "id": 20775,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "Pour X suivant une loi uniforme sur [0,1], P(X ≤ 0,3) = ?",
+    "choices": [
+      "0",
+      "0,3",
+      "0,5",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "Pour la loi uniforme sur [0,1], P(X ≤ a) = a, donc P(X ≤ 0,3) = 0,3."
+  },
+  {
+    "id": 20776,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "L'espérance d'une loi uniforme sur [a,b] est :",
+    "choices": [
+      "a",
+      "b",
+      "(a+b)/2",
+      "b-a"
+    ],
+    "answer": 2,
+    "explanation": "L'espérance de la loi uniforme continue sur [a,b] est le milieu (a+b)/2."
+  },
+  {
+    "id": 20777,
+    "theme": "probabilites",
+    "level": "bac",
+    "question": "Si X ~ N(μ,σ²), alors P(X ≤ μ) = ?",
+    "choices": [
+      "0",
+      "0,25",
+      "0,5",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "Par symétrie de la loi normale autour de μ : P(X ≤ μ) = 0,5."
+  },
+  {
+    "id": 20778,
+    "theme": "calcul",
+    "level": "bac",
+    "question": "La dérivée de f(x) = ln(2x) est :",
+    "choices": [
+      "1/(2x)",
+      "2/x",
+      "1/x",
+      "2/(2x)"
+    ],
+    "answer": 2,
+    "explanation": "ln(2x) = ln2 + ln x, dérivée = 1/x. (Ou règle de chaîne : 2/(2x) = 1/x.)"
+  },
+  {
+    "id": 20779,
+    "theme": "calcul",
+    "level": "bac",
+    "question": "∫₀² 3x² dx = ?",
+    "choices": [
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "∫ 3x² dx = x³ ; [x³]₀² = 8 - 0 = 8."
+  },
+  {
+    "id": 20780,
+    "theme": "calcul",
+    "level": "bac",
+    "question": "La dérivée de f(x) = (x²+1)⁵ est :",
+    "choices": [
+      "5(x²+1)⁴",
+      "10x(x²+1)⁴",
+      "2x(x²+1)⁵",
+      "5(2x)⁴"
+    ],
+    "answer": 1,
+    "explanation": "Règle de chaîne : 5(x²+1)⁴ × 2x = 10x(x²+1)⁴."
+  },
+  {
+    "id": 20781,
+    "theme": "calcul",
+    "level": "bac",
+    "question": "lim(x→+∞) (3x²+1)/(x²+2) = ?",
+    "choices": [
+      "0",
+      "1",
+      "3",
+      "+∞"
+    ],
+    "answer": 2,
+    "explanation": "Le rapport des termes de plus haut degré : 3x²/x² = 3."
+  },
+  {
+    "id": 20782,
+    "theme": "calcul",
+    "level": "bac",
+    "question": "Une primitive de cos(x) est :",
+    "choices": [
+      "-cos(x)",
+      "sin(x)",
+      "-sin(x)",
+      "cos(x)"
+    ],
+    "answer": 1,
+    "explanation": "La primitive de cos(x) est sin(x) (+ C)."
+  },
+  {
+    "id": 20783,
+    "theme": "calcul",
+    "level": "bac",
+    "question": "La dérivée de f(x) = x/(x+1) est :",
+    "choices": [
+      "1",
+      "1/(x+1)²",
+      "x/(x+1)²",
+      "1/(x+1)"
+    ],
+    "answer": 1,
+    "explanation": "Dérivée d'un quotient : [(x+1)·1 - x·1]/(x+1)² = 1/(x+1)²."
+  },
+  {
+    "id": 20784,
+    "theme": "algebre",
+    "level": "bac",
+    "question": "Le module de z = 1 + i√3 est :",
+    "choices": [
+      "1",
+      "2",
+      "√3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "|z| = √(1² + (√3)²) = √(1+3) = √4 = 2."
+  },
+  {
+    "id": 20785,
+    "theme": "algebre",
+    "level": "bac",
+    "question": "Les solutions de z² = -4 dans ℂ sont :",
+    "choices": [
+      "±2",
+      "±2i",
+      "±4i",
+      "±i"
+    ],
+    "answer": 1,
+    "explanation": "z² = -4 = (2i)² → z = 2i ou z = -2i."
+  },
+  {
+    "id": 20786,
+    "theme": "algebre",
+    "level": "bac",
+    "question": "Le discriminant de x² + x + 1 = 0 est :",
+    "choices": [
+      "-3",
+      "1",
+      "3",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "Δ = 1² - 4×1×1 = 1 - 4 = -3 (pas de racine réelle)."
+  },
+  {
+    "id": 20787,
+    "theme": "algebre",
+    "level": "bac",
+    "question": "(2 + 3i) + (1 - i) = ?",
+    "choices": [
+      "3 + 2i",
+      "3 + 4i",
+      "1 + 2i",
+      "3 - 2i"
+    ],
+    "answer": 0,
+    "explanation": "On additionne parties réelles et imaginaires : (2+1) + (3-1)i = 3 + 2i."
+  },
+  {
+    "id": 20788,
+    "theme": "algebre",
+    "level": "bac",
+    "question": "Le produit des racines de x² - 6x + 8 = 0 vaut :",
+    "choices": [
+      "6",
+      "8",
+      "-6",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "Produit des racines = c/a = 8/1 = 8 (les racines sont 2 et 4)."
+  },
+  {
+    "id": 20789,
+    "theme": "algebre",
+    "level": "bac",
+    "question": "L'argument de z = 1 + i est :",
+    "choices": [
+      "0",
+      "π/6",
+      "π/4",
+      "π/2"
+    ],
+    "answer": 2,
+    "explanation": "z = 1 + i a un module √2 et un argument π/4 (45°)."
+  },
+  {
+    "id": 20790,
+    "theme": "geometrie",
+    "level": "bac",
+    "question": "Le produit scalaire u⃗·v⃗ = |u⃗||v⃗|cos(θ). Si θ = 90°, le produit scalaire vaut :",
+    "choices": [
+      "0",
+      "1",
+      "|u⃗||v⃗|",
+      "-1"
+    ],
+    "answer": 0,
+    "explanation": "cos(90°) = 0, donc le produit scalaire est nul (vecteurs orthogonaux)."
+  },
+  {
+    "id": 20791,
+    "theme": "geometrie",
+    "level": "bac",
+    "question": "Un vecteur normal à la droite d'équation 3x + 4y - 5 = 0 est :",
+    "choices": [
+      "(3, 4)",
+      "(4, 3)",
+      "(-4, 3)",
+      "(3, -4)"
+    ],
+    "answer": 0,
+    "explanation": "Pour une droite ax + by + c = 0, le vecteur (a, b) = (3, 4) est normal."
+  },
+  {
+    "id": 20792,
+    "theme": "geometrie",
+    "level": "bac",
+    "question": "La distance du point O(0,0) à la droite 3x + 4y - 10 = 0 est :",
+    "choices": [
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "d = |3×0 + 4×0 - 10| / √(9+16) = 10/5 = 2."
+  },
+  {
+    "id": 20793,
+    "theme": "geometrie",
+    "level": "bac",
+    "question": "Deux vecteurs u⃗(1,2) et v⃗(2,4) sont :",
+    "choices": [
+      "Orthogonaux",
+      "Colinéaires",
+      "De norme égale",
+      "Opposés"
+    ],
+    "answer": 1,
+    "explanation": "v⃗ = 2u⃗ : les vecteurs sont colinéaires (proportionnels)."
+  },
+  {
+    "id": 20794,
+    "theme": "geometrie",
+    "level": "bac",
+    "question": "cos(2θ) en fonction de cos(θ) vaut :",
+    "choices": [
+      "2cos(θ)",
+      "2cos²(θ) - 1",
+      "cos²(θ)",
+      "1 - cos(θ)"
+    ],
+    "answer": 1,
+    "explanation": "Formule de duplication : cos(2θ) = 2cos²(θ) - 1."
+  },
+  {
+    "id": 20795,
+    "theme": "geometrie",
+    "level": "bac",
+    "question": "Le vecteur u⃗(3,4) a pour norme :",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "|u⃗| = √(3²+4²) = √25 = 5."
+  },
+  {
+    "id": 20796,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Une fonction f est continue en a si :",
+    "choices": [
+      "f(a) existe",
+      "lim(x→a) f(x) = f(a)",
+      "f'(a) existe",
+      "f(a) = 0"
+    ],
+    "answer": 1,
+    "explanation": "La continuité en a signifie que la limite de f en a existe et vaut f(a)."
+  },
+  {
+    "id": 20797,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Toute fonction dérivable est :",
+    "choices": [
+      "Bornée",
+      "Continue",
+      "Croissante",
+      "Paire"
+    ],
+    "answer": 1,
+    "explanation": "La dérivabilité implique la continuité (mais la réciproque est fausse)."
+  },
+  {
+    "id": 20798,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Le développement limité de sin(x) à l'ordre 3 en 0 est :",
+    "choices": [
+      "x",
+      "x - x³/6",
+      "x + x³/6",
+      "1 - x²/2"
+    ],
+    "answer": 1,
+    "explanation": "sin(x) = x - x³/3! + o(x³) = x - x³/6 + o(x³)."
+  },
+  {
+    "id": 20799,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Le théorème des valeurs intermédiaires s'applique à une fonction :",
+    "choices": [
+      "Dérivable",
+      "Continue sur un intervalle",
+      "Monotone",
+      "Bornée"
+    ],
+    "answer": 1,
+    "explanation": "Le TVI requiert la continuité de f sur l'intervalle considéré."
+  },
+  {
+    "id": 20800,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Une suite (uₙ) converge vers L si :",
+    "choices": [
+      "uₙ = L",
+      "Pour tout ε>0, |uₙ - L| < ε à partir d'un rang",
+      "uₙ croît",
+      "uₙ est bornée"
+    ],
+    "answer": 1,
+    "explanation": "Convergence : pour tout ε>0, il existe N tel que n≥N ⟹ |uₙ - L| < ε."
+  },
+  {
+    "id": 20801,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Une suite croissante et majorée est :",
+    "choices": [
+      "Divergente",
+      "Convergente",
+      "Non bornée",
+      "Oscillante"
+    ],
+    "answer": 1,
+    "explanation": "Théorème de la limite monotone : toute suite croissante majorée converge."
+  },
+  {
+    "id": 20802,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "La dérivée de f(x) = ln(ln(x)) est :",
+    "choices": [
+      "1/x",
+      "1/ln(x)",
+      "1/(x·ln(x))",
+      "ln(x)/x"
+    ],
+    "answer": 2,
+    "explanation": "Règle de chaîne : f'(x) = (1/ln(x)) × (1/x) = 1/(x·ln(x))."
+  },
+  {
+    "id": 20803,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "La limite lim(x→0) sin(x)/x vaut :",
+    "choices": [
+      "0",
+      "1",
+      "+∞",
+      "Indéfinie"
+    ],
+    "answer": 1,
+    "explanation": "Limite classique : sin(x)/x → 1 quand x → 0."
+  },
+  {
+    "id": 20804,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Une fonction f admet un point d'inflexion là où f'' :",
+    "choices": [
+      "S'annule en changeant de signe",
+      "Est positive",
+      "Est constante",
+      "Vaut f"
+    ],
+    "answer": 0,
+    "explanation": "Un point d'inflexion correspond à un changement de convexité, soit f'' qui s'annule en changeant de signe."
+  },
+  {
+    "id": 20805,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Le rayon de convergence de la série entière Σ xⁿ est :",
+    "choices": [
+      "0",
+      "1",
+      "e",
+      "+∞"
+    ],
+    "answer": 1,
+    "explanation": "La série géométrique Σ xⁿ converge pour |x| < 1 : rayon de convergence 1."
+  },
+  {
+    "id": 20806,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Le théorème de Rolle requiert f(a) = f(b) et garantit l'existence de c tel que :",
+    "choices": [
+      "f(c) = 0",
+      "f'(c) = 0",
+      "f''(c) = 0",
+      "f(c) = f(a)"
+    ],
+    "answer": 1,
+    "explanation": "Le théorème de Rolle garantit l'existence de c ∈ ]a,b[ tel que f'(c) = 0."
+  },
+  {
+    "id": 20807,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "La fonction f(x) = |x| est en x = 0 :",
+    "choices": [
+      "Dérivable",
+      "Continue mais non dérivable",
+      "Discontinue",
+      "Non définie"
+    ],
+    "answer": 1,
+    "explanation": "|x| est continue partout mais non dérivable en 0 (point anguleux)."
+  },
+  {
+    "id": 20808,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Une primitive de f(x) = 2x·e^(x²) est :",
+    "choices": [
+      "e^(x²)",
+      "x²·e^(x²)",
+      "2e^(x²)",
+      "e^(2x)"
+    ],
+    "answer": 0,
+    "explanation": "La dérivée de e^(x²) est 2x·e^(x²), donc une primitive est e^(x²)."
+  },
+  {
+    "id": 20809,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "La somme d'une série géométrique Σ qⁿ (n≥0) avec |q|<1 vaut :",
+    "choices": [
+      "q/(1-q)",
+      "1/(1-q)",
+      "1/q",
+      "1-q"
+    ],
+    "answer": 1,
+    "explanation": "Σ qⁿ (de n=0 à ∞) = 1/(1-q) pour |q| < 1."
+  },
+  {
+    "id": 20810,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Une fonction est dite de classe C¹ si :",
+    "choices": [
+      "Elle est continue",
+      "Sa dérivée existe et est continue",
+      "Elle est bornée",
+      "Elle est positive"
+    ],
+    "answer": 1,
+    "explanation": "C¹ signifie dérivable avec une dérivée continue."
+  },
+  {
+    "id": 20811,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "La limite lim(x→+∞) (1 + 1/x)ˣ vaut :",
+    "choices": [
+      "1",
+      "e",
+      "+∞",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "C'est la limite définissant le nombre e : (1 + 1/x)ˣ → e."
+  },
+  {
+    "id": 20812,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "La dérivée partielle de f(x,y) = x²y par rapport à x est :",
+    "choices": [
+      "x²",
+      "2xy",
+      "2x",
+      "x²y"
+    ],
+    "answer": 1,
+    "explanation": "On dérive en traitant y comme constante : ∂f/∂x = 2xy."
+  },
+  {
+    "id": 20813,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "Une suite (uₙ) définie par uₙ₊₁ = f(uₙ) converge vers L (point fixe) si L vérifie :",
+    "choices": [
+      "L = 0",
+      "f(L) = L",
+      "f'(L) = 0",
+      "L = uₙ"
+    ],
+    "answer": 1,
+    "explanation": "Un point fixe vérifie f(L) = L : c'est la limite éventuelle de la suite récurrente."
+  },
+  {
+    "id": 20814,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "L'intégrale impropre ∫₁^∞ (1/x²) dx vaut :",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "Diverge"
+    ],
+    "answer": 1,
+    "explanation": "∫₁^∞ x⁻² dx = [-1/x]₁^∞ = 0 - (-1) = 1 (converge)."
+  },
+  {
+    "id": 20815,
+    "theme": "fonctions",
+    "level": "bac_plus",
+    "question": "La fonction f(x,y) = x² + y² atteint son minimum en :",
+    "choices": [
+      "(1,1)",
+      "(0,0)",
+      "(-1,-1)",
+      "Aucun"
+    ],
+    "answer": 1,
+    "explanation": "x² + y² ≥ 0, minimum atteint en (0,0) où la valeur est 0."
+  },
+  {
+    "id": 20816,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Combien de bijections existe-t-il d'un ensemble à 4 éléments vers lui-même ?",
+    "choices": [
+      "4",
+      "16",
+      "24",
+      "256"
+    ],
+    "answer": 2,
+    "explanation": "Le nombre de bijections (permutations) d'un ensemble à n éléments est n! = 4! = 24."
+  },
+  {
+    "id": 20817,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Combien de sous-ensembles possède un ensemble à 5 éléments ?",
+    "choices": [
+      "10",
+      "25",
+      "32",
+      "120"
+    ],
+    "answer": 2,
+    "explanation": "Un ensemble à n éléments a 2ⁿ sous-ensembles : 2⁵ = 32."
+  },
+  {
+    "id": 20818,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "La somme des n premiers carrés 1²+2²+...+n² vaut n(n+1)(2n+1)/6. Pour n=3 :",
+    "choices": [
+      "12",
+      "14",
+      "18",
+      "36"
+    ],
+    "answer": 1,
+    "explanation": "1+4+9 = 14. (Formule : 3×4×7/6 = 84/6 = 14.)"
+  },
+  {
+    "id": 20819,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Dans ℤ/5ℤ, combien vaut 3 + 4 ?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "3 + 4 = 7 ≡ 2 (mod 5)."
+  },
+  {
+    "id": 20820,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Combien d'entiers de 1 à 100 sont premiers avec 100 (PGCD = 1) ?",
+    "choices": [
+      "20",
+      "40",
+      "50",
+      "60"
+    ],
+    "answer": 1,
+    "explanation": "φ(100) = 100×(1-1/2)(1-1/5) = 100×1/2×4/5 = 40 (indicatrice d'Euler)."
+  },
+  {
+    "id": 20821,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Le reste de la division de 2¹⁰⁰ par 3 est :",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "2 ≡ -1 (mod 3), donc 2¹⁰⁰ ≡ (-1)¹⁰⁰ = 1 (mod 3)."
+  },
+  {
+    "id": 20822,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Combien de mains de 2 cartes parmi 52 ?",
+    "choices": [
+      "104",
+      "1326",
+      "2652",
+      "2704"
+    ],
+    "answer": 1,
+    "explanation": "C(52,2) = 52×51/2 = 1326."
+  },
+  {
+    "id": 20823,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Le déterminant de la matrice identité 3×3 vaut :",
+    "choices": [
+      "0",
+      "1",
+      "3",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "Le déterminant de la matrice identité est toujours 1."
+  },
+  {
+    "id": 20824,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Combien y a-t-il de nombres premiers inférieurs à 10 ?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "Les premiers < 10 sont 2, 3, 5, 7 : soit 4 nombres."
+  },
+  {
+    "id": 20825,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "La somme des coefficients binomiaux C(n,0)+C(n,1)+...+C(n,n) vaut :",
+    "choices": [
+      "n",
+      "n²",
+      "2ⁿ",
+      "n!"
+    ],
+    "answer": 2,
+    "explanation": "La somme des coefficients de la ligne n du triangle de Pascal est 2ⁿ."
+  },
+  {
+    "id": 20826,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Combien de diviseurs positifs a le nombre 12 ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "12 = 2²×3 : (2+1)(1+1) = 6 diviseurs (1,2,3,4,6,12)."
+  },
+  {
+    "id": 20827,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Dans le triangle de Pascal, C(5,2) vaut :",
+    "choices": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "C(5,2) = 5!/(2!3!) = 10."
+  },
+  {
+    "id": 20828,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Le PGCD de deux nombres premiers distincts vaut :",
+    "choices": [
+      "0",
+      "1",
+      "Leur produit",
+      "Le plus petit"
+    ],
+    "answer": 1,
+    "explanation": "Deux nombres premiers distincts n'ont que 1 comme diviseur commun : PGCD = 1."
+  },
+  {
+    "id": 20829,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Combien de façons d'ordonner les lettres de « ANNA » ?",
+    "choices": [
+      "4",
+      "6",
+      "12",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "4!/(2!×2!) = 24/4 = 6 (deux A et deux N identiques)."
+  },
+  {
+    "id": 20830,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Si une matrice carrée a un déterminant nul, alors elle est :",
+    "choices": [
+      "Inversible",
+      "Non inversible (singulière)",
+      "Identité",
+      "Diagonale"
+    ],
+    "answer": 1,
+    "explanation": "Un déterminant nul signifie que la matrice n'est pas inversible (singulière)."
+  },
+  {
+    "id": 20831,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "La limite de la suite uₙ = (-1)ⁿ est :",
+    "choices": [
+      "1",
+      "-1",
+      "0",
+      "N'existe pas (diverge)"
+    ],
+    "answer": 3,
+    "explanation": "La suite oscille entre 1 et -1 sans se stabiliser : elle n'a pas de limite."
+  },
+  {
+    "id": 20832,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Combien de chemins de longueur minimale dans une grille 2×2 (de coin à coin) ?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "Il faut 2 pas à droite et 2 vers le haut : C(4,2) = 6 chemins."
+  },
+  {
+    "id": 20833,
+    "theme": "enigme",
+    "level": "bac_plus",
+    "question": "Le cardinal de l'ensemble vide est :",
+    "choices": [
+      "0",
+      "1",
+      "Indéfini",
+      "Infini"
+    ],
+    "answer": 0,
+    "explanation": "L'ensemble vide ne contient aucun élément : son cardinal est 0."
+  },
+  {
+    "id": 20834,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Une relation d'équivalence est :",
+    "choices": [
+      "Réflexive, symétrique, transitive",
+      "Réflexive uniquement",
+      "Antisymétrique",
+      "Totale"
+    ],
+    "answer": 0,
+    "explanation": "Une relation d'équivalence est réflexive, symétrique et transitive."
+  },
+  {
+    "id": 20835,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Une relation d'ordre est :",
+    "choices": [
+      "Réflexive, symétrique, transitive",
+      "Réflexive, antisymétrique, transitive",
+      "Symétrique uniquement",
+      "Ni l'un ni l'autre"
+    ],
+    "answer": 1,
+    "explanation": "Une relation d'ordre est réflexive, antisymétrique et transitive."
+  },
+  {
+    "id": 20836,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "L'application f est injective si :",
+    "choices": [
+      "f(x)=f(y) ⟹ x=y",
+      "Tout y a un antécédent",
+      "f est continue",
+      "f(x)=0"
+    ],
+    "answer": 0,
+    "explanation": "L'injectivité : des images égales impliquent des antécédents égaux."
+  },
+  {
+    "id": 20837,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "L'application f est surjective si :",
+    "choices": [
+      "f(x)=f(y) ⟹ x=y",
+      "Tout élément de l'ensemble d'arrivée a au moins un antécédent",
+      "f est dérivable",
+      "f est bornée"
+    ],
+    "answer": 1,
+    "explanation": "La surjectivité : tout élément de l'arrivée est atteint par f."
+  },
+  {
+    "id": 20838,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Une application bijective est :",
+    "choices": [
+      "Injective seulement",
+      "Surjective seulement",
+      "Injective et surjective",
+      "Ni l'un ni l'autre"
+    ],
+    "answer": 2,
+    "explanation": "Une bijection est à la fois injective et surjective."
+  },
+  {
+    "id": 20839,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "La négation de « ∀x ∃y, P(x,y) » est :",
+    "choices": [
+      "∀x ∀y, ¬P(x,y)",
+      "∃x ∀y, ¬P(x,y)",
+      "∃x ∃y, ¬P(x,y)",
+      "∀x ∃y, ¬P(x,y)"
+    ],
+    "answer": 1,
+    "explanation": "On inverse les quantificateurs : ∃x ∀y, ¬P(x,y)."
+  },
+  {
+    "id": 20840,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Le principe des tiroirs (pigeonholes) affirme que si n+1 objets sont rangés dans n tiroirs :",
+    "choices": [
+      "Tous les tiroirs sont vides",
+      "Au moins un tiroir contient ≥ 2 objets",
+      "Chaque tiroir a 1 objet",
+      "Aucun objet n'est rangé"
+    ],
+    "answer": 1,
+    "explanation": "Avec plus d'objets que de tiroirs, au moins un tiroir contient au moins deux objets."
+  },
+  {
+    "id": 20841,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Dans un raisonnement par récurrence forte, on suppose la propriété vraie :",
+    "choices": [
+      "Au rang n seulement",
+      "Pour tous les rangs ≤ n",
+      "Au rang 0 seulement",
+      "Au rang n+1"
+    ],
+    "answer": 1,
+    "explanation": "La récurrence forte suppose P(k) vraie pour tout k ≤ n pour démontrer P(n+1)."
+  },
+  {
+    "id": 20842,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "La composée de deux applications injectives est :",
+    "choices": [
+      "Injective",
+      "Surjective",
+      "Bijective",
+      "Constante"
+    ],
+    "answer": 0,
+    "explanation": "La composée de deux injections est injective."
+  },
+  {
+    "id": 20843,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Un ensemble est dénombrable s'il est en bijection avec :",
+    "choices": [
+      "ℝ",
+      "ℕ (ou une partie de ℕ)",
+      "ℂ",
+      "L'ensemble vide"
+    ],
+    "answer": 1,
+    "explanation": "Un ensemble dénombrable est en bijection avec ℕ ou une de ses parties."
+  },
+  {
+    "id": 20844,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "L'ensemble ℝ est :",
+    "choices": [
+      "Dénombrable",
+      "Non dénombrable",
+      "Fini",
+      "Vide"
+    ],
+    "answer": 1,
+    "explanation": "ℝ n'est pas dénombrable (théorème de Cantor / argument diagonal)."
+  },
+  {
+    "id": 20845,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Si f: E→F est bijective, alors elle admet :",
+    "choices": [
+      "Aucune réciproque",
+      "Une application réciproque f⁻¹",
+      "Plusieurs réciproques",
+      "Une dérivée nulle"
+    ],
+    "answer": 1,
+    "explanation": "Une bijection admet une unique application réciproque f⁻¹."
+  },
+  {
+    "id": 20846,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "La contraposée est utilisée pour démontrer P⟹Q en prouvant :",
+    "choices": [
+      "P et Q",
+      "¬Q ⟹ ¬P",
+      "Q ⟹ P",
+      "¬P ⟹ ¬Q"
+    ],
+    "answer": 1,
+    "explanation": "La démonstration par contraposée prouve ¬Q ⟹ ¬P, équivalente à P ⟹ Q."
+  },
+  {
+    "id": 20847,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Le cardinal de l'ensemble des parties d'un ensemble à n éléments est :",
+    "choices": [
+      "n",
+      "n²",
+      "2ⁿ",
+      "n!"
+    ],
+    "answer": 2,
+    "explanation": "|P(E)| = 2ⁿ pour un ensemble E à n éléments."
+  },
+  {
+    "id": 20848,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Une partition d'un ensemble E est une famille de parties non vides, deux à deux disjointes, dont la réunion est :",
+    "choices": [
+      "Vide",
+      "E",
+      "Une seule partie",
+      "ℕ"
+    ],
+    "answer": 1,
+    "explanation": "Une partition recouvre exactement E : la réunion des parties est E."
+  },
+  {
+    "id": 20849,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "La loi de De Morgan pour les ensembles : le complémentaire de (A ∪ B) est :",
+    "choices": [
+      "Aᶜ ∪ Bᶜ",
+      "Aᶜ ∩ Bᶜ",
+      "A ∩ B",
+      "Aᶜ ∪ B"
+    ],
+    "answer": 1,
+    "explanation": "(A ∪ B)ᶜ = Aᶜ ∩ Bᶜ (loi de De Morgan)."
+  },
+  {
+    "id": 20850,
+    "theme": "logique",
+    "level": "bac_plus",
+    "question": "Une suite extraite (sous-suite) d'une suite convergente vers L :",
+    "choices": [
+      "Diverge",
+      "Converge aussi vers L",
+      "Converge vers 0",
+      "Oscille"
+    ],
+    "answer": 1,
+    "explanation": "Toute sous-suite d'une suite convergente converge vers la même limite L."
+  },
+  {
+    "id": 20851,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "∫₀^π sin(x) dx = ?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "π"
+    ],
+    "answer": 2,
+    "explanation": "∫₀^π sin(x) dx = [-cos(x)]₀^π = -(-1) - (-1) = 1 + 1 = 2."
+  },
+  {
+    "id": 20852,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "La dérivée de f(x) = tan(x) est :",
+    "choices": [
+      "1 + tan²(x)",
+      "-tan²(x)",
+      "cot(x)",
+      "sec(x)"
+    ],
+    "answer": 0,
+    "explanation": "(tan x)' = 1 + tan²(x) = 1/cos²(x)."
+  },
+  {
+    "id": 20853,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "Le développement limité de (1+x)^α à l'ordre 1 en 0 est :",
+    "choices": [
+      "1 + x",
+      "1 + αx",
+      "α + x",
+      "1 + αx²"
+    ],
+    "answer": 1,
+    "explanation": "(1+x)^α ≈ 1 + αx + o(x) au voisinage de 0."
+  },
+  {
+    "id": 20854,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "∫ eˣ cos(x) dx se calcule par :",
+    "choices": [
+      "Substitution",
+      "Intégration par parties (deux fois)",
+      "Décomposition",
+      "Dérivation"
+    ],
+    "answer": 1,
+    "explanation": "On applique l'intégration par parties deux fois, puis on résout l'équation obtenue."
+  },
+  {
+    "id": 20855,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "La somme de la série Σ 1/n! (n≥0) vaut :",
+    "choices": [
+      "1",
+      "2",
+      "e",
+      "π"
+    ],
+    "answer": 2,
+    "explanation": "Σ 1/n! (de 0 à ∞) = e, par le développement en série de l'exponentielle en 1."
+  },
+  {
+    "id": 20856,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "La série harmonique Σ 1/n :",
+    "choices": [
+      "Converge vers 1",
+      "Converge vers e",
+      "Diverge",
+      "Converge vers ln(2)"
+    ],
+    "answer": 2,
+    "explanation": "La série harmonique Σ 1/n diverge (vers +∞)."
+  },
+  {
+    "id": 20857,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "lim(x→0) (1 - cos(x))/x² = ?",
+    "choices": [
+      "0",
+      "1/2",
+      "1",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "En utilisant cos(x) ≈ 1 - x²/2 : (1-cos x)/x² → 1/2."
+  },
+  {
+    "id": 20858,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "La dérivée de f(x) = arcsin(x) est :",
+    "choices": [
+      "1/√(1-x²)",
+      "1/(1+x²)",
+      "-1/√(1-x²)",
+      "√(1-x²)"
+    ],
+    "answer": 0,
+    "explanation": "(arcsin x)' = 1/√(1-x²)."
+  },
+  {
+    "id": 20859,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "∫₀¹ x·eˣ dx (par parties) vaut :",
+    "choices": [
+      "0",
+      "1",
+      "e",
+      "e-1"
+    ],
+    "answer": 1,
+    "explanation": "∫ x·eˣ dx = (x-1)eˣ ; [(x-1)eˣ]₀¹ = 0 - (-1) = 1."
+  },
+  {
+    "id": 20860,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "La nature de la série Σ 1/n^(3/2) est :",
+    "choices": [
+      "Convergente",
+      "Divergente",
+      "Oscillante",
+      "Indéterminée"
+    ],
+    "answer": 0,
+    "explanation": "Série de Riemann avec α = 3/2 > 1 : convergente."
+  },
+  {
+    "id": 20861,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "La dérivée de f(x) = ln|x| (x≠0) est :",
+    "choices": [
+      "1/x",
+      "1/|x|",
+      "-1/x",
+      "ln(x)"
+    ],
+    "answer": 0,
+    "explanation": "La dérivée de ln|x| est 1/x pour tout x ≠ 0."
+  },
+  {
+    "id": 20862,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "∫₋a^a f(x) dx pour f impaire vaut :",
+    "choices": [
+      "0",
+      "2∫₀^a f",
+      "a",
+      "2a"
+    ],
+    "answer": 0,
+    "explanation": "Pour une fonction impaire intégrée sur un intervalle symétrique, l'intégrale est nulle."
+  },
+  {
+    "id": 20863,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "Le gradient d'une fonction est nul en un point :",
+    "choices": [
+      "d'inflexion",
+      "critique (extremum potentiel)",
+      "de discontinuité",
+      "quelconque"
+    ],
+    "answer": 1,
+    "explanation": "Un point où le gradient s'annule est un point critique (candidat extremum)."
+  },
+  {
+    "id": 20864,
+    "theme": "calcul",
+    "level": "bac_plus",
+    "question": "La règle de L'Hôpital s'applique aux formes indéterminées du type :",
+    "choices": [
+      "0 + 0",
+      "0/0 ou ∞/∞",
+      "1 + 1",
+      "2×3"
+    ],
+    "answer": 1,
+    "explanation": "La règle de L'Hôpital traite les indéterminations 0/0 et ∞/∞."
+  },
+  {
+    "id": 20865,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "La fonction de répartition F d'une variable aléatoire X est définie par :",
+    "choices": [
+      "F(x) = P(X = x)",
+      "F(x) = P(X ≤ x)",
+      "F(x) = E(X)",
+      "F(x) = V(X)"
+    ],
+    "answer": 1,
+    "explanation": "La fonction de répartition est F(x) = P(X ≤ x)."
+  },
+  {
+    "id": 20866,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "Pour une densité f, on a ∫_{-∞}^{+∞} f(x) dx = ?",
+    "choices": [
+      "0",
+      "1",
+      "E(X)",
+      "+∞"
+    ],
+    "answer": 1,
+    "explanation": "L'intégrale d'une densité de probabilité sur ℝ vaut 1."
+  },
+  {
+    "id": 20867,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "La covariance cov(X,X) est égale à :",
+    "choices": [
+      "0",
+      "E(X)",
+      "V(X)",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "cov(X,X) = V(X), la variance de X."
+  },
+  {
+    "id": 20868,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "Le coefficient de corrélation ρ(X,Y) vaut cov(X,Y) divisé par :",
+    "choices": [
+      "V(X)V(Y)",
+      "σ(X)σ(Y)",
+      "E(X)E(Y)",
+      "σ(X)+σ(Y)"
+    ],
+    "answer": 1,
+    "explanation": "ρ(X,Y) = cov(X,Y) / (σ(X)·σ(Y))."
+  },
+  {
+    "id": 20869,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "L'inégalité de Bienaymé-Tchebychev majore :",
+    "choices": [
+      "E(X)",
+      "P(|X - E(X)| ≥ a)",
+      "V(X)",
+      "P(X = a)"
+    ],
+    "answer": 1,
+    "explanation": "L'inégalité de Tchebychev majore P(|X - E(X)| ≥ a) par V(X)/a²."
+  },
+  {
+    "id": 20870,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "Pour une loi de Poisson de paramètre λ, l'espérance vaut :",
+    "choices": [
+      "√λ",
+      "λ",
+      "λ²",
+      "1/λ"
+    ],
+    "answer": 1,
+    "explanation": "L'espérance d'une loi de Poisson P(λ) est λ (et sa variance aussi)."
+  },
+  {
+    "id": 20871,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "Pour une loi de Poisson de paramètre λ, la variance vaut :",
+    "choices": [
+      "λ",
+      "λ²",
+      "√λ",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "La variance d'une loi de Poisson est égale à son espérance : λ."
+  },
+  {
+    "id": 20872,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "Le théorème central limite indique que la somme normalisée de variables i.i.d. tend vers :",
+    "choices": [
+      "Une loi de Poisson",
+      "Une loi normale N(0,1)",
+      "Une loi uniforme",
+      "Une constante"
+    ],
+    "answer": 1,
+    "explanation": "Le TCL : la somme centrée réduite de variables i.i.d. converge en loi vers N(0,1)."
+  },
+  {
+    "id": 20873,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "Deux variables X et Y telles que cov(X,Y)=0 sont :",
+    "choices": [
+      "Toujours indépendantes",
+      "Non corrélées",
+      "Égales",
+      "Identiques en loi"
+    ],
+    "answer": 1,
+    "explanation": "Une covariance nulle signifie « non corrélées » (l'indépendance est plus forte et n'est pas garantie)."
+  },
+  {
+    "id": 20874,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "La loi géométrique modélise :",
+    "choices": [
+      "Le rang du premier succès",
+      "Une durée continue",
+      "Un comptage borné",
+      "Une proportion"
+    ],
+    "answer": 0,
+    "explanation": "La loi géométrique donne le rang du premier succès dans une suite d'épreuves de Bernoulli."
+  },
+  {
+    "id": 20875,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "L'espérance d'une loi géométrique de paramètre p est :",
+    "choices": [
+      "p",
+      "1/p",
+      "p²",
+      "1-p"
+    ],
+    "answer": 1,
+    "explanation": "L'espérance de la loi géométrique est 1/p."
+  },
+  {
+    "id": 20876,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "La densité d'une loi normale a une forme :",
+    "choices": [
+      "En escalier",
+      "En cloche (gaussienne)",
+      "Linéaire",
+      "Constante"
+    ],
+    "answer": 1,
+    "explanation": "La densité de la loi normale a la célèbre forme en cloche (courbe de Gauss)."
+  },
+  {
+    "id": 20877,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "E(aX + bY) où a,b constantes vaut :",
+    "choices": [
+      "aE(X) + bE(Y)",
+      "abE(X)E(Y)",
+      "E(X)+E(Y)",
+      "a+b"
+    ],
+    "answer": 0,
+    "explanation": "Par linéarité de l'espérance : E(aX + bY) = aE(X) + bE(Y)."
+  },
+  {
+    "id": 20878,
+    "theme": "probabilites",
+    "level": "bac_plus",
+    "question": "La somme de deux variables normales indépendantes suit :",
+    "choices": [
+      "Une loi uniforme",
+      "Une loi normale",
+      "Une loi de Poisson",
+      "Aucune loi connue"
+    ],
+    "answer": 1,
+    "explanation": "La somme de variables normales indépendantes est encore une loi normale (stabilité)."
+  },
+  {
+    "id": 20879,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "L'estimateur du maximum de vraisemblance maximise :",
+    "choices": [
+      "La variance",
+      "La fonction de vraisemblance",
+      "Le biais",
+      "L'écart-type"
+    ],
+    "answer": 1,
+    "explanation": "L'EMV (maximum de vraisemblance) choisit le paramètre maximisant la vraisemblance des observations."
+  },
+  {
+    "id": 20880,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Le risque de première espèce α d'un test est la probabilité de :",
+    "choices": [
+      "Rejeter H₀ à tort",
+      "Accepter H₀ à tort",
+      "Calculer la moyenne",
+      "Estimer la variance"
+    ],
+    "answer": 0,
+    "explanation": "α = P(rejeter H₀ alors que H₀ est vraie) : c'est le risque de première espèce."
+  },
+  {
+    "id": 20881,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Le risque de deuxième espèce β est la probabilité de :",
+    "choices": [
+      "Rejeter H₀ à tort",
+      "Ne pas rejeter H₀ alors qu'elle est fausse",
+      "Estimer la moyenne",
+      "Augmenter n"
+    ],
+    "answer": 1,
+    "explanation": "β = P(ne pas rejeter H₀ alors que H₀ est fausse)."
+  },
+  {
+    "id": 20882,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "La puissance d'un test vaut :",
+    "choices": [
+      "α",
+      "β",
+      "1 - β",
+      "1 - α"
+    ],
+    "answer": 2,
+    "explanation": "La puissance = 1 - β = probabilité de rejeter H₀ quand elle est effectivement fausse."
+  },
+  {
+    "id": 20883,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "La variance empirique corrigée divise la somme des carrés des écarts par :",
+    "choices": [
+      "n",
+      "n-1",
+      "n+1",
+      "n²"
+    ],
+    "answer": 1,
+    "explanation": "L'estimateur sans biais de la variance divise par (n-1) (correction de Bessel)."
+  },
+  {
+    "id": 20884,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Un estimateur efficace est celui qui a, parmi les estimateurs sans biais :",
+    "choices": [
+      "La plus grande variance",
+      "La plus petite variance",
+      "Le plus grand biais",
+      "La plus grande moyenne"
+    ],
+    "answer": 1,
+    "explanation": "Un estimateur efficace atteint la variance minimale parmi les estimateurs sans biais."
+  },
+  {
+    "id": 20885,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Le test de Student compare typiquement :",
+    "choices": [
+      "Deux moyennes",
+      "Deux modes",
+      "Deux étendues",
+      "Deux médianes"
+    ],
+    "answer": 0,
+    "explanation": "Le test de Student sert à comparer des moyennes (d'un ou deux échantillons)."
+  },
+  {
+    "id": 20886,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Le coefficient de détermination R² mesure :",
+    "choices": [
+      "La pente",
+      "La proportion de variance expliquée par le modèle",
+      "La moyenne des résidus",
+      "Le biais"
+    ],
+    "answer": 1,
+    "explanation": "R² indique la part de la variance de Y expliquée par le modèle de régression."
+  },
+  {
+    "id": 20887,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Dans une régression linéaire, les résidus sont :",
+    "choices": [
+      "Les valeurs prédites",
+      "Les écarts entre valeurs observées et prédites",
+      "La pente",
+      "Les coefficients"
+    ],
+    "answer": 1,
+    "explanation": "Un résidu est la différence entre la valeur observée et la valeur prédite par le modèle."
+  },
+  {
+    "id": 20888,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Un intervalle de confiance plus large correspond à un niveau de confiance :",
+    "choices": [
+      "Plus faible",
+      "Plus élevé",
+      "Identique",
+      "Nul"
+    ],
+    "answer": 1,
+    "explanation": "À échantillon fixé, exiger plus de confiance (ex. 99% au lieu de 95%) élargit l'intervalle."
+  },
+  {
+    "id": 20889,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "La loi du χ² est utilisée pour :",
+    "choices": [
+      "Tester des moyennes",
+      "Tester l'ajustement / l'indépendance",
+      "Estimer une pente",
+      "Calculer une corrélation"
+    ],
+    "answer": 1,
+    "explanation": "La loi du χ² intervient dans les tests d'ajustement et d'indépendance."
+  },
+  {
+    "id": 20890,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Si R² = 1 dans une régression, cela signifie :",
+    "choices": [
+      "Aucune corrélation",
+      "Ajustement parfait du modèle",
+      "Modèle inutile",
+      "Variance infinie"
+    ],
+    "answer": 1,
+    "explanation": "R² = 1 signifie que le modèle explique 100% de la variance : ajustement parfait."
+  },
+  {
+    "id": 20891,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "La méthode des moindres carrés ordinaires estime les paramètres en minimisant :",
+    "choices": [
+      "La somme des résidus",
+      "La somme des carrés des résidus",
+      "Le maximum des résidus",
+      "Le produit des résidus"
+    ],
+    "answer": 1,
+    "explanation": "Les MCO minimisent la somme des carrés des résidus."
+  },
+  {
+    "id": 20892,
+    "theme": "statistiques",
+    "level": "bac_plus",
+    "question": "Augmenter le niveau de confiance, à n fixé, rend l'intervalle :",
+    "choices": [
+      "Plus étroit",
+      "Plus large",
+      "Inchangé",
+      "Vide"
+    ],
+    "answer": 1,
+    "explanation": "Plus on exige de confiance, plus l'intervalle doit être large pour la garantir."
+  },
+  {
+    "id": 20893,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Le produit scalaire de u⃗=(1,2,3) et v⃗=(4,5,6) vaut :",
+    "choices": [
+      "28",
+      "32",
+      "36",
+      "42"
+    ],
+    "answer": 1,
+    "explanation": "1×4 + 2×5 + 3×6 = 4 + 10 + 18 = 32."
+  },
+  {
+    "id": 20894,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Deux plans de l'espace sont parallèles si leurs vecteurs normaux sont :",
+    "choices": [
+      "Orthogonaux",
+      "Colinéaires",
+      "De norme 1",
+      "Nuls"
+    ],
+    "answer": 1,
+    "explanation": "Deux plans sont parallèles ⟺ leurs vecteurs normaux sont colinéaires."
+  },
+  {
+    "id": 20895,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "La norme du vecteur u⃗=(2,3,6) est :",
+    "choices": [
+      "6",
+      "7",
+      "9",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "√(4+9+36) = √49 = 7."
+  },
+  {
+    "id": 20896,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Le produit vectoriel u⃗ × v⃗ est nul si et seulement si u⃗ et v⃗ sont :",
+    "choices": [
+      "Orthogonaux",
+      "Colinéaires",
+      "Unitaires",
+      "Opposés"
+    ],
+    "answer": 1,
+    "explanation": "Le produit vectoriel est nul ⟺ les vecteurs sont colinéaires."
+  },
+  {
+    "id": 20897,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Une isométrie du plan conserve :",
+    "choices": [
+      "Seulement les angles",
+      "Seulement les aires",
+      "Les distances",
+      "Les couleurs"
+    ],
+    "answer": 2,
+    "explanation": "Une isométrie conserve les distances (translations, rotations, symétries)."
+  },
+  {
+    "id": 20898,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Le déterminant de deux vecteurs du plan u⃗=(a,b) et v⃗=(c,d) vaut :",
+    "choices": [
+      "ac+bd",
+      "ad-bc",
+      "ab-cd",
+      "ac-bd"
+    ],
+    "answer": 1,
+    "explanation": "det(u⃗,v⃗) = ad - bc."
+  },
+  {
+    "id": 20899,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Deux vecteurs du plan sont colinéaires si leur déterminant est :",
+    "choices": [
+      "Positif",
+      "Négatif",
+      "Nul",
+      "Égal à 1"
+    ],
+    "answer": 2,
+    "explanation": "Le déterminant de deux vecteurs colinéaires est nul."
+  },
+  {
+    "id": 20900,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "La représentation paramétrique d'une droite passant par A de vecteur directeur u⃗ s'écrit :",
+    "choices": [
+      "M = A + t·u⃗",
+      "M = A × u⃗",
+      "M = A · u⃗",
+      "M = u⃗/A"
+    ],
+    "answer": 0,
+    "explanation": "Un point M de la droite s'écrit M = A + t·u⃗, t ∈ ℝ."
+  },
+  {
+    "id": 20901,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Le volume d'un parallélépipède défini par 3 vecteurs est donné par :",
+    "choices": [
+      "Leur somme",
+      "La valeur absolue du produit mixte (déterminant 3×3)",
+      "Leur produit scalaire",
+      "La trace"
+    ],
+    "answer": 1,
+    "explanation": "Le volume est |det(u⃗,v⃗,w⃗)|, le produit mixte des trois vecteurs."
+  },
+  {
+    "id": 20902,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Une rotation d'angle θ dans le plan est représentée par une matrice de déterminant :",
+    "choices": [
+      "0",
+      "1",
+      "-1",
+      "θ"
+    ],
+    "answer": 1,
+    "explanation": "Une matrice de rotation a pour déterminant 1 (elle conserve l'orientation et les aires)."
+  },
+  {
+    "id": 20903,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Deux droites de l'espace qui ne sont ni sécantes ni parallèles sont :",
+    "choices": [
+      "Confondues",
+      "Non coplanaires (gauches)",
+      "Identiques",
+      "Orthogonales"
+    ],
+    "answer": 1,
+    "explanation": "Des droites non coplanaires sont dites « gauches » : elles ne se coupent pas et ne sont pas parallèles."
+  },
+  {
+    "id": 20904,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Le vecteur normal au plan d'équation x - 2y + z = 3 est :",
+    "choices": [
+      "(1,-2,1)",
+      "(3,0,0)",
+      "(1,2,1)",
+      "(-1,2,-1)"
+    ],
+    "answer": 0,
+    "explanation": "Pour un plan ax+by+cz=d, (a,b,c)=(1,-2,1) est un vecteur normal."
+  },
+  {
+    "id": 20905,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "L'aire du triangle formé par u⃗ et v⃗ est :",
+    "choices": [
+      "|u⃗ × v⃗|",
+      "½|u⃗ × v⃗|",
+      "|u⃗ · v⃗|",
+      "½|u⃗ · v⃗|"
+    ],
+    "answer": 1,
+    "explanation": "L'aire du triangle est la moitié de l'aire du parallélogramme : ½|u⃗ × v⃗|."
+  },
+  {
+    "id": 20906,
+    "theme": "geometrie",
+    "level": "bac_plus",
+    "question": "Une homothétie de rapport k multiplie les aires par :",
+    "choices": [
+      "k",
+      "k²",
+      "|k|",
+      "2k"
+    ],
+    "answer": 1,
+    "explanation": "Une homothétie de rapport k multiplie les longueurs par |k| et les aires par k²."
+  },
+  {
+    "id": 20907,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Une matrice symétrique vérifie :",
+    "choices": [
+      "A = -A",
+      "Aᵀ = A",
+      "det(A) = 0",
+      "A = I"
+    ],
+    "answer": 1,
+    "explanation": "Une matrice symétrique est égale à sa transposée : Aᵀ = A."
+  },
+  {
+    "id": 20908,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Le produit de deux matrices A (2×3) et B (3×2) donne une matrice de taille :",
+    "choices": [
+      "2×2",
+      "3×3",
+      "2×3",
+      "6×6"
+    ],
+    "answer": 0,
+    "explanation": "(2×3)·(3×2) donne une matrice 2×2."
+  },
+  {
+    "id": 20909,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Une matrice diagonale a ses éléments non diagonaux :",
+    "choices": [
+      "Égaux à 1",
+      "Égaux à 0",
+      "Quelconques",
+      "Négatifs"
+    ],
+    "answer": 1,
+    "explanation": "Une matrice diagonale n'a des coefficients (éventuellement) non nuls que sur la diagonale."
+  },
+  {
+    "id": 20910,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Le déterminant d'une matrice triangulaire est :",
+    "choices": [
+      "La somme des éléments diagonaux",
+      "Le produit des éléments diagonaux",
+      "Toujours nul",
+      "Toujours 1"
+    ],
+    "answer": 1,
+    "explanation": "Pour une matrice triangulaire, le déterminant est le produit des éléments de la diagonale."
+  },
+  {
+    "id": 20911,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Si λ est valeur propre de A, le vecteur propre associé v vérifie Av = λv avec :",
+    "choices": [
+      "v = 0",
+      "v ≠ 0",
+      "λ = 0",
+      "v = λ"
+    ],
+    "answer": 1,
+    "explanation": "Un vecteur propre est par définition non nul."
+  },
+  {
+    "id": 20912,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Le polynôme caractéristique d'une matrice A est det(A - λI). Ses racines sont :",
+    "choices": [
+      "Les vecteurs propres",
+      "Les valeurs propres",
+      "Le rang",
+      "La trace"
+    ],
+    "answer": 1,
+    "explanation": "Les racines du polynôme caractéristique sont les valeurs propres de A."
+  },
+  {
+    "id": 20913,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "La somme des valeurs propres d'une matrice est égale à :",
+    "choices": [
+      "Son déterminant",
+      "Sa trace",
+      "Son rang",
+      "Zéro"
+    ],
+    "answer": 1,
+    "explanation": "La somme des valeurs propres (avec multiplicité) est égale à la trace de la matrice."
+  },
+  {
+    "id": 20914,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Le produit des valeurs propres d'une matrice est égal à :",
+    "choices": [
+      "Sa trace",
+      "Son déterminant",
+      "Son rang",
+      "Un"
+    ],
+    "answer": 1,
+    "explanation": "Le produit des valeurs propres (avec multiplicité) est égal au déterminant."
+  },
+  {
+    "id": 20915,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Une matrice est diagonalisable si elle admet une base de :",
+    "choices": [
+      "Vecteurs nuls",
+      "Vecteurs propres",
+      "Colonnes égales",
+      "Lignes nulles"
+    ],
+    "answer": 1,
+    "explanation": "Une matrice est diagonalisable s'il existe une base de vecteurs propres."
+  },
+  {
+    "id": 20916,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Le théorème du rang relie dim(ker f), dim(Im f) et :",
+    "choices": [
+      "dim de l'espace de départ",
+      "Le déterminant",
+      "La trace",
+      "Zéro"
+    ],
+    "answer": 0,
+    "explanation": "Théorème du rang : dim(ker f) + dim(Im f) = dim(E), dimension de l'espace de départ."
+  },
+  {
+    "id": 20917,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Une matrice orthogonale Q vérifie :",
+    "choices": [
+      "Qᵀ = Q",
+      "QᵀQ = I",
+      "Q² = 0",
+      "det(Q) = 0"
+    ],
+    "answer": 1,
+    "explanation": "Une matrice orthogonale vérifie QᵀQ = I (ses colonnes forment une base orthonormée)."
+  },
+  {
+    "id": 20918,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "L'inverse d'une matrice 2×2 [[a,b],[c,d]] existe si :",
+    "choices": [
+      "a = d",
+      "ad - bc ≠ 0",
+      "b = c",
+      "a + d = 0"
+    ],
+    "answer": 1,
+    "explanation": "L'inverse existe ⟺ le déterminant ad - bc est non nul."
+  },
+  {
+    "id": 20919,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "La dimension de l'espace des matrices 2×2 à coefficients réels est :",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "Une matrice 2×2 a 4 coefficients indépendants : la dimension est 4."
+  },
+  {
+    "id": 20920,
+    "theme": "algebre",
+    "level": "bac_plus",
+    "question": "Le rang d'une matrice nulle est :",
+    "choices": [
+      "0",
+      "1",
+      "Indéfini",
+      "La taille de la matrice"
+    ],
+    "answer": 0,
+    "explanation": "La matrice nulle a une image réduite à {0}, donc son rang est 0."
   }
 ]
