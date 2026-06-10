@@ -1,9 +1,13 @@
 import questionsData from "./questions.json";
 import {
   Question, Answer, QuizResult, Theme, Level, StudyLevel,
-  SelfRating, QuizMode, THEME_LABELS, STUDY_LEVEL_TO_QUESTION_LEVEL,
+  SelfRating, QuizMode, THEME_LABELS,
 } from "./types";
 import { generateQuestions } from "./procedural";
+
+// Helpers de profil ré-exportés depuis un module sans questions.json
+// (permet aux pages qui n'ont besoin que du profil de ne pas charger la banque).
+export { getStoredProfile, getLevelForStudyLevel } from "./profile";
 
 const GRAND_TEST_SIZE = 30;
 const CERTIFYING_TEST_SIZE = 50;
@@ -52,20 +56,6 @@ export function getTrainingQuestions(theme: Theme, level: Level): Question[] {
     : [];
 
   return [...staticSelected, ...proceduralSelected].sort(() => Math.random() - 0.5);
-}
-
-export function getLevelForStudyLevel(studyLevel: StudyLevel): Level {
-  return STUDY_LEVEL_TO_QUESTION_LEVEL[studyLevel] ?? "bac";
-}
-
-/** Charge le profil utilisateur depuis localStorage (valeurs par défaut si absent) */
-export function getStoredProfile(): { studyLevel: StudyLevel; classRating: SelfRating; schoolRating: SelfRating } {
-  if (typeof window === "undefined") return { studyLevel: "terminale", classRating: "moyen", schoolRating: "moyen" };
-  return {
-    studyLevel:   (localStorage.getItem("mathos_pending_level")         as StudyLevel) || "terminale",
-    classRating:  (localStorage.getItem("mathos_pending_class_rating")  as SelfRating) || "moyen",
-    schoolRating: (localStorage.getItem("mathos_pending_school_rating") as SelfRating) || "moyen",
-  };
 }
 
 // ─── Calcul des scores ────────────────────────────────────────────────────────
