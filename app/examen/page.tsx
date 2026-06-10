@@ -3,7 +3,7 @@ export const dynamic = "force-dynamic";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { Answer, StudyLevel, Question, Level, STUDY_LEVEL_LABELS, StudyLevel as SL } from "@/lib/types";
-import { getCertifyingTestQuestions, computeScore, computeThemeScores, getStoredProfile, getLevelForStudyLevel } from "@/lib/quiz";
+import { getStoredProfile, getLevelForStudyLevel } from "@/lib/profile";
 import { createClient } from "@/lib/supabase/client";
 import QuizEngine from "@/components/QuizEngine";
 
@@ -38,7 +38,9 @@ export default function ExamenPage() {
   const [selectedLevel, setSelectedLevel] = useState<Level>("bac");
   const [questions, setQuestions]     = useState<Question[]>([]);
   const [tabWarnings, setTabWarnings] = useState(0);
-  const [startedAt, setStartedAt]     = useState("");
+  const [sessionId, setSessionId]     = useState<string | null>(null);
+  const [starting, setStarting]       = useState(false);
+  const [startError, setStartError]   = useState("");
   const [resultId, setResultId]       = useState<string | null>(null);
   const [studyLevel, setStudyLevel]   = useState<StudyLevel>("terminale");
   const startTimeRef = useRef<number>(0);
@@ -69,8 +71,7 @@ export default function ExamenPage() {
     // Si le recruteur a imposé un niveau
     if (data.level) {
       setTokenLevel(data.level as Level);
-      const qs = getCertifyingTestQuestions(data.level as Level);
-      setQuestions(qs);
+      setSelectedLevel(data.level as Level);
       setPhase("instructions");
     } else {
       setTokenLevel(null);
@@ -79,43 +80,60 @@ export default function ExamenPage() {
   }
 
   function confirmLevel() {
-    setQuestions(getCertifyingTestQuestions(selectedLevel));
     setPhase("instructions");
   }
 
-  function startTest() {
-    const now = new Date().toISOString();
-    setStartedAt(now);
-    startTimeRef.current = Date.now();
-    setPhase("quiz");
-    document.documentElement.requestFullscreen?.().catch(() => {});
+  // Démarrage : c'est le SERVEUR qui tire les 50 questions (sans les réponses)
+  // et ouvre une session d'examen. Le navigateur ne voit jamais les bonnes réponses.
+  async function startTest() {
+    if (starting) return;
+    setStarting(true);
+    setStartError("");
+    try {
+      const res = await fetch("/api/exam/start", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          tokenCode: tokenCode.trim().toUpperCase(),
+          level: tokenLevel ?? selectedLevel,
+          studyLevel,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setStartError(data.error || "Impossible de démarrer l'examen");
+        return;
+      }
+      setSessionId(data.sessionId);
+      setQuestions(data.questions as Question[]); // questions expurgées (answer = -1)
+      startTimeRef.current = Date.now();
+      setPhase("quiz");
+      document.documentElement.requestFullscreen?.().catch(() => {});
+    } catch {
+      setStartError("Erreur réseau — réessayez");
+    } finally {
+      setStarting(false);
+    }
   }
 
+  // Fin : on n'envoie que les choix. Le SERVEUR recalcule le score (source de vérité).
   const handleFinish = useCallback(async (answers: Answer[]) => {
     setPhase("done");
     document.exitFullscreen?.().catch(() => {});
 
-    const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
-    const score = computeScore(answers, questions);
-    const themeScores = computeThemeScores(answers, questions);
-
-    const res = await fetch("/api/official-result", {
+    const res = await fetch("/api/exam/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        tokenCode: tokenCode.trim().toUpperCase(),
-        score,
-        maxScore: questions.length * 3,
-        themeScores,
-        questionsCount: questions.length,
-        durationSeconds: duration,
+        sessionId,
+        answers: answers.map((a) => a.selectedIndex),
+        tabWarnings,
         studyLevel,
-        startedAt,
       }),
     });
     const data = await res.json();
     if (data.resultId) setResultId(data.resultId);
-  }, [questions, tokenCode, studyLevel, startedAt]);
+  }, [sessionId, tabWarnings, studyLevel]);
 
   // ── Accès ─────────────────────────────────────────────────────────────────
   if (phase === "access") return (
@@ -225,9 +243,12 @@ export default function ExamenPage() {
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs text-amber-800">
           Ce test est marqué <strong>Non surveillé</strong>. Pour un test supervisé, contactez votre recruteur.
         </div>
-        <button onClick={startTest}
-          className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 rounded-2xl text-lg">
-          Commencer l&apos;examen →
+        {startError && (
+          <p className="text-red-500 text-sm text-center">{startError}</p>
+        )}
+        <button onClick={startTest} disabled={starting}
+          className="w-full bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-300 text-white font-bold py-4 rounded-2xl text-lg transition-colors">
+          {starting ? "Préparation…" : "Commencer l’examen →"}
         </button>
       </div>
     </main>
