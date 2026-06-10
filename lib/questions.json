@@ -846,8 +846,8 @@
       "4",
       "5"
     ],
-    "answer": 2,
-    "explanation": "2025 = 289 × 7 + 2. Vérification : 289 × 7 = 2023, 2025 - 2023 = 2. Donc le reste est 2. Attendez... 289×7=2023, reste = 2. La bonne réponse est 2."
+    "answer": 0,
+    "explanation": "2025 = 289 × 7 + 2 (car 289 × 7 = 2023). Le reste de la division euclidienne est donc 2."
   },
   {
     "id": 61,
@@ -1461,8 +1461,8 @@
       "10000",
       "100000"
     ],
-    "answer": 2,
-    "explanation": "Diviser par 0,01 = multiplier par 100. Donc 1000 ÷ 0,01 = 1000 × 100 = 100 000. Attendez : 1000 × 100 = 100 000 donc c'est 100 000. Réponse : 100000."
+    "answer": 3,
+    "explanation": "Diviser par 0,01 revient à multiplier par 100 : 1000 × 100 = 100000."
   },
   {
     "id": 102,
@@ -2991,8 +2991,8 @@
       "10 ans",
       "12 ans"
     ],
-    "answer": 2,
-    "explanation": "Soit p l'âge de Pierre. Marie a 2p. Dans 5 ans : 2p+5 = 1,5(p+5) → 2p+5 = 1,5p+7,5 → 0,5p = 2,5 → p = 5. Attendez : p=5 est la bonne réponse (index 0). Vérification : Marie = 10, Pierre = 5. Dans 5 ans : 15 = 1,5 × 10 ✓. La bonne réponse est 5 ans."
+    "answer": 0,
+    "explanation": "Soit p l'âge de Pierre ; Marie a 2p. Dans 5 ans : 2p + 5 = 1,5(p + 5) → 0,5p = 2,5 → p = 5. Vérif : Marie 10, Pierre 5 ; dans 5 ans, 15 = 1,5 × 10."
   },
   {
     "id": 10003,
@@ -3246,8 +3246,8 @@
       "21€",
       "36€"
     ],
-    "answer": 2,
-    "explanation": "Achat : 3×7 = 21€. Vente : 3×12×1 = 36€. Bénéfice = 36-21 = 15€. Attention à ne pas confondre bénéfice et chiffre d'affaires. Réponse : 15€ (index 0)."
+    "answer": 0,
+    "explanation": "Achat : 3 × 7 = 21 €. Vente : 3 × 12 × 1 = 36 €. Bénéfice = 36 - 21 = 15 €."
   },
   {
     "id": 10020,
@@ -3524,15 +3524,15 @@
     "type": "static",
     "theme": "enigme",
     "level": "bac",
-    "question": "Paul a le même âge que la somme des âges de ses trois enfants il y a 5 ans. Aujourd'hui ses enfants ont 7, 10 et 13 ans. Quel est l'âge de Paul ?",
+    "question": "Un père a 40 ans, son fils 10 ans. Dans combien d'années le père aura-t-il exactement le double de l'âge du fils ?",
     "choices": [
+      "15",
+      "20",
       "25",
-      "27",
-      "30",
-      "22"
+      "30"
     ],
     "answer": 1,
-    "explanation": "Âges des enfants il y a 5 ans : 2, 5 et 8. Somme = 15. Paul a donc 15 ans... non, attendez. Âges il y a 5 ans : 7-5=2, 10-5=5, 13-5=8. Somme = 15. Mais Paul aujourd'hui a cet âge qu'il avait il y a 5 ans ? Non — il a aujourd'hui la somme de leurs âges d'il y a 5 ans : Paul = 2+5+8 = 15... La formulation indique que Paul a MAINTENANT l'âge que ses enfants avaient cumulé il y a 5 ans : Paul = 2+5+8+15 = non. Paul = 2+5+8 = 15 ne colle pas. En relisant : aujourd'hui Paul = somme âges enfants il y a 5 ans = 15+... hmm : Paul_maintenant = (7-5)+(10-5)+(13-5) = 2+5+8 = 15 non. La bonne lecture : Paul a maintenant l'âge = somme actuelle - 15 = 30-15=15? Réponse correcte : aujourd'hui Paul = 2+5+8 = 15 non, les enfants ont maintenant 7+10+13=30. Il y a 5 ans 2+5+8=15. Paul = 27 car il a vieilli de 5 ans aussi depuis. Donc il y a 5 ans Paul avait 15 ans, aujourd'hui il a 15+... non Paul maintenant = leurs âges il y a 5 ans = 15. Mais 15 n'est pas dans les choix. Rectification : Paul maintenant = somme de leurs âges il y a 5 ans + 5 (Paul a aussi vieilli) = 15+5 = 20? Non plus. La réponse standard = 15+12=27 si on considère que l'énigme veut dire 'il y a 5 ans Paul avait l'âge de la somme actuelle divisée par...' La bonne réponse ici est 27 ans."
+    "explanation": "On cherche x tel que 40 + x = 2(10 + x) → 40 + x = 20 + 2x → x = 20. Dans 20 ans : père 60, fils 30, et 60 = 2 × 30."
   },
   {
     "id": 10039,
@@ -3696,8 +3696,8 @@
       "10",
       "12"
     ],
-    "answer": 1,
-    "explanation": "On énumère : (0×50, 0×20, 10×10), (0×50, 1×20, 8×10), (0×50, 2×20, 6×10), (0×50, 3×20, 4×10), (0×50, 4×20, 2×10), (0×50, 5×20, 0×10), (1×50, 0×20, 5×10), (1×50, 1×20, 3×10), (1×50, 2×20, 1×10), (2×50, 0×20, 0×10) — soit 10 façons. Réponse : 10 (index 2)."
+    "answer": 2,
+    "explanation": "On résout 5a + 2b + c = 10 (a = pièces de 50, b = de 20, c = de 10) : a=0 → 6 solutions, a=1 → 3, a=2 → 1, soit 10 façons au total."
   },
   {
     "id": 10050,
@@ -4251,8 +4251,8 @@
       "20€",
       "40€"
     ],
-    "answer": 3,
-    "explanation": "25 livres × 8€ = 200€ - 25×8 = 200-200=0... attendez : 25×8 = 200. Donc il reste 0€... non : 25×8=200, donc il reste 200-200=0. Réponse : 0€. Attendez, la bonne réponse est 40€ si on relit : 25×8=200... donc 0€ de reste. Rectification : 25×8=200, il ne reste rien. La réponse correcte est 0€ (index 0)."
+    "answer": 0,
+    "explanation": "25 livres × 8 € = 200 €. Elle dispose d'exactement 200 €, il ne lui reste donc rien : 0 €."
   },
   {
     "id": 20037,
@@ -12713,12 +12713,12 @@
     "question": "Pour la série 2, 4, 4, 6, 9, quelle est la variance ? (moyenne = 5)",
     "choices": [
       "5",
-      "5,2",
+      "5,6",
       "6",
       "6,5"
     ],
     "answer": 1,
-    "explanation": "Écarts² : 9,1,1,1,16. Somme = 28. Variance = 28/5 = 5,6... vérifions : (9+1+1+1+16)/5=28/5=5,6. La valeur la plus proche est 5,2 — recalcul : moyenne=(2+4+4+6+9)/5=25/5=5. Écarts²=9+1+1+1+16=28, /5=5,6."
+    "explanation": "Moyenne = 5. Écarts au carré : 9, 1, 1, 1, 16 ; somme = 28. Variance = 28 / 5 = 5,6."
   },
   {
     "id": 20640,
